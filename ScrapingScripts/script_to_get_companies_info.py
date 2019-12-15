@@ -46,6 +46,7 @@ com_ids = list(placements_data['com_id'].dropna(how='any',axis=0).astype(int))
 company_dict_list = []
 com_count = 0
 for com_id in com_ids:
+	print("Scraping com_id: {0} ...............".format(com_id))
 	page = requests.get(get_request_url(com_id, SSOTOKEN))
 	soup = BeautifulSoup(page.text, "html.parser")
 
