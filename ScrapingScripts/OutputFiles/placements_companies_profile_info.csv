@@ -1,4 +1,4 @@
-about,cgpa_cutoff,contract,criteria,ctc,dep_str,profile,selection,type
+about,cgpa_cutoff,com_id,contract,criteria,ctc,dep_str,jnf_id,profile,selection,type
 "About American Express 
 American Express is a global services company that provides consumers and businesses with exceptional access to products, insights and experiences that enrich lives and build business success.
 
@@ -41,12 +41,12 @@ Qualifications and Skills Required:
 	Ability to Integrate With Cross-Functional Business Partners Worldwide
 	Good Programming skills are a must
 	Knowledge of SAS, Java, Hive, Pig, Python, SQL is a plus
-	Knowledge of MS Office  PowerPoint, Excel",0.0,NO,,"1767333 INR  [CTC : 17,67,333 INR 
+	Knowledge of MS Office  PowerPoint, Excel",0.0,562,NO,,"1767333 INR  [CTC : 17,67,333 INR 
 Fixed : 14,71,783 INR 
 Variable pay : 95,550* INR 
 Joining Bonus : 2,00,000 INR 
 
-*(please note : Variable pay mentioned is the minimum variable pay paid at ""meet expectation"" performance rating. This can go upto 210,210 INR for a top performer which is not mentioned as part of the CTC)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Management Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+*(please note : Variable pay mentioned is the minimum variable pay paid at ""meet expectation"" performance rating. This can go upto 210,210 INR for a top performer which is not mentioned as part of the CTC)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Management Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Software Engineer I 
 
 ""AppDynamics is an application performance monitoring solution that uses machine learning and artificial intelligence (AI) to provide real-time visibility and insight into IT environments. With our unique AIOps solution, you can take the right action at exactly the right time with automated anomaly detection, rapid root-cause analysis, and a unified view of your entire application ecosystem, including private and public clouds.  Using AppDynamics, youll finally align IT, DevOps, and the business around the information that helps you protect your bottom line and deliver flawless customer experiences at scale.""
@@ -71,7 +71,7 @@ Our products provide real-time insights into application performance, user exper
 
 Developing these products requires an engineer to design, build and monitor complex distributed systems that processes data to the extent of 1 trillion events per day and 100s of million metrics per minute. This processing of voluminous data translates into 100s of TB of data that we analyze using advanced machine learning techniques to derive useful insights.
  
-As an engineer at AppDynamics you would get the opportunity to build highly scalable microservices using cutting edge software like Kafka, Storm, Spark, Hadoop, ElasticSearch, Hbase, NodeJS, cloud environments like AWS, Amazon Dynamo DB, Kinesis, Redis, Graph Database, Pivotal Cloud Foundry and  containers like Docker, mobile platforms like iOS and Android",8.0,No,"Software Engineer I 
+As an engineer at AppDynamics you would get the opportunity to build highly scalable microservices using cutting edge software like Kafka, Storm, Spark, Hadoop, ElasticSearch, Hbase, NodeJS, cloud environments like AWS, Amazon Dynamo DB, Kinesis, Redis, Graph Database, Pivotal Cloud Foundry and  containers like Docker, mobile platforms like iOS and Android",8.0,202,No,"Software Engineer I 
 
 ""AppDynamics is an application performance monitoring solution that uses machine learning and artificial intelligence (AI) to provide real-time visibility and insight into IT environments. With our unique AIOps solution, you can take the right action at exactly the right time with automated anomaly detection, rapid root-cause analysis, and a unified view of your entire application ecosystem, including private and public clouds.  Using AppDynamics, youll finally align IT, DevOps, and the business around the information that helps you protect your bottom line and deliver flawless customer experiences at scale.""
 
@@ -110,14 +110,14 @@ Gross Salary for 1st Year:   29,85,048
 ---------------------------------------------
 Total CTC:                         4560048
 --------------------------------------------
-Perks:                             150000]",AE_AG_BT_CH_CY_CE_GG_HS_ME_MT_MI_NA_PH,Software Engineer I,Online/Offline test (Max 30 mins),PLACEMENT
+Perks:                             150000]",AE_AG_BT_CH_CY_CE_GG_HS_ME_MT_MI_NA_PH,4,Software Engineer I,Online/Offline test (Max 30 mins),PLACEMENT
 "About Apple in IndiaApple revolutionised personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, Apple Watch and Apple TV. Apples four software platforms  iOS, macOS, watchOS and tvOS  provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay and iCloud. Apples more than 100,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.In India, Apple is expanding and developing features with local customers in mind these include support for Hindi dictation and new language keyboards on iOS11, support for local traffic in Maps and up-to-date cricket scores and stats by simply asking Siri.In addition, Apple Musics curation featuring the best of Dance, Pop, Rock, Bollywood and more, combined with the compelling student and family memberships available in Indian rupees means music fans across the country hear and watch it first on Apple Music.Last year, a new, world-class, LEED-certified office opened for the expanding team in Hyderabad, focused on developing Maps for Apple products. A first-of-its- kind App Accelerator in Bengaluru recently launched and has already trained thousands of iOS developers. The iOS app economy in India is more vibrant than ever. Indian app developers have created almost 100,000 apps for the App Store and this continues to grow.Apple expects to be running all of its business in India on renewable energy by the end of 2017.
  Pursuing an Graduate or Masters degree Excellent quantitative and communication skills
  Programming knowledge in at least one of the following areas: iOS OS X or WatchOS development (Objective-C Swift) Web development (JavaScript HTML CSS3) Server-side development (Java)
  Leadership experience
  Related internship experience
  Graduating year 2017 - 2018EducationDesired Majors include: CS CE ECE EECS IS IT and other related fields of study.
-Location: This role is based in Hyderabad India.Apple is an Equal Employment Opportunity Employer that is committed to inclusion and diversity. We also take affirmative action to offer employment and advancement opportunities to all applicants including minorities women protected veterans and individuals with disabilities.",0.0,NO,,"2563133 INR  [Bachelors : 
+Location: This role is based in Hyderabad India.Apple is an Equal Employment Opportunity Employer that is committed to inclusion and diversity. We also take affirmative action to offer employment and advancement opportunities to all applicants including minorities women protected veterans and individuals with disabilities.",0.0,549,NO,,"2563133 INR  [Bachelors : 
 Base: 1350000
 Sign On Bonus:200000
 Year end bonus: >54000
@@ -127,8 +127,8 @@ Masters :
 Base: 1450000
 Sign On Bonus:200000
 Year end bonus: >54000
-Stocks: 35000 USD (vesting equally every 6 months over 4 years)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"As a Business Analyst, your role would be to:  Add value to clients by generating innovative ideas  Drive decision making through critical/thorough analysis  Support the project leader by undertaking primary and secondary research A Business Analyst will be an integral part of the team working directly with the client on strategic engagements and can expect significant client interaction. Base Location  Mumbai/Bangalore/Delhi/Hyderabad Project Location  Anywhere in India/Philippines/Abroad",0.0,NO,,1500000 INR  [Cost to Company: 15 Lakhs Gross : 11.5 Lakhs Bonus : 3.5 Lakhs (1 Joining + 2.5 Annual Performance Bonus)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Business Analyst,Resume,PLACEMENT
+Stocks: 35000 USD (vesting equally every 6 months over 4 years)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"As a Business Analyst, your role would be to:  Add value to clients by generating innovative ideas  Drive decision making through critical/thorough analysis  Support the project leader by undertaking primary and secondary research A Business Analyst will be an integral part of the team working directly with the client on strategic engagements and can expect significant client interaction. Base Location  Mumbai/Bangalore/Delhi/Hyderabad Project Location  Anywhere in India/Philippines/Abroad",0.0,323,NO,,1500000 INR  [Cost to Company: 15 Lakhs Gross : 11.5 Lakhs Bonus : 3.5 Lakhs (1 Joining + 2.5 Annual Performance Bonus)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Business Analyst,Resume,PLACEMENT
 "The Financial Modeling Group (FMG) is responsible for the research and development of financial models underpinning the risk management analytics produced at BlackRock. The group also contributes to the infrastructure and software responsible for the production of analytics and the delivery of analytic content to portfolio and risk management professionals both within and outside BlackRock. Given the diversity of business objectives among BlackRock Solutions clients and within BlackRock itself the models developed and supported by the Financial Modeling Group span a wide array of financial products, ranging from equity to fixed income to derivatives. In addition, members of FMG seek to provide analysis and insight on many different levels from analysis of the cash flows of a single bond to the overall financial risk associated with an entire portfolio, enterprise or balance sheet.
 
 Job Purpose/Background:
@@ -163,7 +163,7 @@ Competencies:
 ►	Possess a positive attitude and ability to work as part of a team in a fast-paced environment
 ►	Possesses excellent communication and presentation skills
 ►	Possesses excellent creative and analytical skills
-►	Organized in carrying out the responsibilities, possess strong time management skills and should be high on focus",0.0,No,,1400000 INR  [Bachelor's Degree CTC 1400000 | Master's Degree CTC 1500000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+►	Organized in carrying out the responsibilities, possess strong time management skills and should be high on focus",0.0,536,No,,1400000 INR  [Bachelor's Degree CTC 1400000 | Master's Degree CTC 1500000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Analyst at Capital One, we think big and do big things. We were the first company to develop and offer mass customization and personalization of credit card and financial services products, and we have been innovating relentlessly ever since. Today, we are a progressive financial services powerhouse spanning Credit Cards, Auto Loans, Savings, Healthcare Finance, Small Business and Banking and at the same time a high-tech company, a scientific laboratory, and a nationally recognized brand all in one impacting over 65 million customer accounts. Still founder-led by Chairman and CEO Richard Fairbank, we dare to dream, disrupt and deliver a better way for our customers, the financial industry and for each other. At DataLabs Capital One India, we are at the cutting edge of solving some of the fundamental business problems using advanced data methodologies, statistics and machine learning algorithms. The team also builds tools and products that aid validation of credit and market risk models required for regulations such as Basel & CCAR. The mission of DataLabs is to build strategically important and path breaking data products and solutions to meet contemporary business needs. We create patentable products by innovating in each stream that we work on. This is achieved through deep expertise in advanced analytics, data science, machine learning, engineering, automation and product design. The exclusive focus on building and owning high end data products enables DataLabs to recruit, develop and partner with world class analytical, data science and technological talent to develop amazing careers and industry expertise. Here youll work in a fast paced and intellectually rigorous environment. You are expected to build deep expertise in core areas of financial services. The two things we value most in our associates are innovation and persistence. You will be challenged to think out of the box and create truly world class products and processes! We offer analyst positions in a wide range of departments, across the company. 
 What are we looking for? 
 	Exceptional self-drive and motivation 
@@ -175,7 +175,7 @@ What are we looking for?
 	Comfort with technical problem solving e.g. Mathematics, statistics and coding Eligibility 
 	The students should be admitted through the Indian Institute of Technology Joint Entrance Examination (IIT - JEE) 
 	CGPA 6.5 and above 
-	Students should be graduating in 2020 Capital One is an equal opportunity employer committed to diversity in the workplace.",0.0,No,,"1936808 INR  [Total CTC: 19,36,808 : 
+	Students should be graduating in 2020 Capital One is an equal opportunity employer committed to diversity in the workplace.",0.0,97,No,,"1936808 INR  [Total CTC: 19,36,808 : 
 Total Fixed Pay Breakup (TFP):                                 1,500,000 : 
 Basic	                                    600,000
 House Rent Allowance	                                    300,000
@@ -188,10 +188,10 @@ Annual Performance Cash Bonus: 	                                      58,125
 Sign - On Bonus	                                    100,000
 Anniversary Bonus	                                    100,000
 Insurance Benefits:                                    38,237
-Other Benefits:                                    140,446]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,"Analyst, Associate","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"A Consultant is expected to:  Work on client engagements or on special projects interacting directly with business stakeholders  Own and manage all data for specific analytical projects. Work with the business team to specify analysis tasks to generate insights. Design and execute the analysis tasks using the appropriate language / tools  Involved in structuring an approach to the problem definition, develop hypotheses and formulate the problem solving approach  Instrumental in receiving aggregated data, investigating relationships between distinctive events for analysis  Interpret end-user requirements by specifying economic decision models, determining appropriate data sources, and performing detailed statistical analysis  Learn and use SAS, CART and other modeling/statistical tools and techniques to carry out analysis and reveal insights  Summarize analysis and create exhibits that transmit the message of the data effectively  Devising innovative and actionable solutions for complex business problems",0.0,NO,,"850000 INR  [CTC : ~11 LPA
- Details - INR 8,50,000 + 12-20% OF FIXED COMPONENT + INR 1,00,000 ANNIVERSARY BONUS PAYABLE AFTER 1 YEAR (RETENTION CLAUSE OF 1 YEAR FROM THE DATE OF BONUS PAYOUT) + INR 25,000 RELOCATION BONUS]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Consultant,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"Quantitative and Technical Roles at Goldman Sachs India About Goldman Sachs Goldman Sachs is global investment banking, securities and investment management firm.We provide a wide range of services to a substantial and diversified client base that includes corporations, institutional investors, governments, non-profit organizations and high net worth individuals. Our headquarters are in New York and we maintain significant offices in London, Bangalore, Mumbai, Tokyo, Hong Kong and other financial centers around the world. About Our Quantitative and Technical Roles Goldman Sachs is a world leader in developing quantitative and technological solutions to complex business problems.Working side by side with the firms trading, sales and investment management professionals, our quantitative and technical professionals use their training to create financial products, advise clients on transactions, measure risk and identifymarket opportunities. Job Responsibilities Candidates would be required to work on a wide range of problems, including the following:  Developing and validating quantitative models used: 1) to calculate the fair value of financial contracts (securities and derivatives); 2) to measure, analyze and manage the risks in our businesses (market, counterparty credit, operational, funding and liquidity risks as well as legal, regulatory and reputational risks); 3) to execute trades and make markets electronically in equity and fixed income products; and 4) to create trading strategies, portfolio analytics and risk management tools for the firms mutual funds, hedge funds and private wealth clients.  Designing and developing sophisticated software and systems using proprietary as well as modern web, mobile, and, desktop technologies: 1) to manage, visualize, and analyze massive sets of market and operational data used in our trading, risk management, and control functions 2) to correctly and efficiently route orders for billions of dollars of securities every day; 3) to allow the ability to represent, transact in and risk manage all of the firms OTC derivative positions; and 4) to distribute computations across tens of thousands of computers. 5) to make use of functional programming paradigm and big data solutions to develop firms next generation modeling, pricing, and risk management platform 6) to contribute to key open source initiatives  e.g. GSCollections, Project Panama 7) to build firms strategic mobile platform Qualifications We are interested in applicants who possess skills in several of the following areas: Mathematics: probability and statistics, differential equations, time series analysis, Monte Carlo methods, data mining, machine learning, regression and other numerical techniques. Computer Science: strong fundamentals in distributed systems, databases, design and analysis of algorithms, implementation of programming languages and run-time systems. Knowledge of finance, stochastic calculus and financial models is not required.",0.0,NO,,"3150000 INR  [[CTC 21,00,000 INR - SUPPLEMENTAL SALARY 7,00,000 INR (SUPPLEMENTAL SALARY IS AN ACCRUED BONUS PAID OUT IN MONTHLY INSTALLMENTS PRO-RATED FROM THE DATE OF JOINING, THIS IS ONLY APPLICABLE DURING THE FIRST YEAR OF JOINING) TOTAL COMP. 28,00,000 INR - ONE-TIME PAYMENT 3,50,000 INR - [Enclosed in email]]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst Quantitative and Technical Roles,Online/Offline test (Max 30 mins),PLACEMENT
+Other Benefits:                                    140,446]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,"Analyst, Associate","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"A Consultant is expected to:  Work on client engagements or on special projects interacting directly with business stakeholders  Own and manage all data for specific analytical projects. Work with the business team to specify analysis tasks to generate insights. Design and execute the analysis tasks using the appropriate language / tools  Involved in structuring an approach to the problem definition, develop hypotheses and formulate the problem solving approach  Instrumental in receiving aggregated data, investigating relationships between distinctive events for analysis  Interpret end-user requirements by specifying economic decision models, determining appropriate data sources, and performing detailed statistical analysis  Learn and use SAS, CART and other modeling/statistical tools and techniques to carry out analysis and reveal insights  Summarize analysis and create exhibits that transmit the message of the data effectively  Devising innovative and actionable solutions for complex business problems",0.0,156,NO,,"850000 INR  [CTC : ~11 LPA
+ Details - INR 8,50,000 + 12-20% OF FIXED COMPONENT + INR 1,00,000 ANNIVERSARY BONUS PAYABLE AFTER 1 YEAR (RETENTION CLAUSE OF 1 YEAR FROM THE DATE OF BONUS PAYOUT) + INR 25,000 RELOCATION BONUS]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Consultant,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"Quantitative and Technical Roles at Goldman Sachs India About Goldman Sachs Goldman Sachs is global investment banking, securities and investment management firm.We provide a wide range of services to a substantial and diversified client base that includes corporations, institutional investors, governments, non-profit organizations and high net worth individuals. Our headquarters are in New York and we maintain significant offices in London, Bangalore, Mumbai, Tokyo, Hong Kong and other financial centers around the world. About Our Quantitative and Technical Roles Goldman Sachs is a world leader in developing quantitative and technological solutions to complex business problems.Working side by side with the firms trading, sales and investment management professionals, our quantitative and technical professionals use their training to create financial products, advise clients on transactions, measure risk and identifymarket opportunities. Job Responsibilities Candidates would be required to work on a wide range of problems, including the following:  Developing and validating quantitative models used: 1) to calculate the fair value of financial contracts (securities and derivatives); 2) to measure, analyze and manage the risks in our businesses (market, counterparty credit, operational, funding and liquidity risks as well as legal, regulatory and reputational risks); 3) to execute trades and make markets electronically in equity and fixed income products; and 4) to create trading strategies, portfolio analytics and risk management tools for the firms mutual funds, hedge funds and private wealth clients.  Designing and developing sophisticated software and systems using proprietary as well as modern web, mobile, and, desktop technologies: 1) to manage, visualize, and analyze massive sets of market and operational data used in our trading, risk management, and control functions 2) to correctly and efficiently route orders for billions of dollars of securities every day; 3) to allow the ability to represent, transact in and risk manage all of the firms OTC derivative positions; and 4) to distribute computations across tens of thousands of computers. 5) to make use of functional programming paradigm and big data solutions to develop firms next generation modeling, pricing, and risk management platform 6) to contribute to key open source initiatives  e.g. GSCollections, Project Panama 7) to build firms strategic mobile platform Qualifications We are interested in applicants who possess skills in several of the following areas: Mathematics: probability and statistics, differential equations, time series analysis, Monte Carlo methods, data mining, machine learning, regression and other numerical techniques. Computer Science: strong fundamentals in distributed systems, databases, design and analysis of algorithms, implementation of programming languages and run-time systems. Knowledge of finance, stochastic calculus and financial models is not required.",0.0,140,NO,,"3150000 INR  [[CTC 21,00,000 INR - SUPPLEMENTAL SALARY 7,00,000 INR (SUPPLEMENTAL SALARY IS AN ACCRUED BONUS PAID OUT IN MONTHLY INSTALLMENTS PRO-RATED FROM THE DATE OF JOINING, THIS IS ONLY APPLICABLE DURING THE FIRST YEAR OF JOINING) TOTAL COMP. 28,00,000 INR - ONE-TIME PAYMENT 3,50,000 INR - [Enclosed in email]]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Analyst Quantitative and Technical Roles,Online/Offline test (Max 30 mins),PLACEMENT
 "Software Engineer, University Graduate - Bangalore or Hyderabad
 
 Company overview:
@@ -245,7 +245,7 @@ Minimum qualifications:
 ● BS/ MS or equivalent practical experience.
 ● Experience with Unix/Linux or Windows and/or Mac environments, distributed systems, machine
 learning, information retrieval and TCP/IP.
-● Experience programming in C, C++, Java and/or Python.",0.0,NO,,"3077100 INR  [Software Engineer- B.Tech/ B.E. - 3077100 INR
+● Experience programming in C, C++, Java and/or Python.",0.0,201,NO,,"3077100 INR  [Software Engineer- B.Tech/ B.E. - 3077100 INR
 (Base Salary 1,610,000 ; Target Bonus 241,500 ; Value of new hire equity**
 (12 months' vesting) 920,600 ; Benefits 155,000 ; Sign-on bonus 150,000 )
 Software Engineer- M.Tech/ M.E. - 3223600 INR
@@ -255,7 +255,7 @@ Software Engineer- M.Tech/ M.E. - 3223600 INR
 Values above are rounded to the nearest hundredth
 *Base salary comprises basic salary and basket of allowances
 **The above enlists equity for the first 12 months only and does not include equity for the next 3 years,
-which is over and above the CTC indicated above]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+which is over and above the CTC indicated above]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Software Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Halma is looking for talented individuals with a Bachelors degree or higher in a technical, engineering or science field, who have the potential to be future leaders of our businesses. We will develop the right candidates into experienced executives. 
 
 This leadership development programme offers full time salaried employment starting with 2 years training. 
@@ -272,7 +272,7 @@ The programme includes:
 
 In addition, we support trainees with three residential training modules and a mentoring programme. 
 
-At the end of the HFL training period, successful trainees will be offered a permanent position aligned with their aspirations, at one of our operating companies.",0.0,No,,"2785000 INR  [CTC 30,00,000 (Details in attached PPT)]",AE_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA,Halma Future Leader - Graduate Trainee,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+At the end of the HFL training period, successful trainees will be offered a permanent position aligned with their aspirations, at one of our operating companies.",0.0,285,No,,"2785000 INR  [CTC 30,00,000 (Details in attached PPT)]",AE_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA,1,Halma Future Leader - Graduate Trainee,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Research
 J.P. Morgans Global Research was set up in Mumbai in August, 2003 as an extension of the Firms global equity research teams around the world. Research has grown steadily and the team of analysts has expanded to provide coverage for the key sectors globally. Besides working with J.P.  Morgans equity research teams, the Analysts in Research are now engaged with other areas of public side research including fixed income research, strategy, quant & derivatives and indices.
 Youll make an impact by 
@@ -296,9 +296,9 @@ We will review applications as they are received and extend offers on a rolling 
 
 Visit jpmorgan.com/careers for upcoming events, career advice, our locations and more.
 
-J.P. Morgan is a marketing name for JPMorgan Chase & Co., and its subsidiaries worldwide. ©2018 JPMorgan Chase & Co. All rights reserved. J.P. Morgan is an equal opportunities employer.",0.0,No,,"1900000 INR  [Fixed: 1400000
+J.P. Morgan is a marketing name for JPMorgan Chase & Co., and its subsidiaries worldwide. ©2018 JPMorgan Chase & Co. All rights reserved. J.P. Morgan is an equal opportunities employer.",0.0,211,No,,"1900000 INR  [Fixed: 1400000
 Relocation: 100000
-1L - sign on, 3 lacs bonus]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+1L - sign on, 3 lacs bonus]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "CIB Quantitative Research (QR)
 The Quantitative Research (QR) team of the Corporate & Investment Bank is an expert quantitative modeling
 group in J.P. Morgan, a worldwide leader in financial engineering, statistical modeling, and portfolio management.
@@ -339,10 +339,10 @@ We will review applications as they are received and extend offers on a rolling 
 you apply early since programs will close as positions are filled.
 Visit jpmorgan.com/careers for upcoming events, career advice, our locations and more.
 J.P. Morgan is a marketing name for JPMorgan Chase & Co., and its subsidiaries worldwide. ©2018 JPMorgan
-Chase & Co. All rights reserved. J.P. Morgan is an equal opportunities employer.",0.0,No,,"3200000 INR  [Fixed: 2100000
+Chase & Co. All rights reserved. J.P. Morgan is an equal opportunities employer.",0.0,211,No,,"3200000 INR  [Fixed: 2100000
 Relocation: 100000
 Sign-On: 100000
-Variable: 900000* On performance and pro-rata basis]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst - QR,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Variable: 900000* On performance and pro-rata basis]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Analyst - QR,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Divisional Overview:
 The Risk Management Division encompasses the firm's comprehensive risk framework responsible for determining and managing the overall risk appetite for the firm. The division is responsible for effectively managing the firm's risk-return profile which ensures the efficient deployment of the firm's capital. It is one of the firm's core competencies and is independent of the trading areas and operational areas. The Risk Management Division in India comprises:
 	Market Risk Management
@@ -391,7 +391,7 @@ Useful links related to the type of work done by the group are mentioned below
 
 -	https://en.wikipedia.org/wiki/Itô_calculus
 -	https://en.wikipedia.org/wiki/Black-Scholes_equation
--	https://en.wikipedia.org/wiki/Value_at_risk",7.0,No,N/A,1400000 INR  [1400000 + 100000 Lakh sign-on bonus],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Global Risk - Quantitative Risk Management - Model Validation,Resume,PLACEMENT
+-	https://en.wikipedia.org/wiki/Value_at_risk",7.0,45,No,N/A,1400000 INR  [1400000 + 100000 Lakh sign-on bonus],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Global Risk - Quantitative Risk Management - Model Validation,Resume,PLACEMENT
 "Business Unit Overview: 
 
 The regional and divisional strategy teams are pivotal in shaping Nomuras longer term strategy for Wholesale. The work of the strategy team includes market entry strategy, business performance review, analysis of Nomuras operating model, acquisition screening and market & competitor analysis. The team works directly with senior management across the businesses to determine the right strategy for reaching Nomuras Wholesale aspirations in the rapidly changing market environment.
@@ -420,7 +420,7 @@ Skills Required
 	BE + Dual Degree final year students (IIT-JEE only)
 
 How to Apply 
-Please send your resume to your placement cell.",8.0,NO,N/A,1400000 INR  [1400000 + 100000 sign-on bonus],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Wholesale Strategy Analyst,"Resume,GD",PLACEMENT
+Please send your resume to your placement cell.",8.0,45,NO,N/A,1400000 INR  [1400000 + 100000 sign-on bonus],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,5,Wholesale Strategy Analyst,"Resume,GD",PLACEMENT
 "About Procter & Gamble:
 Procter & Gamble is one of the largest FMCG (Fast Moving Consumer Goods) company in the world with strong brands like Pampers, Ariel, Always, Gillette and Oral B just to name a few. For more information about P&G the company and our brands please visit www.pg.com and our career website at pgcareers.com.
 Are you ready to unleash your technical creativity?
@@ -466,7 +466,7 @@ What we look for:
 	Recent Graduate in one of the following engineering majors: Mechanical engineering, Electrical engineering, Industrial engineering, Mechatronics engineering, or any relevant engineering degree with 0  3 years of relevant experience
 	In addition to good knowledge of English, we also look for skills such as technical curiosity, creativity, innovation, initiative, communication, leadership and the ability to work with others.
 JUST SO YOU KNOW:
-	We are an equal opportunity employer and value diversity at our company. Our mission of Diversity and Inclusion is: Everyone valued. Everyone included. Everyone performing at their peak.",0.0,No,No backlogs,2507848 INR  [CTC:2507848;   Fixed: 2007848],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,"Associate Manager, Product Supply","Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+	We are an equal opportunity employer and value diversity at our company. Our mission of Diversity and Inclusion is: Everyone valued. Everyone included. Everyone performing at their peak.",0.0,216,No,No backlogs,2507848 INR  [CTC:2507848;   Fixed: 2007848],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,2,"Associate Manager, Product Supply","Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "[Job Description]
 We are developing the system software of PlayStation. Our team is especially in charge of developing libraries of
 audio and video codec.
@@ -495,7 +495,7 @@ Windows / VisualStudio with original development tools
 - Experience in GPU programing is preferred
 [Other requirements]
 - The ability to deliver on tight deadlines and adapt to evolving or changing requirements
-- Excellent verbal and written communication skills in English, and willingness in learning Japanese",0.0,No,"In addition to CV, you will have to submit an essay. The
+- Excellent verbal and written communication skills in English, and willingness in learning Japanese",0.0,391,No,"In addition to CV, you will have to submit an essay. The
 format will be provided for you separately.
 Up to three positions are available to apply for.
 If you are applying to multiple positions, please list JAF numbers in order of priority in the essay. 
@@ -540,7 +540,7 @@ JPY 800,000 - Assume 25h/month
 Bachelor: JPY 213,840
 Master: JPY 243,540
 Ph.D.: JPY 261,360
-*This may vary depending on your Base Salary.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,"System Software Engineer (PlayStation, Video codec library)","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+*This may vary depending on your Base Salary.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,"System Software Engineer (PlayStation, Video codec library)","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Are you interested in taking part in building the most exciting mobile platform in the world? Used by millions of people in the world, the Uber mobile app re-invented the world of transportation, and every day we work fearlessly towards one goal: make transportation for everyone as easy and reliable as possible around the world.
  
 We are looking for exceptional engineers willing to share this challenge as members of our program teams. You will play a central role in the end-to-end development of entire new functionalities aimed at Android or iOS devices, working side-by-side with our backend and design specialists. In Uber you will be empowered with trust to make the right decisions, a community of inspiring peers, a hyper-advanced technological stack and, of course, a real opportunity to shape our times.
@@ -572,7 +572,7 @@ The ability to organize and synthesize analyses and communicate data insights wi
 Enthusiasm for learning and growth
 
 
-The rare opportunity to change the world such that everyone around you is using the product you built. Were not just another social web app, were moving real people and assets and reinventing transportation and logistics globally.",0.0,NO,,"3468040 INR  [Uber Domestic Offer - Campus 19-20		
+The rare opportunity to change the world such that everyone around you is using the product you built. Were not just another social web app, were moving real people and assets and reinventing transportation and logistics globally.",0.0,17,NO,,"3468040 INR  [Uber Domestic Offer - Campus 19-20		
 COMPONENT	VALUE	DESCRIPTION
 Base	₹1,800,000.00	
 Retirals	₹151,290.00	Includes Employer PF + Gratuity
@@ -582,8 +582,8 @@ Target Cash Bonus	₹200,000.00	1x multiplier; can range between (0 - 2)x basis 
 Perks (per annum)	₹136,000.00	Uber free rides worth INR 36,000 + Wellness Allowance worth INR 54,000 + Mobile Allowance worth INR 36,000 + Medical Insurance Premium worth INR 10,000
 Relocation Allowance	₹200,000.00	Reimbursement on actuals basis eligibility
 TOTAL CTC	₹3,468,040.00	
-In addition there is also a Target Equity Refresh component (which we cannot quantify at present) that comes along with Target Cash Bonus.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer (2019-20),Online/Offline test (Max 30 mins),PLACEMENT
-GET,0.0,NA,+ Benefits,1300000 INR  [+ 15% bonus],GG_MI,Graduate Engineer Trainee,"Resume,GD",PLACEMENT
+In addition there is also a Target Equity Refresh component (which we cannot quantify at present) that comes along with Target Cash Bonus.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Software Engineer (2019-20),Online/Offline test (Max 30 mins),PLACEMENT
+GET,0.0,443,NA,+ Benefits,1300000 INR  [+ 15% bonus],GG_MI,1,Graduate Engineer Trainee,"Resume,GD",PLACEMENT
 "[Job Description]
 ・We are looking for Technology Consultants, Technology Architects and System/Software Engineers who will design the digital technology and enterprise architecture to digitally transform our clients including public-sector organizations.
 ・You will be required to design solutions* that will form the core of the enterprise architecture, leveraging cutting-edge technology.
@@ -599,7 +599,7 @@ Anyone who matches one or more of the following descriptions.
 ・Enjoy collecting information on and mastering diverse evolving technologies.
 ・Realize clients ideal to-be with agility by teaming up with strategy and business consultants to adjust the already implemented solutions in our clients.
 ・Strong communication and cross cultural skills to collaborate with Technology Architects and Software Engineers around the world. 
-・Enjoy coding as a hobby outside of work/school.",0.0,No,"[Other Compensation and Benefit]
+・Enjoy coding as a hobby outside of work/school.",0.0,375,No,"[Other Compensation and Benefit]
 1.Bonus
 Bonus will be paid once in a year (December) based on the company's financial result and individual performance.
 
@@ -625,17 +625,17 @@ Home Allowance(Gross): JPY　360,000
 * One-time payment including relocation fee.
 
 3. Overtime payment: JPY 1,007,813 - Assume 30h/month
-*This may vary depending on your actual overtime hours.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Digital Technology Architect,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"Software Development Engineer We are looking for a passionate, hard-working, and talented Software Development Engineer who can build innovative & mission critical system software applications & tools. You will have an enormous opportunity to make a large impact on the design, architecture, and development of consumer products. You will be responsible for delivery and support of large-scale, multi-tiered, distributed software applications and tools. Responsibilities Include  Ability to design and code right solutions starting with broadly defined problems.  Drive best practices and engineering excellence.  Work with other team members to develop the architecture and design of new and current systems.  Work in an agile environment to deliver high quality software. Basic Qualifications Required  Candidates must have a Bachelors/ Masters in Computer Science or Engineering or related field.  Excellent problem solving skills.  Possess an extremely sound understanding of areas in the basic areas of Computer Science such as Algorithms, Data Structures, Object Oriented Design, Databases.  Be able to write Amazon quality code in an object oriented language - preferably in C/C++/Java in a Linux environment.  Candidate must have good written and oral communication skills, be a fast learner and have the ability to adapt quickly to a fast-paced development environment.",0.0,NO,,"3050000 INR  [3050000 INR [BASE - 1350000 (BTECH) / 1400000 (MTECH+DUAL) SIGNING BONUS Year 1 - 350000 SIGNING BONUS Year 2 - 300000 RSUS - 1000000 (IN INR, ACROSS 4 YEARS)]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+*This may vary depending on your actual overtime hours.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Digital Technology Architect,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"Software Development Engineer We are looking for a passionate, hard-working, and talented Software Development Engineer who can build innovative & mission critical system software applications & tools. You will have an enormous opportunity to make a large impact on the design, architecture, and development of consumer products. You will be responsible for delivery and support of large-scale, multi-tiered, distributed software applications and tools. Responsibilities Include  Ability to design and code right solutions starting with broadly defined problems.  Drive best practices and engineering excellence.  Work with other team members to develop the architecture and design of new and current systems.  Work in an agile environment to deliver high quality software. Basic Qualifications Required  Candidates must have a Bachelors/ Masters in Computer Science or Engineering or related field.  Excellent problem solving skills.  Possess an extremely sound understanding of areas in the basic areas of Computer Science such as Algorithms, Data Structures, Object Oriented Design, Databases.  Be able to write Amazon quality code in an object oriented language - preferably in C/C++/Java in a Linux environment.  Candidate must have good written and oral communication skills, be a fast learner and have the ability to adapt quickly to a fast-paced development environment.",0.0,18,NO,,"3050000 INR  [3050000 INR [BASE - 1350000 (BTECH) / 1400000 (MTECH+DUAL) SIGNING BONUS Year 1 - 350000 SIGNING BONUS Year 2 - 300000 RSUS - 1000000 (IN INR, ACROSS 4 YEARS)]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "As part of the Citi Retail Services Risk Management team, the successful candidate will be
 responsible for developing, analyzing and executing ideas and initiatives designed to achieve
-business growth & loss mitigation goals.",0.0,NO,,"1200000 INR  [Comp offered-
+business growth & loss mitigation goals.",0.0,321,NO,,"1200000 INR  [Comp offered-
 
 ·         CTC- INR 12,00,000 for B Tech four year courses+ INR 100,000 Year End Bonus (15-day hotel stay and airfare)
 
 ·         CTC- INR 14,00,000 for Dual Degree Programs+ INR 100,000 Year End Bonus (15-day hotel stay and airfare) Bangalore comp is standard for the two roles. Please note the same.
 
-·         15 Day hotel stay and air fare.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Asstt. Manager - Mumbai,Online/Offline test (Max 30 mins),PLACEMENT
+·         15 Day hotel stay and air fare.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Asstt. Manager - Mumbai,Online/Offline test (Max 30 mins),PLACEMENT
 "Skillset/Requirement
 	Strong problem solving, logical thinking and organizational skills
 	Related internship experience/overseas internship experience is preferred
@@ -643,7 +643,7 @@ business growth & loss mitigation goals.",0.0,NO,,"1200000 INR  [Comp offered-
 	Solid analytical skills and able to solve business problems with quantitative thinking
 	Good interpersonal skills
 	Ability to work under pressure and meet deadlines on time
-	Excellent oral and written English skills and experience in a multicultural international environment",0.0,NO,,1257000 INR  [1200000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Profit Enhancement Resident I,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	Excellent oral and written English skills and experience in a multicultural international environment",0.0,399,NO,,1257000 INR  [1200000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Profit Enhancement Resident I,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "The Gig: Associate Business Analyst - Analytics
 
 Link to view JD: http://bit.ly/flipkart_aba_analytics
@@ -695,13 +695,13 @@ Youre Cheers:
 
 Apart from all the general benefits of best in industry compensation, equity, healthcare etc.,  Flipkart prides in pulling all stops in ensuring you have Great Work, Great People and a Great environment. 
 
-We call ourselves an incubator for analysts where you get all the optimal conditions to do and experience your best.",0.0,NO,"Benefits Include - Flight Ticket to Bangalore + 15 Days Hotel Accommodation, 12,000 Mobile Reimbursement & 12,000 Broadband Reimbursement + Upto 40,000 INR Relocation Reimbursement for Goods","900000 INR  [CTC: 13,40,000 = 9,00,000 Base + 90,000 Variable + 2,00,000 Joining Bonus + 1,50,000 Benefits]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Business Analyst - Analytics,"Resume,GD",PLACEMENT
+We call ourselves an incubator for analysts where you get all the optimal conditions to do and experience your best.",0.0,118,NO,"Benefits Include - Flight Ticket to Bangalore + 15 Days Hotel Accommodation, 12,000 Mobile Reimbursement & 12,000 Broadband Reimbursement + Upto 40,000 INR Relocation Reimbursement for Goods","900000 INR  [CTC: 13,40,000 = 9,00,000 Base + 90,000 Variable + 2,00,000 Joining Bonus + 1,50,000 Benefits]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Associate Business Analyst - Analytics,"Resume,GD",PLACEMENT
 "Our infrastructure is growing by 30% annually due to service growth and diversification. A wide variety of applications are being deployed on the infrastructure every day and there are more than 2,100 developers in over 10 locations worldwide.
-With this scale of infrastructure and developers, learning and operating cost is too high for developers to deploy their applications with awareness of the infrastructure and its configuration.We, infrastructure software engineers, are responsible for building and operating the platform which enables it to connect applications and infrastructure seamlessly using software techniques and methods. In this position, You'll be responsible for OpenStack and its middleware of our private cloud platform ""Verda"".",0.0,NO,"Experience operating or integrating OpenStack or Kubernetes  
+With this scale of infrastructure and developers, learning and operating cost is too high for developers to deploy their applications with awareness of the infrastructure and its configuration.We, infrastructure software engineers, are responsible for building and operating the platform which enables it to connect applications and infrastructure seamlessly using software techniques and methods. In this position, You'll be responsible for OpenStack and its middleware of our private cloud platform ""Verda"".",0.0,474,NO,"Experience operating or integrating OpenStack or Kubernetes  
 / Ability to troubleshoot OSS with code-level  / Experience customizing OSS for company business requirements/ Experience of contributing OSS  / Experience operating or developing a distributed system  / Experience making presentations in tech conferences","6500000 JPY  [- Flight Ticket allowance (JPY200,000~400,000)
 - Relocation allowance (JPY200,000~400,000)
 - Fully furnished appartment (Up to 2months)
-- Private Assistant who supports your registration process at city hall]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Infrastructure Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+- Private Assistant who supports your registration process at city hall]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Infrastructure Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "Engineering Development Group - India
 About this Program
 Would you like to join a team where you are given the flexibility to select, explore & contribute to collaborative technical projects instead of being assigned to any project?
@@ -733,8 +733,8 @@ Strong academic record
 Excellent communication and time management skills
 Strong programming skills
 A good understanding of Object Oriented methodologies
-Experience with MATLAB is a plus",0.0,No,,"1485000 INR  [1485000- 1800000 [Fixed-1290000]
-Sign on Bonus : 150000 Relocation Bonus :20K]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Engineer in Engineering Development Group,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Experience with MATLAB is a plus",0.0,176,No,,"1485000 INR  [1485000- 1800000 [Fixed-1290000]
+Sign on Bonus : 150000 Relocation Bonus :20K]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Engineer in Engineering Development Group,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "This is an aggregate position for all roles including (but not limited to) working on the core data path, platform deployment, data protection and replication, Linux kernel development, application programming, user interfaces. Nutanix engineers are creating a revolutionary technology, building the software defined data centre. Were using our love of programming and outstanding backgrounds to change the way companies virtualize their data centre.
 
 Primary skills:
@@ -744,7 +744,7 @@ Python, C++, exposure to RESTful APIs, distributed systems
 
 Good to know:
 Knowledge of Javascript, HTML, CSS, jQuery/AngularJS/ReactJS/BackboneJS/ExtJS
-Has exposure to any of Django/Rails/NodeJS/SQL Database.",0.0,No,"CTC:
+Has exposure to any of Django/Rails/NodeJS/SQL Database.",0.0,41,No,"CTC:
 BTech: 28,00,000
 MTech; 29,00,000","2800000 INR  [BTech:
 Base - 2000000
@@ -753,14 +753,14 @@ Others - 400000
 MTech:
 Base - 2100000
 RSU - 400000
-Others - 400000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Member of Technical Staff,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Data Scientist,0.0,No,,"1500000 INR  [Fixed 15 LPA
+Others - 400000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Member of Technical Staff,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Data Scientist,0.0,188,No,,"1500000 INR  [Fixed 15 LPA
 Additional Yearly Performance Bonus
 Stock Options
 All in house meals
 10L Accidental Insurance Policy
 5L Medical Insurance Policy
-Travel and temp accommodation at the time of relocation]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Data Scientist,Online/Offline test (Max 30 mins),PLACEMENT
+Travel and temp accommodation at the time of relocation]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,5,Data Scientist,Online/Offline test (Max 30 mins),PLACEMENT
 "You will work on multiple domains like multichannel supply chain to complex retail systems in the point
 of sale, finance, logistics and transportation domains
 You'll create game-changing solutions / applications using cutting-edge technology and streamline
@@ -770,10 +770,10 @@ analyzing data, simplifying the supply chain or creating solutions to make this 
 what you'll be really doing is redefining the customer experience and making lives better.
 You get to work on a wide spectrum of technologies and heterogeneous platforms such as Java, Hadoop,
 Cassandra, ERP, Middleware tools, low latency messaging systems, machine learning and open source
-frameworks",0.0,No,,"2177600 INR  [BTech: 2177600 [Annual Gross Salary-12,00,000;Retirals (PF) 57,600;Annual Incentive % (% of Annual Gross
+frameworks",0.0,243,No,,"2177600 INR  [BTech: 2177600 [Annual Gross Salary-12,00,000;Retirals (PF) 57,600;Annual Incentive % (% of Annual Gross
 Salary) 20%;Annual Incentive Amount 2,40,000 ;Equity /RSU % (as a % of Annual Gross
 Salary) 15%;Equity /RSU Amount 1,80,000 ;Joining Bonus 5,00,000] Dual/MTech: 23,17,400 [Annual Gross Salary-13,00,000;Retirals (PF) 62,400;Annual Incentive % (% of Annual Gross Salary) 20%;Annual Incentive Amount 2,60,000 ;Equity /RSU % (as a % of Annual Gross
-Salary) 15%;Equity /RSU Amount 1,95,000 ;Joining Bonus 5,00,000]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineering ll,Online/Offline test (Max 30 mins),PLACEMENT
+Salary) 15%;Equity /RSU Amount 1,95,000 ;Joining Bonus 5,00,000]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineering ll,Online/Offline test (Max 30 mins),PLACEMENT
 "OnePlus creates some of the worlds most cutting-edge software products, and we want you to be a part of our team.
 
 Roles & responsibilities:
@@ -785,11 +785,11 @@ Roles & responsibilities:
 
 This is a fantastic opportunity to engage in a positive and creative work environment that offers excellent benefits and flexible schedules.
 
-Please refer to the attached document for the job profiles.",0.0,NO,,2500000 INR  [2500000 - fixed],AE_AG_BT_CH_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer I,Online/Offline test (Max 30 mins),PLACEMENT
+Please refer to the attached document for the job profiles.",0.0,125,NO,,2500000 INR  [2500000 - fixed],AE_AG_BT_CH_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer I,Online/Offline test (Max 30 mins),PLACEMENT
 "As a Software Development Engineer, you will be responsible for the development life cycle of product features. You will work with a team of engineers in the design and development of large-scale, multi-tiered, embedded or distributed software applications, tools, systems, and services. You will contribute to performance improvement, build software components, and triage, debug, and fix bugs in day-to-day operations. 
  
 Role Responsibilities -
- Participate in the full development life cycle, working within broadly defined parameters, including design, development, testing, and maintenance of the existing application with minimal supervision.  Work on performance improvement activities. Instrument and test performance metrics.  Unit testing and deployment.  Working with the product and QA, lias with all stakeholders to ensure smooth delivery.",0.0,NA,,"1800000 INR  [1800000 CTC (7.2 LPA(Basic) + 3.6 LPA(HRA) + 3.4 LPA(Others) + 2 LPA(Joining Bonus) + 21,600 (Provident Fund) + 1,58,400 (Performance Incentive))]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer (SDE I),"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+ Participate in the full development life cycle, working within broadly defined parameters, including design, development, testing, and maintenance of the existing application with minimal supervision.  Work on performance improvement activities. Instrument and test performance metrics.  Unit testing and deployment.  Working with the product and QA, lias with all stakeholders to ensure smooth delivery.",0.0,274,NA,,"1800000 INR  [1800000 CTC (7.2 LPA(Basic) + 3.6 LPA(HRA) + 3.4 LPA(Others) + 2 LPA(Joining Bonus) + 21,600 (Provident Fund) + 1,58,400 (Performance Incentive))]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Software Development Engineer (SDE I),"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "2020 FTE - Software Engineer
 Location: Hyderabad, India
 This is your time to shine and be part of Salesforce, a world leader in enterprise cloud computing. We
@@ -834,7 +834,7 @@ They have the chance to collaborate and connect with the Salesforce interns from
 world. And, like all Salesforce employees, interns also have many possibilities to volunteer,
 making a lasting impact in the community.
 FutureForce offers a collaborative work environment, which fosters innovation, provides
-flexibility and most importantly is fun!",7.0,No,"7 and above CGPA, Shortlisting baaed on 90 mins Technical test","2550000 INR  [ON TARGET EARNINGS
+flexibility and most importantly is fun!",7.0,70,No,"7 and above CGPA, Shortlisting baaed on 90 mins Technical test","2550000 INR  [ON TARGET EARNINGS
 COMPENSATION
 BASE	15L INR
 RSU	$19000 USD
@@ -864,7 +864,7 @@ MEDICAL INSURANCE	7L INR (EMPLOYEE + 5 DEPENDENTS)
 TERM LIFE INSURANCE	3XBASE
 GROUP PERSONAL ACCIDENT COVER	3XBASE
 EDUCATION	~$5000 PA USD
-REFERRAL BONUS	$2000 USD]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Member of Technical Staff,Online/Offline test (Max 30 mins),PLACEMENT
+REFERRAL BONUS	$2000 USD]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Associate Member of Technical Staff,Online/Offline test (Max 30 mins),PLACEMENT
 "IT, Operations, New Capabilities, Analytics roles
 - Understand the business problem and work with Sr. Data Scientist to translate that to a statistical problem; participate in the solutioning process
 - Create appropriate datasets and develop statistical data models
@@ -877,7 +877,7 @@ REFERRAL BONUS	$2000 USD]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA
 - Experience in Pricing / Promotions strongly preferred
 - Experience in CPG company strongly preferred
 - Fluent in communication skills
-- Should be good with IT skills primarily Microsoft Office (mandatory), Statistical languages (R, Python) (mandatory), Advanced Excel, SQL (atleast one database)",0.0,NO,,"16,94,662 INR  [CTC without JB 16,94,662 ( Fixed Pay 14,14,960 | Variable Pay 1,84,560 | Retirals 95,142 | Joining Bonus 2,50,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Principal Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
+- Should be good with IT skills primarily Microsoft Office (mandatory), Statistical languages (R, Python) (mandatory), Advanced Excel, SQL (atleast one database)",0.0,42,NO,,"16,94,662 INR  [CTC without JB 16,94,662 ( Fixed Pay 14,14,960 | Variable Pay 1,84,560 | Retirals 95,142 | Joining Bonus 2,50,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Principal Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "About The Role
 It starts with you. You will work as part of the EGS technology team. You will interact closely with multiple business and technology partners across Wells Fargo locations. We value and promote diversity and inclusion in every aspect of our business and at every level of our organization.
 
@@ -911,7 +911,7 @@ Desired Qualifications
 	Ability to interact with integrity and a high level of professionalism with all levels of team members and management
 	Ability to make timely and independent judgment decisions while working in a fast-paced and results-driven environment
 	Demonstrate a curiosity toward learning and treat negative events as opportunities for learning
-	Working experience in Agile/TDD processes",0.0,NO,,"3000000 INR  [Fixed Pay
+	Working experience in Agile/TDD processes",0.0,68,NO,,"3000000 INR  [Fixed Pay
 
 2,000,000
 
@@ -949,7 +949,7 @@ Total Retention Bonus
 
 Total Quoted offer at Campus
 
-3,000,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+3,000,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "PURPOSE AND OBJECTIVES
 SAP IBSO is a global organization that helps customers seize new market opportunities and dynamically respond to new business challenges by developing unique, individualized, customer-specific solutions on the SAP platform. Whether our customers need to extend and enhance an existing SAP solution or build an entirely new and innovative application, SAP IBSO is able to deliver high-quality custom solutions tailored to our customers business needs.
 SAP thrives towards accelerating our customers digital transformation via our digital innovation platform called SAP Leonardo. SAP Leonardo encompasses all domains of todays data driven technologies in Machine Learning, Big Data, Analytics, Data Intelligence, Blockchain, IoT. While focusing on needs and demands from our customers, we help realize SAPs strategic goal of leading in next-generation technologies by providing intelligent and scalable solutions. Youll be working in a unique position, collaborating closely with both customers and SAP standard teams. In close interaction with customers, youll apply the full range of state-of-the-art tools
@@ -970,7 +970,7 @@ SKILLS AND COMPETENCIES
 	Strong analytical and problem solving skills
 	Excellent verbal, written and presentation communication skills 
 	Experience in C / C++ / Java / Python 
-	Experience on cloud platforms and applications will be an added advantage ",0.0,NO,Minimum of 60% in 10 & 12,"3740800 INR  [B.Tech(Bachelor) - INR 37,40,800 [Compensation Details: Total Target Cash :1,700,000 ; Joining Bonus*:600,000 ; RSUs**: 680,000 ; Total Benefits*** : 760,800; Total Compensation : 37,40,800]
+	Experience on cloud platforms and applications will be an added advantage ",0.0,389,NO,Minimum of 60% in 10 & 12,"3740800 INR  [B.Tech(Bachelor) - INR 37,40,800 [Compensation Details: Total Target Cash :1,700,000 ; Joining Bonus*:600,000 ; RSUs**: 680,000 ; Total Benefits*** : 760,800; Total Compensation : 37,40,800]
 
 M.Tech (Masters/Dual Degree) - INR 33,10,800 [Compensation Details: Total Target Cash :1,500,000 ; Joining Bonus*:600,000 ; RSUs**: 450,000 ; Total Benefits*** : 760,800; Total Compensation : 33,10,800]
 
@@ -978,8 +978,8 @@ M.Tech (Masters/Dual Degree) - INR 33,10,800 [Compensation Details: Total Target
 
 ** the RSUs will vest one-third on each anniversary of the grant date for three years.
 
-***Benefits are subject to company policy  refer below the components of the benefits.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Developer_IBSO,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"Campus joiner would go through a dynamic program offering them variety of projects with exposure to business value chain. This will give them an opportunity to experiment within our 6 career tracks namely AI Engineering, Information Architecture, Data Engineering, Data Sciences, Decision Sciences & Design.Join us if you want to be a future leader and if you want a career & not a job.",6.0,NO,,1800000 INR  [Total 3 years CTC:INR 56LacsYear 1:15 lacs + 3 Lac Joining Bonus (with 2 yearsclawback)Year 2:16.5 Lacs Year 3:18.5 Lacs + 3 Lacs Retention Bonus (with 2 yearsclawback)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+***Benefits are subject to company policy  refer below the components of the benefits.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Associate Developer_IBSO,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"Campus joiner would go through a dynamic program offering them variety of projects with exposure to business value chain. This will give them an opportunity to experiment within our 6 career tracks namely AI Engineering, Information Architecture, Data Engineering, Data Sciences, Decision Sciences & Design.Join us if you want to be a future leader and if you want a career & not a job.",6.0,449,NO,,1800000 INR  [Total 3 years CTC:INR 56LacsYear 1:15 lacs + 3 Lac Joining Bonus (with 2 yearsclawback)Year 2:16.5 Lacs Year 3:18.5 Lacs + 3 Lacs Retention Bonus (with 2 yearsclawback)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Associate Product Managers (APM) at Razorpay are responsible for identifying problems, prioritizing
 problems and solving them through product - right from conceptualization to launch. Come on board
 and shape Indias digital payments future. Build state-of-the-art products to meet customer needs.
@@ -994,15 +994,15 @@ view. Ensures value-based prioritization of product initiatives.
 prioritize and manage the scope of each product launch to deliver key capabilities on time.
 Manages a cross-functional process for prioritizing and building products.
 ● Launch products: Draft and execute a go-to-market plan in conjunction with Product
-Marketing. Be the internal and external authority and advocate for your given area of focus.",0.0,NO,,2600000 INR  [1718406 + 81594 + 800000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Product Manager,"Resume,GD",PLACEMENT
+Marketing. Be the internal and external authority and advocate for your given area of focus.",0.0,224,NO,,2600000 INR  [1718406 + 81594 + 800000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Associate Product Manager,"Resume,GD",PLACEMENT
 "Oracle Server Technologies is the flagship R&D division within Oracle that delivers industry leading software products and platforms like Cloud Infrastructure, Database, Middleware and Enterprise Manager. In India, Server Technologies group engages in development of Cloud Services, Infrastructure products and other Product Life Cycle engineering work in all product areas mentioned above and more. 
-Please see the attached job description for more details.",7.0,No,,"2200000 INR  [	B.TECH - CTC 22 lacs, (14 Lacs Gross + 3 Lacs - Sign-on Bonus paid in first months salary + 5 Lacs each year for 3 years each - Retention bonus payable in the 1st,2nd and 3rd year (15 Lacs in 3 years)
+Please see the attached job description for more details.",7.0,149,No,,"2200000 INR  [	B.TECH - CTC 22 lacs, (14 Lacs Gross + 3 Lacs - Sign-on Bonus paid in first months salary + 5 Lacs each year for 3 years each - Retention bonus payable in the 1st,2nd and 3rd year (15 Lacs in 3 years)
 	Relocation assistance up to INR 184,000 (Exclusive of the CTC; covers air fare and accommodation up to 30 days for employee)
 
 	M.TECH/Dual Degree - CTC 22.5 lacs, (14.5 Lacs Gross + 3 Lacs - Sign-on Bonus paid in first months salary + 5 Lacs each year for 3 years each- Retention bonus payable in the 1st,2nd and 3rd year (15 Lacs in 3 years)
 	Relocation assistance up to INR 184,000 (Exclusive of the CTC; covers air fare and accommodation up to 30 days for employee)
 
-500 RSU paid to top 10% of the performers of the total hiring for the group]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Member Technical Staff  Server Technology,Online/Offline test (Max 30 mins),PLACEMENT
+500 RSU paid to top 10% of the performers of the total hiring for the group]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Member Technical Staff  Server Technology,Online/Offline test (Max 30 mins),PLACEMENT
 "Title Data Engineer, ETL Platform - Data & Services Creative product opportunities, modern business questions, and intricate datasets present uniquely challenging problems for organizations. At Mastercard data and services, we empower those organizations to make multi-million dollar data-driven decisions. Our next generation platform blends industry-leading analytics, advanced software architecture, and the latest web technologies. As a member of our Technology team, you will play a vital role within a rapidly growing firm, working closely with experienced and driven engineers to solve these problems. ETL Platforms is part of MasterCard Data & Services group and one of the most rapidly growing organization in the space. Platform Teams provides cloud-based analytic software tools that enable large, consumer-focused businesses to seize the Big Data analytics opportunity by triangulating between business strategy, algorithmic math, and large databases to improve decisions. 100 of the largest corporations in the world uses these products. Test & Learn for Sites, Test & Learn for Customers, Test & Learn for Ads, and other similar products employ patented algorithms and workflow to design and interpret business experiments that evaluate, target, and refine proposed business programs The ETL Platform team is a core component to consulting services, managing the data acquisition, integration and transformation of client provided data within the Test & Learn platform for global engagements. This position is based out of our office in Pune, India, but will be working closely with our teams across the globe
 Join a fast growing team
 The Data Engineer will participate on data management aspects of client engagements to deliver Test & Learn solutions, as well as contribute to and foster a high performance collaborative workplace. A Data Engineer will:  Independently executes projects through design, implementation, automation, and maintenance of large scale enterprise ETL processes for a global client base  Act as an expert data resource within the team  Deliver on-time, accurate, high-value, robust data solutions across multiple clients, solutions and industry sectors  Build trust-based working relationships with peers and clients across local and global teams  Implement best practices and collaborate in the design of effective streamlined processes for a complex global solutions group
@@ -1015,9 +1015,9 @@ What we're excited about:
  Demonstrate skills through innovative and critical thinking as well as quality control
  Flexible to work with global offices across several time zones
  Knowledge of any scripting language (VB Script, Perl, Python), a plus
- Knowledge of RDBMS technologies, Microsoft SQL Server, the SSIS Stack and .Net, a plus",6.0,NO,"10th and 12th -                  75% and above ; 
+ Knowledge of RDBMS technologies, Microsoft SQL Server, the SSIS Stack and .Net, a plus",6.0,257,NO,"10th and 12th -                  75% and above ; 
 
-Highest Degree                6.0 CGPA and above","1200000 INR  [13,48,400]",AE_AG_AR_BT_CH_CY_CE_GG_HS_IM_ME_MT_MI_NA_PH,"Data Engineer, ETL Platform - Data & Services",Online/Offline test (Max 30 mins),PLACEMENT
+Highest Degree                6.0 CGPA and above","1200000 INR  [13,48,400]",AE_AG_AR_BT_CH_CY_CE_GG_HS_IM_ME_MT_MI_NA_PH,6,"Data Engineer, ETL Platform - Data & Services",Online/Offline test (Max 30 mins),PLACEMENT
 "What would be your responsibilities?
 ● Configure the Sprinklr product for various brands and industries following high standards of delivery and quality
 ● Constant learning and collaborating with the team to develop best practices on product configuration
@@ -1040,21 +1040,21 @@ What are the good - to - have skills?
 ● Adequate awareness/knowledge of MS Excel and similar tools
 ● Proven work experience in the related field would be an added advantage
 What are your career growth prospects?
-● Any self-motivated, skilled professional can scale up the ladder in 2-3 years by showcasing his skills and value towards the organization in a consistent manner, thereby also depending upon the requirement for the specific position",0.0,No,,"1200000 INR  [Fixed: 12LPA
+● Any self-motivated, skilled professional can scale up the ladder in 2-3 years by showcasing his skills and value towards the organization in a consistent manner, thereby also depending upon the requirement for the specific position",0.0,188,No,,"1200000 INR  [Fixed: 12LPA
 Additional Yearly Performance Bonus
 Stock Options
 10L Accidental Insurance Policy
 5L Medical Insurance Policy
 Relocation travel and temp accommodation
-All in house meals]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Product Analyst,Online/Offline test (Max 30 mins),PLACEMENT
-"At Tiger Analytics we are working on some cutting-edge data analytics problems across various domains. We are currently focused on advance analytics in areas such as retail, social media, online advertising, technology, e-commerce, transportation etc. If you like to   Understand business problems of various industries  Design analytical frameworks to address them  Apply leading edge statistical modeling techniques and machine learning techniques  Work with state-of-the-art technologies  Work with complex data / big data  Be part of a growing team that is excited about the work we do  we would love to talk to you. The position offers a unique opportunity to be part of a small, fast-paced, challenging, and entrepreneurial environment, with a high degree of individual responsibility. Significant opportunities for professional development exist, as we continue to grow. Desired Skills and Experience:  Programming experience which should include hands-on programming in Java/C/C++  Knowledge of one of statistical/general-purpose scripting languages software such as R, SAS, Python, SPSS etc is mandatory.  Excellent written and verbal communication skills",0.0,NO,,"1000000 INR  [Joining Bonus-100000, Basic - 327273, Flexi Benefits -110600, HRA- 163636, Special allowance- 177400, Performance Incentive- 81818, Employer PF contribution- 39273]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+All in house meals]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Product Analyst,Online/Offline test (Max 30 mins),PLACEMENT
+"At Tiger Analytics we are working on some cutting-edge data analytics problems across various domains. We are currently focused on advance analytics in areas such as retail, social media, online advertising, technology, e-commerce, transportation etc. If you like to   Understand business problems of various industries  Design analytical frameworks to address them  Apply leading edge statistical modeling techniques and machine learning techniques  Work with state-of-the-art technologies  Work with complex data / big data  Be part of a growing team that is excited about the work we do  we would love to talk to you. The position offers a unique opportunity to be part of a small, fast-paced, challenging, and entrepreneurial environment, with a high degree of individual responsibility. Significant opportunities for professional development exist, as we continue to grow. Desired Skills and Experience:  Programming experience which should include hands-on programming in Java/C/C++  Knowledge of one of statistical/general-purpose scripting languages software such as R, SAS, Python, SPSS etc is mandatory.  Excellent written and verbal communication skills",0.0,214,NO,,"1000000 INR  [Joining Bonus-100000, Basic - 327273, Flexi Benefits -110600, HRA- 163636, Special allowance- 177400, Performance Incentive- 81818, Employer PF contribution- 39273]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "* Develop and apply machine learning techniques to look for patterns in large data sets and construct portfolios.
 
 * Explore a wide range of financial data sets that are used to develop signals for systematic quantitative strategies.
 
-* Investigate and implement recent academic research to develop medium-frequency alphas that predict price dynamics.",0.0,NO,NA,"2300000 INR  [2300000 (Fixed per annum) + 140000 (Relocation Bonus*) + Performance Bonus
-*Relocation Bonus- As per company policy]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Quantitative Researcher,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Sent as an Attachment,0.0,NO,,1800000 INR  [15.5 LPA + INR 2.5 lakh scholarship & Bursary Payment + Discretionary Annual Bonus + Relocation Benefits as per policy],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Graduate Analyst,Online/Offline test (Max 30 mins),PLACEMENT
+* Investigate and implement recent academic research to develop medium-frequency alphas that predict price dynamics.",0.0,239,NO,NA,"2300000 INR  [2300000 (Fixed per annum) + 140000 (Relocation Bonus*) + Performance Bonus
+*Relocation Bonus- As per company policy]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Quantitative Researcher,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Sent as an Attachment,0.0,455,NO,,1800000 INR  [15.5 LPA + INR 2.5 lakh scholarship & Bursary Payment + Discretionary Annual Bonus + Relocation Benefits as per policy],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,1,Graduate Analyst,Online/Offline test (Max 30 mins),PLACEMENT
 "Analyst  Analytics (Interns)
 
 
@@ -1077,11 +1077,11 @@ Requirements:
  Exposure to computer programming in some form.
  Good communication skills 
  Open to extensive travel (upto 2 months at a stretch) 
- Advanced Excel and PowerPoint skills",0.0,No,,"1518500 INR  [Fixed : 11.5L to 12.75L
+ Advanced Excel and PowerPoint skills",0.0,169,No,,"1518500 INR  [Fixed : 11.5L to 12.75L
 Variable Pay - 0 to 19%
 Joining bonus - 1,50,000
 Relocation bonus - 50,000 - if applicable 
-CTC ranges - 15.18L to 16.67L]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst,Resume,PLACEMENT
+CTC ranges - 15.18L to 16.67L]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Analyst,Resume,PLACEMENT
 "The person would be a part of the Analytics group in the field of Data Science, Data Engineering & Business Analytics  placement could be in either retail or in corporate / SME banking analytics areas.
 
 The role will involve  diligent understanding of data, systems, and processes to be able to come up with data based decisioning solutions for these business groups. The incumbent also needs to be able to work across the matrixed organization structure to oversee the recommendations through implementations.
@@ -1089,7 +1089,7 @@ The role will involve  diligent understanding of data, systems, and processes 
 The candidate is required to: 
 	Work closely with the program team to create analytical strategies.
 	Perform exploratory analytics to pin point pockets of opportunities within the assigned LOB.
-	To create insights & drive actionables through statistical tools & techniques",0.0,No,,"13,69,556 INR  [Fixed Cash+Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918 | Performance Bonus 70,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	To create insights & drive actionables through statistical tools & techniques",0.0,180,No,,"13,69,556 INR  [Fixed Cash+Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918 | Performance Bonus 70,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Job Description:
 
 Candidate will be assisted to build various Unsecured / Secured products using technology solutions/Digital platforms to meet the overall business goals. Focus will be to use technology and digital platforms to:
@@ -1113,7 +1113,7 @@ Key Responsibilities:
 - Recommend process/product changes based on solutions that will add better value to business
 - Track projects and ensure timely deliveries
 - Oversee the test planning, test case preparation, testing and ensure UAT completion
-- Oversee resolution of any critical issues and provide support when require to ensure BAU is not impacted",0.0,No,,"1299556 INR  [Fixed Cash + Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Digital Lending: Business Analyst/Solution Analyst,Resume,PLACEMENT
+- Oversee resolution of any critical issues and provide support when require to ensure BAU is not impacted",0.0,180,No,,"1299556 INR  [Fixed Cash + Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Digital Lending: Business Analyst/Solution Analyst,Resume,PLACEMENT
 "Purpose
 	To collect, analyze, and interpret large volumes of data, to improve a company's operations. 
 	To develop statistical models that analyze data and detect patterns, trends, and relationships in data sets. 
@@ -1157,7 +1157,7 @@ Key Interfaces
 	Lead, Service Management
 	Network Management Vendor
 	Technical Architect
-	Vendor & Finance Management",0.0,No,,"1299556 INR  [Fixed Cash+Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Manager- Data Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	Vendor & Finance Management",0.0,180,No,,"1299556 INR  [Fixed Cash+Retiral 10,95,600 | Location Pay 1,15,038 | Benefits 88,918]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Manager- Data Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Services Engineering Specialist - Power Systems
 
 Role Summary:
@@ -1183,7 +1183,7 @@ Leadership:
 Personal  Attributes:
 	Demonstrate the ability to help team members
 	Seeks to understand problems thoroughly before implementing solutions. Asks questions to clarify requirements when ambiguities are present
-	Identifies opportunities for innovation and offers new ideas. Takes the initiative to experiment with new software frameworks",0.0,NO,,"1252528 INR  [Total CTC : 12,52,528
+	Identifies opportunities for innovation and offers new ideas. Takes the initiative to experiment with new software frameworks",0.0,585,NO,,"1252528 INR  [Total CTC : 12,52,528
 
 Break UP : 
 
@@ -1203,7 +1203,7 @@ Graduation/ 1 year GE Anniversary Bonus : 50,000
 Company Accommodation* : Initial 14 days of accommodation will be provided by company. 
 (C) Total One Time Components : 2,70,000
 
-Total Cost to Company (A+B+C):(9,50,000 + 32,528+ 2,70,000) = 12,52,528]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Services Engineering Specialist - Power Systems,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Total Cost to Company (A+B+C):(9,50,000 + 32,528+ 2,70,000) = 12,52,528]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Services Engineering Specialist - Power Systems,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Role Summary/Purpose :
 EEDP is an intensive program for people who have a passion for technology, a drive for technical excellence, and share in GE's core values. The program is designed to accelerate participants' professional development through intense technical training and a variety of business-critical assignments. Edison graduates have the technical and business foundation to proactively and continually make innovative contributions to GE's future.
 
@@ -1216,9 +1216,9 @@ Due to the rotational nature of the Program, the Edison Engineering Development 
 -Collaborate with managers in setting realistic and challenging goals and executing against those goals
 -Propose new analyses, techniques and methodologies with respect to specific area of responsibility where applicable
 -Demonstrate the ability to adapt to changing environments and requirements.
--Demonstrate excellent written and oral communication skills",7.0,No,7 CGPA & above,"1511088 INR  [CTC : Mtech  -  1,635,197 CS & 1,252,528 NON CS - 
-Btech : 1,511,088 CS &  1,149,104 NON CS]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,EEDP,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
-Refer to the PPT,0.0,NO,,1600000 INR  [Refer to attached PPT for CTC Breakup],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Management Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+-Demonstrate excellent written and oral communication skills",7.0,100,No,7 CGPA & above,"1511088 INR  [CTC : Mtech  -  1,635,197 CS & 1,252,528 NON CS - 
+Btech : 1,511,088 CS &  1,149,104 NON CS]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,EEDP,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Refer to the PPT,0.0,465,NO,,1600000 INR  [Refer to attached PPT for CTC Breakup],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,1,Management Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Morgan Stanley Technology Analyst Job Description
 About Morgan Stanley
 Morgan Stanley is one of worlds leading investment banks, with presence in over 40 countries. The backbone of our financial services is our strong technology division, which oversees the development and delivery of multiple quantitative trading systems, modeling and simulation software, analytics and security systems.
@@ -1231,7 +1231,7 @@ Analysts spend the last 4 weeks of training on live projects, sponsored by busin
 What we look for
  You have an interest and aptitude for technology coupled with excellent problem-solving skills
  You have experience in at least one of the programming languages among Java / C++ / C# / C, are strong at algorithms and data structures and preferably have knowledge of OOPS and Unix.
- You have an outstanding academic record along with success in summer jobs, internships, and extracurricular activities, along with strong communication skills and the ability to work and interact with others.",0.0,NO,,"2533000 INR  [Compensation Components              Bachelors   Masters
+ You have an outstanding academic record along with success in summer jobs, internships, and extracurricular activities, along with strong communication skills and the ability to work and interact with others.",0.0,167,NO,,"2533000 INR  [Compensation Components              Bachelors   Masters
 Fixed (Basic + Allowances)               13,00,000   13,50,000
 Discretionary Year End (projected)   1,30,000    1,35,000
 Relocation Allowance                        1,25,000    1,25,000
@@ -1240,7 +1240,7 @@ Retention Award                                2,00,000    2,00,000
 Total Compensation Year 1:              18,33,000   18,91,000
 Retention (Y2 - 1Lac, 
 Y3 - 3 Lacs, Y4 - 3 Lacs):                   7,00,000    7,00,000
-Total Compensation:                          25,33,000   25, 91,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Technology Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Total Compensation:                          25,33,000   25, 91,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Technology Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Ola Electric Mobility - Operations 
 
 Engineering Development Program [EDP]
@@ -1278,7 +1278,7 @@ Additional Skills/Experience:
 
 Comfortable with ambiguity in a dynamic environment 
 Strong interpersonal skills & ability to lead through influence 
-Bias for action, in a very fast-paced result-oriented work culture",0.0,NA,NA,1000000 INR  [Fixed 9 L + 1 L Joining Bonus = 10 L Total CTC],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,EDP - Operations Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Bias for action, in a very fast-paced result-oriented work culture",0.0,274,NA,NA,1000000 INR  [Fixed 9 L + 1 L Joining Bonus = 10 L Total CTC],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,5,EDP - Operations Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Business Analyst (BA)
 
 Engineering Development Program [EDP]
@@ -1315,10 +1315,10 @@ Additional Skills/Experience:
 ● compellingly verbally and in written form.
 ● Comfortable with ambiguity in a dynamic environment
 ● Strong interpersonal skills & ability to lead through influence
-● Bias for action, in a very fast-paced result-oriented work culture",0.0,NA,NA,"1300000 INR  [Basic	500000
+● Bias for action, in a very fast-paced result-oriented work culture",0.0,274,NA,NA,"1300000 INR  [Basic	500000
 HRA	250000
 PF contribution	21600
-Special Allowance	228400]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,EDP - Business Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Special Allowance	228400]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,6,EDP - Business Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Ola Electric Mobility - Operations 
 
 Engineering Development Program [EDP]
@@ -1356,17 +1356,17 @@ Additional Skills/Experience:
 
 Comfortable with ambiguity in a dynamic environment 
 Strong interpersonal skills & ability to lead through influence 
-Bias for action, in a very fast-paced result-oriented work culture",0.0,NA,NA,1000000 INR  [Fixed 9 L + 1 L Joining Bonus = 10 L Total CTC],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,EDP - Operations Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Software programming and development,0.0,NO,,"3021000 INR  [B.Tech	30.21 Lakhs[Fixed-19.93 Lakhs]
+Bias for action, in a very fast-paced result-oriented work culture",0.0,274,NA,NA,1000000 INR  [Fixed 9 L + 1 L Joining Bonus = 10 L Total CTC],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,5,EDP - Operations Manager,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Software programming and development,0.0,102,NO,,"3021000 INR  [B.Tech	30.21 Lakhs[Fixed-19.93 Lakhs]
 Dual Degree	31.41 Lakhs	[Fixed- 21.13 Lakhs]
-Masters	31.41 Lakhs	[Fixed- 21.13 Lakhs] (5 Lakh (medical in-patient insurance) + 1 Lakh (medical out-patient insurance) + 2.5 lakhs (company owned laptop + accessories) + 8K (Annual club membership on reimbursement basis) + 1.7 Lakhs (3 months exclusive onboarding training program for freshers) + Online technical training platforms)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Masters	31.41 Lakhs	[Fixed- 21.13 Lakhs] (5 Lakh (medical in-patient insurance) + 1 Lakh (medical out-patient insurance) + 2.5 lakhs (company owned laptop + accessories) + 8K (Annual club membership on reimbursement basis) + 1.7 Lakhs (3 months exclusive onboarding training program for freshers) + Online technical training platforms)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Conduct research to identify market gaps and customer needs
 Research and analyse competition
 Come up with product enhancements to improve customer experience
 Help define and monitor the quality control criteria for products
 Work with engineering teams to ensure timely and flawless product releases
 Define success criteria for products
-Monitor and analyse product success metrics using online tools",0.0,NO,"Relocation allowance post applicable taxes, will be remitted along with 1st month salary payout. If employee quits the organization within a year , complete remitted amount will be recovered.",1350000 INR  [1770000 (Fixed- 1350000 + Variable- 270000 + Relocation Allowance (one time) 150000)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Product Manager,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Monitor and analyse product success metrics using online tools",0.0,703,NO,"Relocation allowance post applicable taxes, will be remitted along with 1st month salary payout. If employee quits the organization within a year , complete remitted amount will be recovered.",1350000 INR  [1770000 (Fixed- 1350000 + Variable- 270000 + Relocation Allowance (one time) 150000)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Associate Product Manager,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Role: Associate Consultant
 
 ►	Responsible for executing client related engagements under the supervision of seniors.
@@ -1409,7 +1409,7 @@ Skills:
 ►	Excellent interpersonal skills to develop relationships with clients and team
 
 Additional Details : 
-►	Candidates should be willing to travel extensively",0.0,NO,,800000 INR  [941020],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Associate Consultant,"Resume,GD",PLACEMENT
+►	Candidates should be willing to travel extensively",0.0,414,NO,,800000 INR  [941020],AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,1,Associate Consultant,"Resume,GD",PLACEMENT
 "Honeywell Connected Enterprise 
 
 Honeywell is charging into the Industrial IoT revolution with the establishment of Honeywell Connected Enterprise (HCE), building on our heritage of invention and deep, on-the-ground industry expertise. HCE is the leading industrial disruptor, building and connecting software solutions to streamline and centralize the assets, people and processes that help our customers make smarter, more accurate business decisions. Moving at the speed of software, we are creating, innovating and delivering solutions fast, challenging the way things have always been done, piloting new ways for all of us to work, and expecting our successes to set new standards for our customers and for Honeywell. 
@@ -1452,7 +1452,7 @@ o	Antenna and Communication Protocols
 o	Design and integration in search engines 
 o	Knowledge of Digital Circuits 
 o	Operating systems Fundamentals
-Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, religion, or veteran status.",0.0,No,2 lac will be given as Joining Bonus,"1600000 INR  [Description
+Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, religion, or veteran status.",0.0,111,No,2 lac will be given as Joining Bonus,"1600000 INR  [Description
 
 Salary Structure
 
@@ -1471,7 +1471,7 @@ Employer's Contribution to Provident Fund: 6,400/76,800
 
 Gratuity: 2,565/30,784
 
-Total Fixed Cash  (TFC): 133,333/ 1,600,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+Total Fixed Cash  (TFC): 133,333/ 1,600,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "Associate Software Development Engineer II (ASDEII) are the bright talented and motivated young minds with strong technical skills, developing software applications and services that make life easier for customers. 
 
 The ASDEII is expected to work with an agile team to develop, test, and maintain digital business applications. 
@@ -1492,10 +1492,10 @@ As an ASDEII you will get an opportunity to work with industry leading clients a
      Deliver, Deploy & Support the implementation from Dev., QA environments all the way to Production
      Document Code, Functional Features, User Manuals to help in the support & training
      You will work in the spirit of agile - delivering the sprint outcomes, iteratively & incrementally, following the agile ceremonies, donning the product engineering mindset
-     You will interact with peers locally & in client org. to seek clarifications & articulating the technical solutions",0.0,NO,"6 CGPA & Above & No Active Backlog
+     You will interact with peers locally & in client org. to seek clarifications & articulating the technical solutions",0.0,127,NO,"6 CGPA & Above & No Active Backlog
 Branches required
 ""BTech/BTech-MTech Dual Degree (All Streams); 
-Btech/MSc Dual Degree(Mathematics & Computing, Applied Mathematics)"" - JEE Applicant only","1680000 INR  [Fixed-1480000; 200000 of Joining bonus (The pay out for Joining bonus will happen in the 2nd month of your salary, the lock in period for the same is 18 months)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Software Development Engineer II - For Product Engineering Domain,Online/Offline test (Max 30 mins),PLACEMENT
+Btech/MSc Dual Degree(Mathematics & Computing, Applied Mathematics)"" - JEE Applicant only","1680000 INR  [Fixed-1480000; 200000 of Joining bonus (The pay out for Joining bonus will happen in the 2nd month of your salary, the lock in period for the same is 18 months)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Associate Software Development Engineer II - For Product Engineering Domain,Online/Offline test (Max 30 mins),PLACEMENT
 "- Intermediate knowledge of Design Patterns
 -  Expert level knowledge of Programming
 - Intermediate knowledge of Review
@@ -1527,7 +1527,7 @@ deliver the tasks assigned within the prescribed quality. Domain Should have
 awareness of domain in relation to the project. Efficiency Contribute towards
 overall efficiency goal of the team. That includes optimization cost and time
 towards development and quality. Innovation Contribute towards innovating
-and participating in various activities leading to transformation of the business.",0.0,-,Aggregate should be 6 CGPA in degree with no backlogs,"1867813 INR  [Basic- 8,00,000
+and participating in various activities leading to transformation of the business.",0.0,124,-,Aggregate should be 6 CGPA in degree with no backlogs,"1867813 INR  [Basic- 8,00,000
 Cash Allowances- 8,00,000
 House Rent Allowance   (max 40% of Basic Salary for Non Metro & max 50% of Basic Salary for Metro)	
 Leave Travel Assistance   (max 30000/- per annum)	
@@ -1536,7 +1536,7 @@ Conveyance Allowance (max 19200/- per annum)
 Children Education Allowances (max 2400/- per annum)	
 Balance of allowances will be paid as Taxable Allowances;Provident Fund	96,000
 Gratuity	38,480
-Variable Pay *	1,33,333]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Variable Pay *	1,33,333]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "What you need to have
 Bachelor's degree in Business Administration, Engineering, Economics, Finance, Mathematics, Statistics, or a related quantitative field
 1-3 years of experience in analytics/data science or related field
@@ -1561,16 +1561,16 @@ Conduct regular planning and reviews key performance metrics and aid in benefitt
 Identify the right metrics to track progress against a given business goal
 Design, run and measure experiments to test business hypotheses Expedite root cause analyses/insight generation against a given recurring use case through automation/self-serve platforms
 Develop compelling stories with business insights, focusing on strategic goals of the organisation
-Work with Business, Product and Data engineering teams for continuous improvement of data accuracy through feedback and scoping on instrumentation quality and completeness",0.0,NO,,1100000 INR  [11 LPA (1000000 fixed + 1 LPA Joining Bonus)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Business Analayst,Online/Offline test (Max 30 mins),PLACEMENT
-Risk & Modelling Specialist,0.0,NA,,"1500000 INR  [Fixed pay 1500000 LPA = Basic : 750000, PF: 90000, Flexible Basket Allowance: 660000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Authorised Officer,Online/Offline test (Max 30 mins),PLACEMENT
-"Roles and Responsibilities: ● Own development, design, scaling and maintenance of application and messaging engines that power the central platform of Capillary's Cloud CRM product. ● Contribute to overall design and roadmap. Required Skills: ● Innovative and self-motivated with passion to develop complex and scalable applications. ● Strong focus on algorithms and data structures. ● Strong coding and design skills with prior experience in developing scalable & high availability applications using Core Java/J2EE, Spring, Hibernate. ● Work experience with Relational databases is required (Primarily MySQL) ● Prior work experience with Non-Relational databases (primarily Redis, MongoDb) is an added plus. ● Strong Analytical and Problem Solving Skills.",0.0,NO,,"1612782 INR  [Btech: 16,12,782 [1225829 (Fixed) + +86,953 (Benefits and others) + 100000
+Work with Business, Product and Data engineering teams for continuous improvement of data accuracy through feedback and scoping on instrumentation quality and completeness",0.0,24,NO,,1100000 INR  [11 LPA (1000000 fixed + 1 LPA Joining Bonus)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Business Analayst,Online/Offline test (Max 30 mins),PLACEMENT
+Risk & Modelling Specialist,0.0,53,NA,,"1500000 INR  [Fixed pay 1500000 LPA = Basic : 750000, PF: 90000, Flexible Basket Allowance: 660000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Authorised Officer,Online/Offline test (Max 30 mins),PLACEMENT
+"Roles and Responsibilities: ● Own development, design, scaling and maintenance of application and messaging engines that power the central platform of Capillary's Cloud CRM product. ● Contribute to overall design and roadmap. Required Skills: ● Innovative and self-motivated with passion to develop complex and scalable applications. ● Strong focus on algorithms and data structures. ● Strong coding and design skills with prior experience in developing scalable & high availability applications using Core Java/J2EE, Spring, Hibernate. ● Work experience with Relational databases is required (Primarily MySQL) ● Prior work experience with Non-Relational databases (primarily Redis, MongoDb) is an added plus. ● Strong Analytical and Problem Solving Skills.",0.0,271,NO,,"1612782 INR  [Btech: 16,12,782 [1225829 (Fixed) + +86,953 (Benefits and others) + 100000
 (Joining Bonus) + 20000 (Relocation Bonus) +
 150000(Retention Bonus) + 1 Week Accommodation ]
 MTech(Dual): 18,79,719
 [13,42,469 (Fixed) +
 87250 (Benefits and others) + 100000 (Joining Bonus) +
 20000 (Relocation Bonus) + 150000(Retention Bonus) + 1
-Week Accommodation]]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Week Accommodation]]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Development Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "1. Participate in Software Product Design process with Designers and Product Managers
 2. Participate in High Level Technical Architecture Design (HLD) and Low-Level
 Component Design (LLD)
@@ -1578,7 +1578,7 @@ Component Design (LLD)
 4. Research and evaluate technologies and best practices required for System or
 Application development
 5. Develop, test, deploy and improve the software
-6. Review the code of other Software Engineers",0.0,No,"Relocation allowance post applicable taxes, will be remitted along with 1st month salary payout. If employee quits the organization within a year , complete remitted amount will be recovered.","1350000 INR  [17,70,000/- (Fixed- 1,350,000 + Variable- 270,000 + Relocation Allowance (one time only)- 1,50,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+6. Review the code of other Software Engineers",0.0,703,No,"Relocation allowance post applicable taxes, will be remitted along with 1st month salary payout. If employee quits the organization within a year , complete remitted amount will be recovered.","1350000 INR  [17,70,000/- (Fixed- 1,350,000 + Variable- 270,000 + Relocation Allowance (one time only)- 1,50,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "Automate the given test cases for various products on the web and mobile app
 ● Work with engineers to troubleshoot and remediate automation issues in testing and
 deploying environments
@@ -1589,8 +1589,8 @@ deliverables
 production environments.
 ● Develop testing strategies and implementing the testing process within Agile Scrum SDLC.
 ● Utilize Jira for entering and tracking defects, stories, and Epics while providing reports on
-defect tracking and escalating technical issues as needed.",0.0,NO,"Relocation clause: Should you decide to voluntarily terminate the employment within first
- 12 months of employment with Embibe, you will be required to repay the entire amount to the company.","1000000 INR  [1350000- (Fixed- 1000000 , Variable- 200000 , Relocation Allowance(one time)- 150000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer- Test (SDET),"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+defect tracking and escalating technical issues as needed.",0.0,703,NO,"Relocation clause: Should you decide to voluntarily terminate the employment within first
+ 12 months of employment with Embibe, you will be required to repay the entire amount to the company.","1000000 INR  [1350000- (Fixed- 1000000 , Variable- 200000 , Relocation Allowance(one time)- 150000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Software Development Engineer- Test (SDET),"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "The role sits within our Decision Analytics business, one of our four Global Business Lines. 
 
 Experian Decision Analytics helps client achieve and sustain significant growth. We do this by enabling clients to make analytics-based customer decisions that support their strategic goals. As experts in uniting business understanding with consumer and business information, analytics and strategy execution, we empower clients to optimise customer value and actively manage it over time. This role therefore has clear accountability for creating measurable value within our client organisations.
@@ -1638,7 +1638,7 @@ Experience
 
 Qualifications 
 
-	Masters degree in Statistics, Mathematics, Economics, Business Management or Engineering from a reputed college",0.0,No,No,1350000 INR  [1350000 (fixed) + Performance pay],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Decision Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	Masters degree in Statistics, Mathematics, Economics, Business Management or Engineering from a reputed college",0.0,336,No,No,1350000 INR  [1350000 (fixed) + Performance pay],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Decision Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Credit Risk:
 
 	Demonstrate strong knowledge and implementation capabilities on Statistics and Econometrics
@@ -1674,7 +1674,7 @@ Actuarial Science:
 	Maintain strong focus in finishing Actuarial exams along with developing a strong subject matter experience
 	Learn/apply data processes, test controls, and perform substantive procedures. Create work products that document engagement procedures. 
 	Establish/manage priorities, create/manage work plans, communicate the status of activities, and accumulate/report all chargeable hours. 
-	Maintain a strong client focus and maintain/develop productive working relationships with clients and other team members. Stay informed of current business/economic developments relevant to the client.",0.0,No,,1365000 INR  [Fixed: 1300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Advanced Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	Maintain a strong client focus and maintain/develop productive working relationships with clients and other team members. Stay informed of current business/economic developments relevant to the client.",0.0,620,No,,1365000 INR  [Fixed: 1300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Advanced Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Collection  Analytics
 Job Title	: Asst. Manager   Collection  Analytics
 Grade		: MT /  AM
@@ -1694,7 +1694,7 @@ Skills:
 	Good Communication, interpersonal & team skills
 	Proactive attitude, eagerness to learn and apply skills to work
 	Strong service orientation
-	Good data analytics skills (Expertise in Excel & PowerPoint)",0.0,"If the candidate resigns before completion of 1 year at IDFC FIRST Bank, the candidate needs to pay back a portion of the cost invested in training the candidate. This amount that needs to be paid is INR 1,00,000.",For this role we are looking for only M.tech students,1920000 INR  [Fixed: 1600000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Asst. Manager   Collection  Analytics,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+	Good data analytics skills (Expertise in Excel & PowerPoint)",0.0,723,"If the candidate resigns before completion of 1 year at IDFC FIRST Bank, the candidate needs to pay back a portion of the cost invested in training the candidate. This amount that needs to be paid is INR 1,00,000.",For this role we are looking for only M.tech students,1920000 INR  [Fixed: 1600000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Asst. Manager   Collection  Analytics,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "'1.
 '- Application software development for the MFPs for the offices and the printers for  commercial prints, Cloud/Mobile applications development, Solutions development, Embedded software's development, Image processing algorithm development, Electric hardware development,  ASIC development, Energy saving technologies development, Eco technologies development, Technologies development of countermeasures against  radio waves/noises
 
@@ -1705,7 +1705,7 @@ Skills:
 - WEB systems development 
 - Back-end-system design for cloud services  
 - Whole company promotion activities of an agile type development process.  
-- Image-recognition algorithm development which utilized data analysis technology (deep learning, machine learning)",0.0,NO,"Work Location: Japan(such as in Tokyo, Aichi, Osaka,Hyogo) or overseas
+- Image-recognition algorithm development which utilized data analysis technology (deep learning, machine learning)",0.0,513,NO,"Work Location: Japan(such as in Tokyo, Aichi, Osaka,Hyogo) or overseas
 Other Benefits: 
 Childcare allowance, 
 Cafeteria plan (open selection of benefits: reimbursement for participating seminars, classes, health related activity etc.),
@@ -1729,7 +1729,7 @@ Fixed Bonus: 450,150JPY/ Year, paid bi annually
 Housing Dormitory Support: 25000JPY/Month (300000JPY/year)
 Commutation :　32200JPY/month ( 386400JPY/Year)
 Moving Expense: 63000JPY ( one time )
-Personal transfer allowance:  90000JPY ( one time )]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Research & Development Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Personal transfer allowance:  90000JPY ( one time )]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Research & Development Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "The Software Development Engineer role will give you the opportunity to work across a wide variety of technology domains such as SQL/NoSQL Databases, Distributed Systems, Cloud Native Microservice Architectures, Big Data Technologies, IoT, Mobile Technologies, Streaming & Batch Analytics Platforms, Modern Infrastructure Engineering (Infra as Code), Operational Intelligence Systems for Microservices such as Service Mesh, Data Science and Data Engineering. 
 
 Our SDEs are solving challenges impacting Millions of users  so we are looking for folks who are passionate learners, problem solvers, innovators and natural collaborators. 
@@ -1746,10 +1746,10 @@ An indicative list of some of interesting challenges were up to now:
 	Opportunity to build Indias largest Big Data Lake using cutting edge open source technologies, capable to derive intelligent insights  at petabyte scale   
 	Enterprise ready Private IaaS cloud platform with opportunity build a highly reliable PaaS platform with availability running into at least three 9s (99.9%)  supporting real-time, multi-cloud, distributed applications that auto-scale, auto-heal and get deployed through automated CI/CD pipelines. Btw, we run one of the largest Open Stack based Private Cloud clusters in Asia
 	Build a Real-time & Highly Targeted ADTECH Platform incorporating the latest ML, big data & NLU/speech technologies and enable the best possible consumer engagement in all key Indian languages 
-	To build the largest supply chain platform in India to scale and ensure the inventory, price, time and effort to the promise made to a customer is met, using open source technologies, automation like BOTs to fulfil orders, and injecting optimization algorithms using data models and machine learning techniques. The goal is to seamlessly enable Grocery, fashion, apparel and electronics merchandise orders across length & breadth of India with quality and punctuality",0.0,No,"CS and ECE  17 L (CTC - 15 L and JB* - 2 L)
+	To build the largest supply chain platform in India to scale and ensure the inventory, price, time and effort to the promise made to a customer is met, using open source technologies, automation like BOTs to fulfil orders, and injecting optimization algorithms using data models and machine learning techniques. The goal is to seamlessly enable Grocery, fashion, apparel and electronics merchandise orders across length & breadth of India with quality and punctuality",0.0,461,No,"CS and ECE  17 L (CTC - 15 L and JB* - 2 L)
 RB*: 1.5 L each after completion of 12,18,24 and 30 months respectively
 JB* and RB* will have a lock-in of 1 year from the date of disbursement
-CGPA>6.5",1100000 INR  [Fixed- 8.5l+Var -1l+ JB -1.5L],AE_AG_BT_CH_CY_CE_EE_GG_IM_ME_MT_MI_NA_PH,SDE-2,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+CGPA>6.5",1100000 INR  [Fixed- 8.5l+Var -1l+ JB -1.5L],AE_AG_BT_CH_CY_CE_EE_GG_IM_ME_MT_MI_NA_PH,2,SDE-2,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "[Job Description]
 Development and operation of image recognition processing, recommendation engine, chatbot etc with machine learning technology
 
@@ -1763,7 +1763,7 @@ We will offer several career path such as remote work in India or supporting sta
 ・ Team development experience using Git / GitHub or similar version control system
 ・ Patent application experience
 ・ Winning experience in competitions such as Kaggle
-・ Experience in data analysis using cloud (AWS, Google Cloud Platform)",0.0,No,,"5100000 JPY  [[Total amount of CTC]
+・ Experience in data analysis using cloud (AWS, Google Cloud Platform)",0.0,583,No,,"5100000 JPY  [[Total amount of CTC]
 JPY 5,100,000
 
  [Breakdown of CTC]
@@ -1778,7 +1778,7 @@ Actual amount of the commuting expense from your home to the office will be prov
 (Maximum JPY 50,000/month)
 (2) Overtime payment
 Overtime fees will be paid.
-*This may vary depending on your actual overtime hours.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,"Software Engineer, Machine Learning","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+*This may vary depending on your actual overtime hours.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,"Software Engineer, Machine Learning","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "About Standard Chartered Technology & Our Value Proposition 
 Standard Chartered Technology services Corporate, Institutional, Commercial, Financial Institution and Retail clients with technology solutions catered to teams of relationship managers and product specialists.  We are a team of talented, diverse technologists who champion change, excellence and stewardship.
 With our platform estate that includes mobile solutions on a varied tech stack, Standard Charteered offers the best learning opportunities for any dynamic self-starter. We follow agile methodology and you will actively participate in all aspects of solution engineering & engage with business stakeholders as applicable. Together with a group of highly driven technologists, you will get to collaborate and work on solutions that provide the best digital experiences and continually enhance existing offerings. Innovation is a big part of our execution agenda as we strive for excellence. If you are a curious technologist and tackling challenges excites you, then a role in Standard Chartered Technology is the right fit for you. 
@@ -1843,9 +1843,9 @@ o	AI/NLP/Machine Learning algorithms
 	Participated in Hackathons.
 	Contribution to open source communities.
 	Innovative projects developed and showcased.
-	Awareness and working knowledge of wider technology landscape like IoT, Deep learning, Block chain.",0.0,No,,"1722600 INR  [Fixed CTC per annum : INR 15,66,000
+	Awareness and working knowledge of wider technology landscape like IoT, Deep learning, Block chain.",0.0,123,No,,"1722600 INR  [Fixed CTC per annum : INR 15,66,000
 
-Variable per annum : INR 1,56,600]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Development Engineer,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Variable per annum : INR 1,56,600]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Development Engineer,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "As a part of the analytics practice at TCG Digital, you will work on solving complex business problems for our customers, spanning multiple domains, in a fast-paced work environment and a high performance team culture. 
 
 Your work will involve interacting with clients, understanding and analyzing their business requirements, conceptualizing and proposing creative solutions based on business domain insights, while making innovative and best use of technology.  
@@ -1863,19 +1863,19 @@ Additional Qualifications
 	Flexible, adaptable and an eager self-starter 
 	Excellent stakeholder management  and interpersonal skills
 	Strong communication skills 
-	Competent at analyzing both qualitative and quantitative data",0.0,NO,,"1200000 INR  [Includes Base Salary,APLI,Lunch Allowance; Variable- 15% of total CTC]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Consultant,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
-See attached JD,0.0,NO,CGPA @ 7. Post CV selection will conduct technical test. students clear the test will be eligible for personal interview.,"1500000 INR  [Basic salary :-
+	Competent at analyzing both qualitative and quantitative data",0.0,212,NO,,"1200000 INR  [Includes Base Salary,APLI,Lunch Allowance; Variable- 15% of total CTC]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Consultant,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+See attached JD,0.0,568,NO,CGPA @ 7. Post CV selection will conduct technical test. students clear the test will be eligible for personal interview.,"1500000 INR  [Basic salary :-
 
 Other components as follows :-
 
 (LTA, HRA, Medical, Car & petrol allowance, Driver allowances, CCA, Food Coupon)
 
-Details structure will share with offer letter]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,Backend Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Details structure will share with offer letter]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,Backend Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Supply Chain is the backbone of commerce happening on Udaan. This is the team that creates the logistics capability for sellers and buyers to conduct cross-country trade. The single objective of supply chain in Udaan is to provide consistent, cost effective and transparent logistics solution to users. As a part of the Operations & Supply chain team you could be working in roles similar but not restricted to:  
 	Increase seller processing capacity, 
 	Design the transport network to connect First Mile & Last Mile locations.
 	Reduce Returns
-	Develop and optimize processes, working closely with business development and other cross functional teams",0.0,No,,"1900000 INR  [1900000 (Fixed: 1200000, ESOPs- 700000)]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Graduate Trainee- Operations & Supply Chain,Resume,PLACEMENT
+	Develop and optimize processes, working closely with business development and other cross functional teams",0.0,158,No,,"1900000 INR  [1900000 (Fixed: 1200000, ESOPs- 700000)]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,5,Graduate Trainee- Operations & Supply Chain,Resume,PLACEMENT
 "You will be a part of the technology team at Udaan, which essentially deals with the e-commerce platform and the tech stack of the organization. Tech Stack at Udaan: 
 o	Kotlin/Java for backend
 o	Javascript for the frontend
@@ -1887,7 +1887,7 @@ o	Azure cloud services
 	Key Requirements:
 o	Good Software engineering skills: It could be in any language or technologies of your choice, but you are expected you to know them deeply. In addition, you are to be a quick learner in any new technology that you get exposed to.
 o	Product Thinking & Problem Solving: We need our engineers to deeply understand customer needs, business use-cases, and connect that back to the products we are working.
-o	Ownership: we believe in end-to-end product ownership. You will be responsible for all aspects of your product from figuring out to what features to build to ensuring uptime and a smooth customer experience.",0.0,No,Applicants must have strong knowledge of coding/programming skills. this needs to be more than basic awareness.,"3000000 INR  [3000000 (Fixed: 2000000, ESOPs- 1000000)]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+o	Ownership: we believe in end-to-end product ownership. You will be responsible for all aspects of your product from figuring out to what features to build to ensuring uptime and a smooth customer experience.",0.0,158,No,Applicants must have strong knowledge of coding/programming skills. this needs to be more than basic awareness.,"3000000 INR  [3000000 (Fixed: 2000000, ESOPs- 1000000)]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "As a Software Developer at Zilingo, you'll be part of Zilingo's highly tech-driven culture of innovation, in a team of smart, passionate developers and technologists. You will be building highly scalable, complex, distributed systems and delightful customer experiences that reach millions of consumers on Zilingo's fashion and lifestyle marketplace, and tens of thousands of brands on Zilingo's seller platform.
  
 Here at Zilingo, you'll get to work on and learn about a whole range of technologies and frameworks, including:
@@ -1908,7 +1908,7 @@ Love technology and writing code that impacts millions of users
 Are curious about design patterns, scalability, and building technology well
 Have a passion to keep learning
 Want to work in an innovative, fun startup culture with no bureaucracy
-Crave ownership and the ability to take risks and think out of the box",0.0,No,NA,"3500000 INR  [ Fixed: 18.5 LPA 
+Crave ownership and the ability to take risks and think out of the box",0.0,529,No,NA,"3500000 INR  [ Fixed: 18.5 LPA 
  Joining bonus: 2 Lakhs
  Retention bonus: 3 Lakhs (Paid in two annual installments of 1 Lakh and 2 Lakhs at the end of every year of the first 2 years of continuous employment ). 
  Equity Refresh - Worth 11 Lakhs
@@ -1917,8 +1917,8 @@ Crave ownership and the ability to take risks and think out of the box",0.0,No,N
 1. Medical insurance coverage worth 5 Lakhs per annum for employee & up to 5 dependents (2 parents + spouse + first 2 children) - monthly premium paid by the company over and above the mentioned CTC.
 2. Personal accident insurance coverage worth 10 Lakhs for the employee 24/7 around the world.
 3. Overseas Travel & Accommodation for all work trips with daily allowance of 50-60 USD per day based on the location over and above the mentioned CTC.
-3. Travel, airport transit and accommodation for the first 2-3 weeks covered by Zilingo at the time of relocation and joining over and above the mentioned CTC.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Online/Offline test (Max 30 mins),Please refer to the attachment,0.0,Job Description,,EE_EC_IM_MA,45000 INR  [Meals (2000) and Transport (10000) per month allowance additional],"COMPUTER SCIENCE AND ENGINEERING
+3. Travel, airport transit and accommodation for the first 2-3 weeks covered by Zilingo at the time of relocation and joining over and above the mentioned CTC.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Online/Offline test (Max 30 mins),Please refer to the attachment,306,0.0,Job Description,,EE_EC_IM_MA,1,45000 INR  [Meals (2000) and Transport (10000) per month allowance additional],"COMPUTER SCIENCE AND ENGINEERING
 ",INTERNSHIP
 "About the Role
 Operations Manager
@@ -1958,14 +1958,14 @@ Basic Qualifications
 · Be a self-starter
 · Attention to detail and proven ability to manage multiple, competing priorities simultaneously
 Preferred Qualifications
-Experience in business process improvement, Lean/Six Sigma a strong plus.",0.0,No,"This is operations role, looking for students interested in ops roles","1750000 INR  [Base Pay+	Signing Bonus1+	SB2	+RSU
-9,00,000	+2,00,000+1,50,000+5,00,000]",AE_AG_AR_BT_CH_CY_CE_GG_HS_IM_ME_MT_MI_NA_PH,Operations Manager/ Area Manager,Online/Offline test (Max 30 mins),PLACEMENT
+Experience in business process improvement, Lean/Six Sigma a strong plus.",0.0,18,No,"This is operations role, looking for students interested in ops roles","1750000 INR  [Base Pay+	Signing Bonus1+	SB2	+RSU
+9,00,000	+2,00,000+1,50,000+5,00,000]",AE_AG_AR_BT_CH_CY_CE_GG_HS_IM_ME_MT_MI_NA_PH,5,Operations Manager/ Area Manager,Online/Offline test (Max 30 mins),PLACEMENT
 "No of Positions:2
 Qualification: Any Graduation/Any Post Graduation 
 Technical Skills and Specifications:
  Proposal creation and presentation  Knowledge in opportunity qualification, pre-call planning, call control, account development, and time management.   Good inter-personal skills, must be a team player  Excellent verbal & presentation skills  Strong written communication skills.   Ability to understand full product offering and connect the right product to the right customer  Domain knowledge in Construction industry  
 Job Brief: Preparation of client presentations, Client engagement, Inter-team coordination 
- Preparation of client presentations, Client engagement, Inter-team coordination",0.0,NO,,"800000 INR  [7,50,000 +50,000 Joining Bonus + Insurence with the sum of 3,00,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Business Development (Architecture),"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+ Preparation of client presentations, Client engagement, Inter-team coordination",0.0,246,NO,,"800000 INR  [7,50,000 +50,000 Joining Bonus + Insurence with the sum of 3,00,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,3,Business Development (Architecture),"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "DATA PROCESSING & ANALYSIS: to
 retrieve, transform, classify or
 manipulate data information.
@@ -1979,7 +1979,7 @@ customize Business applications on
 multiple platforms
 DATA MANAGEMENT: Development
 and execution of architectures,
-policies, practices and procedures",0.0,NO,"10th 80% , 12th 70%, Grad 60% and PG 6 CGPA & above with no backlog","1000000 INR  [10 Lakh fixed cash + benefits (1500 per month transport allowance, Meal Subsidy, CEP (continuous education program), etc.)  + 2 Lakh medical insurance for self and parents.]",AE_AG_BT_CH_CE_CS_EE_EC_IM_MA_ME_MT_MI_NA,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+policies, practices and procedures",0.0,71,NO,"10th 80% , 12th 70%, Grad 60% and PG 6 CGPA & above with no backlog","1000000 INR  [10 Lakh fixed cash + benefits (1500 per month transport allowance, Meal Subsidy, CEP (continuous education program), etc.)  + 2 Lakh medical insurance for self and parents.]",AE_AG_BT_CH_CE_CS_EE_EC_IM_MA_ME_MT_MI_NA,1,Analyst,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Description 
  
 If you want to use Artificial Intelligence to solve the most pressing problems in the Indian logistics industry, or optimize the distribution network of Indias largest third party logistics provider, our data team is the place to be. We are the countrys premium data science team featured widely in press and news; see Factordaily, LeMonde, Economic Times 1, Economic Times 2. 
@@ -2004,9 +2004,9 @@ develop strategies for Delhivery.  Breakdown business problems by working clos
 recommend products and solutions  Optimize Delhivery operations by applying data science in solving complex business problems  Collaborate with cross-functional teams including but not limited to Logistics, BD, Sales, Marketing, Security, Customer Service, etc.  Disseminate original research in peer reviewed journals and conferences Qualifications 
  
 A suitable candidate should satisfy as many of the following requirements: 
-  B.Tech/PhD/M.Tech/M.S in Computer Science, Operational Research, Statistics, Applied Mathematics or Natural Sciences with a very clear understanding of probability and statistics, analytical approach to problem solving, and capability to think critically on a diverse array of problems. Publications in peer-reviewed",0.0,No,,1200000 INR  [1200000 fixed],AE_AG_AR_BT_CH_CY_CE_CS_GG_HS_IM_MA_ME_MT_MI_NA_PH,Data Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"See attached JDs - Software Engineer II, .Net Azure | Engineer II - Software Development, Full stack Developer | Consultant, UI/ UX Designer | Consultant, Testing",0.0,18 months,,"1000000 INR  [Fixed Pay - 1,000,000 | Variable (annual performance bonus) -   50,000 -85,000 | Total Cash - 1,050,000-1,085,000 | DIP to be merged in base pay after 24 months - 200,000 | JB to be paid in 3rd payroll (18 months lock in) - 100,000 | Total - 1,350,000-1,385,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Consultant,Online/Offline test (Max 30 mins),PLACEMENT
-"About GAC Analytics- Risk team is responsible for developing integrated risk strategies, providing business inferences, supporting the modeling, regulatory BASEL models, forecasting, IFRS9, stress testing needs and management information reporting for both Retail and Wholesale portfolios. This team provides support for risk mitigating from Mortgage, Credit Card, Personal Loan, Overdraft and SME products. The work would primarily involve the use of customer \ operational data and application of statistical tools and techniques to solve the business problems. Analytics - Marketing team is responsible for developing integrated marketing strategies and providing inferences to the business within the financial services for a large global bank across one or more geographical regions across retail and commercial managed business (CMB) portfolios. Typical activities vary from marketing planning functions, customer segmentation & targeting, digital lending, product offering and tracking and evaluation of marketing programs for liabilities and assets portfolios. The work would primarily involve the use of customer data and application of statistical tools and techniques to solve the business problems. Analytics- Information Management team supports various functions including Data Management, Business Intelligence Reporting and Infrastructure. This role will be in a team that is expected to design and develop Information management solutions which will help business drive informed decisions. The incumbent would contribute in information management deliverables that involve but not restricted to, Developing Data marts, warehouses using various ETL technologies and Building reporting framework, end user information delivery applications using BI and Web technologies. Analytics  MI team is responsible for developing integrated reports / dashboards and based on that provide inferences to the business within the financial services for a large global bank across one or more geographical regions. Analytics - HR SD Reporting & Analytics team provides Reporting and Analytical insights to the Global HR business. Primary responsibility includes Design, develop, maintain & improvise HR reporting and analytics needs across different HR functions. Analytics - Compliance analytics team will be involved in providing best-in-class Analytics solutions to the Financial Crime and Regulatory Compliance functions across lines of businesses and geographies within the organization. The team caters to both strategy and operations aspect of managing financial crime through a combination of regular processes and new development projects. Roles & Responsibilities The Analyst role will be responsible for supporting one of the team engaged into above analytical activities from one of the locations: Bangalore or Kolkata. Impact on the Business/Function  Independently delivers end to end on simple projects. Should assist in delivery of more complicated analyses/strategies under the supervision of the team lead..  Ensure flawless and timely delivery of projects  Independently resolve queries/issues associated with a project  Gain knowledge of processes and support implementation of process efficiency initiatives  Ensure adherence with all the applicable compliance policies (Data security policy, AML, operational risk, Functional manual, Group Compliance Manual, Audit recommendations, Internal Control requirements, regulatory guidelines etc.) and business standards of Organization as applicable. Take timely action on Audit comments and be able to demonstrate compliance with Internal controls Certain roles may also require the developing models or forecasting methodologies using SAS, Model Builder, Xeno or other platforms Customers / Stakeholders  Work with multiple customers/functions on multiple projects simultaneously and deliver in a timely, efficient and effective manner  Appetite to gain as much Business Knowledge through the project managers / seniors in the current team within GAC or from Business stakeholders. Gaining fair understanding of business and product landscape across all business units is important for the incumbent.  Demonstrate strong sense of ownership and accountability on projects through developing basic project management skills and regular communication with internal project managers and business stakeholders  Responsiveness to stakeholder queries and independently resolve issues and queries pertaining to projects / reports Leadership & Teamwork  Ensure personal integrity and adherence to established HSBC policy on conduct , compliance and ISR  Understand personal training needs and take initiative to follow through personal development plan in conjunction with line manager  Builds trust of partners (onshore and off-shore), juniors and seniors alike by demonstrating HSBC values & practices. Able to communicate well and form good relationship with team members and business partners. Operational Effectiveness & Control Ensure adherence with all the applicable compliance policies (Data security policy, AML, operational risk, Functional manual, Group Compliance Manual, Audit recommendations, Internal Control requirements, regulatory guidelines etc.) and business standards of Organization as applicable. Take timely action on Audit comments as guided by the line manager and be able to demonstrate compliance with Internal controls Role context The job holder is required to ensure the provision of complete, true and accurate analysis and report to functional management and senior executives under the supervision of his / her line manager, in order to facilitate effective decision making. Knowledge & Experience / Qualifications:  4 year Bachelors or Masters degree from reputed University with concentration on marketing, finance, economics, statistics, computer science, engineering or other quantitative fields  Strong analytical/quantitative skills. Knowledge and understanding of financial-services/ banking-operations preferred.  Proficiency in at least one computer language. Knowledge of SAS, SQL, R, MATLAB and other equivalent analytical tools is a plus  Ability to comprehend intricate and diverse range of business problems and analyze them with limited or complex data and provide a feasible solution framework.  Excellent written and verbal communication skills. Ability to develop and effectively communicate complex concepts and ideas.  Ability to work in cross-functional teams. Strong interpersonal skills and drive for success",0.0,NO,NO,"1100000 INR  [M.Tech & M.Sc- Fixed 10L
+  B.Tech/PhD/M.Tech/M.S in Computer Science, Operational Research, Statistics, Applied Mathematics or Natural Sciences with a very clear understanding of probability and statistics, analytical approach to problem solving, and capability to think critically on a diverse array of problems. Publications in peer-reviewed",0.0,78,No,,1200000 INR  [1200000 fixed],AE_AG_AR_BT_CH_CY_CE_CS_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Data Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"See attached JDs - Software Engineer II, .Net Azure | Engineer II - Software Development, Full stack Developer | Consultant, UI/ UX Designer | Consultant, Testing",0.0,296,18 months,,"1000000 INR  [Fixed Pay - 1,000,000 | Variable (annual performance bonus) -   50,000 -85,000 | Total Cash - 1,050,000-1,085,000 | DIP to be merged in base pay after 24 months - 200,000 | JB to be paid in 3rd payroll (18 months lock in) - 100,000 | Total - 1,350,000-1,385,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Consultant,Online/Offline test (Max 30 mins),PLACEMENT
+"About GAC Analytics- Risk team is responsible for developing integrated risk strategies, providing business inferences, supporting the modeling, regulatory BASEL models, forecasting, IFRS9, stress testing needs and management information reporting for both Retail and Wholesale portfolios. This team provides support for risk mitigating from Mortgage, Credit Card, Personal Loan, Overdraft and SME products. The work would primarily involve the use of customer \ operational data and application of statistical tools and techniques to solve the business problems. Analytics - Marketing team is responsible for developing integrated marketing strategies and providing inferences to the business within the financial services for a large global bank across one or more geographical regions across retail and commercial managed business (CMB) portfolios. Typical activities vary from marketing planning functions, customer segmentation & targeting, digital lending, product offering and tracking and evaluation of marketing programs for liabilities and assets portfolios. The work would primarily involve the use of customer data and application of statistical tools and techniques to solve the business problems. Analytics- Information Management team supports various functions including Data Management, Business Intelligence Reporting and Infrastructure. This role will be in a team that is expected to design and develop Information management solutions which will help business drive informed decisions. The incumbent would contribute in information management deliverables that involve but not restricted to, Developing Data marts, warehouses using various ETL technologies and Building reporting framework, end user information delivery applications using BI and Web technologies. Analytics  MI team is responsible for developing integrated reports / dashboards and based on that provide inferences to the business within the financial services for a large global bank across one or more geographical regions. Analytics - HR SD Reporting & Analytics team provides Reporting and Analytical insights to the Global HR business. Primary responsibility includes Design, develop, maintain & improvise HR reporting and analytics needs across different HR functions. Analytics - Compliance analytics team will be involved in providing best-in-class Analytics solutions to the Financial Crime and Regulatory Compliance functions across lines of businesses and geographies within the organization. The team caters to both strategy and operations aspect of managing financial crime through a combination of regular processes and new development projects. Roles & Responsibilities The Analyst role will be responsible for supporting one of the team engaged into above analytical activities from one of the locations: Bangalore or Kolkata. Impact on the Business/Function  Independently delivers end to end on simple projects. Should assist in delivery of more complicated analyses/strategies under the supervision of the team lead..  Ensure flawless and timely delivery of projects  Independently resolve queries/issues associated with a project  Gain knowledge of processes and support implementation of process efficiency initiatives  Ensure adherence with all the applicable compliance policies (Data security policy, AML, operational risk, Functional manual, Group Compliance Manual, Audit recommendations, Internal Control requirements, regulatory guidelines etc.) and business standards of Organization as applicable. Take timely action on Audit comments and be able to demonstrate compliance with Internal controls Certain roles may also require the developing models or forecasting methodologies using SAS, Model Builder, Xeno or other platforms Customers / Stakeholders  Work with multiple customers/functions on multiple projects simultaneously and deliver in a timely, efficient and effective manner  Appetite to gain as much Business Knowledge through the project managers / seniors in the current team within GAC or from Business stakeholders. Gaining fair understanding of business and product landscape across all business units is important for the incumbent.  Demonstrate strong sense of ownership and accountability on projects through developing basic project management skills and regular communication with internal project managers and business stakeholders  Responsiveness to stakeholder queries and independently resolve issues and queries pertaining to projects / reports Leadership & Teamwork  Ensure personal integrity and adherence to established HSBC policy on conduct , compliance and ISR  Understand personal training needs and take initiative to follow through personal development plan in conjunction with line manager  Builds trust of partners (onshore and off-shore), juniors and seniors alike by demonstrating HSBC values & practices. Able to communicate well and form good relationship with team members and business partners. Operational Effectiveness & Control Ensure adherence with all the applicable compliance policies (Data security policy, AML, operational risk, Functional manual, Group Compliance Manual, Audit recommendations, Internal Control requirements, regulatory guidelines etc.) and business standards of Organization as applicable. Take timely action on Audit comments as guided by the line manager and be able to demonstrate compliance with Internal controls Role context The job holder is required to ensure the provision of complete, true and accurate analysis and report to functional management and senior executives under the supervision of his / her line manager, in order to facilitate effective decision making. Knowledge & Experience / Qualifications:  4 year Bachelors or Masters degree from reputed University with concentration on marketing, finance, economics, statistics, computer science, engineering or other quantitative fields  Strong analytical/quantitative skills. Knowledge and understanding of financial-services/ banking-operations preferred.  Proficiency in at least one computer language. Knowledge of SAS, SQL, R, MATLAB and other equivalent analytical tools is a plus  Ability to comprehend intricate and diverse range of business problems and analyze them with limited or complex data and provide a feasible solution framework.  Excellent written and verbal communication skills. Ability to develop and effectively communicate complex concepts and ideas.  Ability to work in cross-functional teams. Strong interpersonal skills and drive for success",0.0,462,NO,NO,"1100000 INR  [M.Tech & M.Sc- Fixed 10L
 
 Basic
 
@@ -2054,20 +2054,20 @@ Gratuity
 
 Fixed CTC
 
-1150000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,ANALYST,Online/Offline test (Max 30 mins),PLACEMENT
+1150000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,ANALYST,Online/Offline test (Max 30 mins),PLACEMENT
 "In this role, you will implement creative solutions to big data problems using cutting edge technologies. You will enhance and maintain the platform and product features by using open source technologies.
 ● Good expertise and programming skills in Java / Python
 ● Strong problem solving skills
 ● Should have a bachelors or masters degree in Computer Science / Information Technology / equivalent
-● Excellent oral and written communication skills",0.0,NO,,"1894000 INR  [(1) Base Salary : 15.7L
+● Excellent oral and written communication skills",0.0,378,NO,,"1894000 INR  [(1) Base Salary : 15.7L
 (2) Performance Linked Bonus : 10% of Base Salary ( 1.57L)
 (3) Retention Bonus : 1.5L paid at the end of the 1st, 2nd and 3rd year.
 (4) Gratuity + Insurance : 50K
 (5) Relocation : 60k ( To be paid in the first month with a lock in for 1 year)
 (6) Stocks : 700
 CTC : 21.94L
-First Year CTC : 18.94L]",CE_CS_EE_EC_GG_MA_MT_MI_NA,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
-Respective JDs of all the profiles will be mailed separately,0.0,None,,950000 INR  [Base Salary: 750000 + Other components: 200000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Machine Learning,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+First Year CTC : 18.94L]",CE_CS_EE_EC_GG_MA_MT_MI_NA,1,Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+Respective JDs of all the profiles will be mailed separately,0.0,191,None,,950000 INR  [Base Salary: 750000 + Other components: 200000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Machine Learning,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "ZS is a professional services firm that works side by side with companies to help develop and deliver
 products that drive customer value and company results. From R&D to portfolio strategy, customer
 insights, marketing and sales strategy, operations and technology, we leverage our deep industry
@@ -2115,7 +2115,7 @@ Connect with ZS in India on social media:
  Follow ZS in India on Twitter and Instagram
  Follow ZS on LinkedIn for more job opportunities
  Subscribe to the ZS in India YouTube Channel
-ZS has been recognized globally for its expertise in consulting and its flexible work environment. View ZSs accolades.",0.0,No,,"893000 INR  [ZS Gross- 650,000;Joining Bonus- 100,000;Relocation- 60,000; Broadband- 18,000; Up-to 10% of performance
+ZS has been recognized globally for its expertise in consulting and its flexible work environment. View ZSs accolades.",0.0,366,No,,"893000 INR  [ZS Gross- 650,000;Joining Bonus- 100,000;Relocation- 60,000; Broadband- 18,000; Up-to 10% of performance
 bonus- 65,000 ; Interest free advance towards home deposit against lease agreement, recovered over a period of
 06 months through payroll- 75,000; Group Medical Insurance. Employee can nominate up to 3 dependent family members- 300,000;Accidental Policy  sum
 assured- 1,000,000; Life Insurance Cover - 3 times of your annual gross salary- 1,950,000; Meals - Served in office on
@@ -2126,18 +2126,18 @@ Executive health Check Ups
 Check-up facility through a
 leading hospital chain for all
 employees and their
-spouses-5,500]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Decision Analytics Associate,Online/Offline test (Max 30 mins),PLACEMENT
+spouses-5,500]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Decision Analytics Associate,Online/Offline test (Max 30 mins),PLACEMENT
 "	Design and development of robust, efficient and real-time algorithms for Analysis and Classification of Medical Images using state-of-art techniques from Image Processing, Pattern Recognition, Computer Vision and Machine Learning.
 	Development of innovative solutions for various problems related to Segmentation, Detection, classification and quantification of high resolution (~50K x 50K) coloured images for applications in Digital Pathology.
 	Design of efficient models in Machine Learning / Deep Learning for accurate analysis and classification of High resolution Images.
 	To learn and update oneself on the emerging trends of technology and apply them in the projects for better results leading to publications and patents.
-	Explore new areas of Expert Systems, Cognitive Computing, Artificial Intelligence, Computational Photography etc.",0.0,2 year commitment clause with Joining Bonus,"Candidates other than mentioned departments can apply of they have a worked on projects based on any of the skills Image Processing, Machine Learning and Deep learning.","1200000 INR  [1200000 + 2 Lacs joining bonus + Health Insurance.
+	Explore new areas of Expert Systems, Cognitive Computing, Artificial Intelligence, Computational Photography etc.",0.0,235,2 year commitment clause with Joining Bonus,"Candidates other than mentioned departments can apply of they have a worked on projects based on any of the skills Image Processing, Machine Learning and Deep learning.","1200000 INR  [1200000 + 2 Lacs joining bonus + Health Insurance.
 This is the minimum CTC will be offered.
-The above is the minimum CTC to be offered. The CTC also might differ based on candidate performance]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Imaging Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+The above is the minimum CTC to be offered. The CTC also might differ based on candidate performance]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Imaging Scientist,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "AI HOKKAIDO LAB, our Research & Development Center in Sapporo, Hokkaido JPN is seeking to welcome exceptional AI, Computer Vision and Image Processing engineers who are interested in both innovating in the field and applying and integrating innovations into products and services.
-You will be working in a vibrant and dynamic work environment in a very fast growing company and will be given great opportunities to work on the cutting edge projects and researches that would be able to bring your ideas to life.",0.0,NO,"1. Excellent programming skills in Python/Matlab and C/C++ 2. Solid knowledge on Deep Learning frameworks such as Caffe, Torch/PyTorch, TensorFlow, MXNet, or NNabla is a strong plus 3. Relevant work or academic experience on Computer Vision/ Image Processing using Deep Learning is a plus 4. Familiarity with cloud services like Microsoft Azure etc. 5. Strong working knowledge of scripting to automate the processing of large datasets 6. Strong communication and organization skills, with a logical approach to problem-solving, good time management, and task prioritization skills 7. Rich experiences in software development companies or other research firms, especially overseas","4000000 JPY  [Gross Annual Salary: 4000000(JPY)
+You will be working in a vibrant and dynamic work environment in a very fast growing company and will be given great opportunities to work on the cutting edge projects and researches that would be able to bring your ideas to life.",0.0,82,NO,"1. Excellent programming skills in Python/Matlab and C/C++ 2. Solid knowledge on Deep Learning frameworks such as Caffe, Torch/PyTorch, TensorFlow, MXNet, or NNabla is a strong plus 3. Relevant work or academic experience on Computer Vision/ Image Processing using Deep Learning is a plus 4. Familiarity with cloud services like Microsoft Azure etc. 5. Strong working knowledge of scripting to automate the processing of large datasets 6. Strong communication and organization skills, with a logical approach to problem-solving, good time management, and task prioritization skills 7. Rich experiences in software development companies or other research firms, especially overseas","4000000 JPY  [Gross Annual Salary: 4000000(JPY)
 #commuting allowance will be paid under the company regulations
-Additional Allowances: VISA support, air-ticket from India to Japan]",AE_AG_AR_BT_CH_CY_CE_CS_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,AI ENGINEER / RESEARCHER,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Additional Allowances: VISA support, air-ticket from India to Japan]",AE_AG_AR_BT_CH_CY_CE_CS_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,AI ENGINEER / RESEARCHER,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Product Engineering:
 Key Requirements Excellent communication and problem solving skills Understanding/Creation of framework and libraries Working on Agile environment Understanding of DevOps and integration Knowledge on tools like JIRA, Confluence etc Knowledge of Cloud and containerization Good knowledge on DB Knowledge on API protocols Understanding of Mobility is advantage
 Knowledge on Design patterns
@@ -2177,11 +2177,11 @@ For you to be successful, you must:
  Dismantle personal knowledge and empower others by mentoring and fostering an environment of growth
  Create value by anticipating and meeting needs of internal and external customers and delivering high-quality results and be accountable for outcomes
  Open and flexible to accommodate and implement new ideas, understand business complexities, nurture innovation and challenge the status quo persistently
- Grasp data that is available, pay attention to details and strive to be subject matter expert in chosen area of specialty through continuous learning and improvement",0.0,NO,,"1100000 INR  [11,00,000(All fixed) + relocation allowance(25,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Senior Engineer,Online/Offline test (Max 30 mins),PLACEMENT
-Perform analysis of financial and alternate data of users.,0.0,No,No,"1200000 INR  [Everything is fixed. the analyst will be able to decide the break up that he/she wants. 
+ Grasp data that is available, pay attention to details and strive to be subject matter expert in chosen area of specialty through continuous learning and improvement",0.0,22,NO,,"1100000 INR  [11,00,000(All fixed) + relocation allowance(25,000)]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Senior Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+Perform analysis of financial and alternate data of users.,0.0,572,No,No,"1200000 INR  [Everything is fixed. the analyst will be able to decide the break up that he/she wants. 
 In allowances, we will be providing accommodation for 2 week's stay till he/she finds a place. 
 
-Medical insurance is provided by the company.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analyst,Resume,PLACEMENT
+Medical insurance is provided by the company.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Analyst,Resume,PLACEMENT
 "Products & Platforms: - Cloud Software Engineering.
 
 An opportunity to be part of team building first of a kind platform, and setting the strategy for the rest of the organization. You will be part of a worldwide development organization, work in agile teams, actively developing solutions. You will have an opportunity to work on the next iteration of cloud native platforms with technologies like Kubernetes, Knative, event driven architectures, and high volume messaging systems. Be part of team building first of a kind platform, and setting the strategy for the rest of the organization. 
@@ -2195,11 +2195,11 @@ Experience or interest in the following areas:
 	Agile Development Practices & Tools
 	Knowledge in Multithreading programming, Algorithm , Data structure , Collection.
 	Excellent communication, collaboration, reporting, analytical and problem-solving skills .
-	Knowledge and/or expertise of an object oriented (C++, Java, Python or any other)",0.0,NO,65% consistency in academics,"850000 INR  [Basic- 17708
+	Knowledge and/or expertise of an object oriented (C++, Java, Python or any other)",0.0,500,NO,65% consistency in academics,"850000 INR  [Basic- 17708
 HRA- 8854
 Other Comps - 32670
-Monthly - 59232]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer - Products & Platforms,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Attached in mail,6.0,No,"Selection Process
+Monthly - 59232]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer - Products & Platforms,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Attached in mail,6.0,506,No,"Selection Process
 
 ·       Online Coding Assessments (30 minutes duration), ideally same day post the Pre Placement Talk at campus
 
@@ -2249,7 +2249,7 @@ CTC Offered (with Retirals)
 
 1,500,000.00
 
-*Provident Fund mentioned is Employer's contribution, employee contribution is deducted from FAP]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Trainee Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+*Provident Fund mentioned is Employer's contribution, employee contribution is deducted from FAP]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,1,Trainee Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "Business Analyst- General
 
 Roles and Responsibilities:
@@ -2269,7 +2269,7 @@ Other Personal Attributes:
 	Very flexible to take on multiple roles as the situation demands
 	High energy, high tenacity
 	Should have wanderlust
-	Should be ready to be take on the tough role of being the fun champion",0.0,No,The student should be open to join and work at any of the offices of LoadShare Networks. The student should be open to travel.,"950000 INR  [8,50,000 Fixed/ Base + 50,000 Variable + 1,00,000 Joining Bonus]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Management Trainee,Resume,PLACEMENT
+	Should be ready to be take on the tough role of being the fun champion",0.0,269,No,The student should be open to join and work at any of the offices of LoadShare Networks. The student should be open to travel.,"950000 INR  [8,50,000 Fixed/ Base + 50,000 Variable + 1,00,000 Joining Bonus]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Management Trainee,Resume,PLACEMENT
 "Department Description  
 India Research Center (IRC) is located at Hyderabad, Telangana, and is responsible for research and development of various product lines of Process Automation division of Industry BU. The current strength of the department is around 50 engineers, who are working on various cutting edge technologies under diversified areas such as hardware development, firmware development, and application software development for Process Automation solutions. The department owns the various product lines for PA:
 1.	SCADA: This is one of the legacy products under the brand name Foxboro consisting of two types of products called Master Telemetry Units (MTU) and Remote Telemetry Units (RTU). 
@@ -2296,9 +2296,9 @@ We are looking at selecting candidates :
 -	Good understanding of Operating Systems fundamentals is must.
 -	Good understanding of Design patterns is must
 -	Nice to have understanding of Web programing using Service Oriented Architecture
-The candidates must have strong communication skills, self-motivation and ability to work with a diversified team.",0.0,"Service Agreement:
+The candidates must have strong communication skills, self-motivation and ability to work with a diversified team.",0.0,523,"Service Agreement:
 Commitment of 2 years of service after joining. In case a student wishes to terminate his employment before completing 2 years with us, the student would need to pay us INR 2 lakh please.","Test duration will be 60 mins.
-Dual Degree students will be hired at same CTC, with designation as GET only.","1100000 INR  [Basic+Statutory Allowances+PF+Medical Insurance Premium+10% Annual Performance Bonus.In addition, there is a 3 lakh bonus paid as follows: 50% on the 1st year anniversary. The remainder on the 2nd year anniversary. (THIS 3 LAKH AMOUNT IS NOT SHOWN UNDER THE 11 LPA CTC FIGURE, BUT YOU ARE ASSURED YOU WOULD RECEIVE IT.)]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Graduate Engineer Trainee - Embedded Firmware /Application Software,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Dual Degree students will be hired at same CTC, with designation as GET only.","1100000 INR  [Basic+Statutory Allowances+PF+Medical Insurance Premium+10% Annual Performance Bonus.In addition, there is a 3 lakh bonus paid as follows: 50% on the 1st year anniversary. The remainder on the 2nd year anniversary. (THIS 3 LAKH AMOUNT IS NOT SHOWN UNDER THE 11 LPA CTC FIGURE, BUT YOU ARE ASSURED YOU WOULD RECEIVE IT.)]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,3,Graduate Engineer Trainee - Embedded Firmware /Application Software,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Sigmoid works with a variety of clients from start-ups to fortune 500 companies. We are looking for a detailed oriented self-starter to assist our engineering and analytics teams in various roles as a Software Development Engineer.
 
 This position will be a part of growing team working towards building world class large scale Big Data architectures. This individual should have a sound understanding of programming principles, experience in programming in Java, Python or similar languages  and can expect to spend a majority of their time coding.
@@ -2338,7 +2338,7 @@ Preferred Qualification:
 	Experience in agile methodology
 	Experience with database modeling and development, data mining and warehousing.
 	Experience in architecture and delivery of Enterprise scale applications and capable in developing framework, design patterns etc. Should be able to understand and tackle technical challenges, propose comprehensive solutions and guide junior staff
-	Experience working with large, complex data sets from a variety of sources",6.0,2 years service agreement,7 CGPA and above,1350000 INR,AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+	Experience working with large, complex data sets from a variety of sources",6.0,66,2 years service agreement,7 CGPA and above,1350000 INR,AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Associate Software Development Engineer,Online/Offline test (Max 30 mins),PLACEMENT
 "1. Data Engineer
 
 Job Purpose:
@@ -2398,14 +2398,14 @@ Functional competencies:
 	Experience in working with large data sets and big data systems (SQL, Hadoop, Hive, etc.)
 	Keen aptitude for large-scale data analysis with a passion for identifying key insights from data
 	Expert working knowledge in various machine learning algorithms such XGBoost, SVM Etc.,
-	Expertise in Data Mining, Statistical Analysis, Regression, Logistics Regression, Segmentation, Time Series Forecasting, Market Basket Analysis, Decision Tree, CHAID, Test Mining, Hypothesis Testing, A/B Testing and Modeling",0.0,NO,,1200000 INR  [1200000 lakhs per annum (Fixed) +1.63 lakhs retention bonus per year which will be paid after successful completion of 3 years)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Graduate Engineer Trainee - Analytics,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+	Expertise in Data Mining, Statistical Analysis, Regression, Logistics Regression, Segmentation, Time Series Forecasting, Market Basket Analysis, Decision Tree, CHAID, Test Mining, Hypothesis Testing, A/B Testing and Modeling",0.0,607,NO,,1200000 INR  [1200000 lakhs per annum (Fixed) +1.63 lakhs retention bonus per year which will be paid after successful completion of 3 years)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Graduate Engineer Trainee - Analytics,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "Bachelors degree in Computer Science, Math, or related technical domain. 
 Good Knowledge in the software development lifecycle, designing and developing large-scale, multi-tiered, distributed software applications, tools, systems or services using Object-Oriented Design, distributed programming I.e., Java, Python, Node.js, GoLang, Scala. 
 Knowledge of ORM tools like Hibernate, JPA. 
 Good knowledge of one or more relational and NoSQL databases. 
 Knowledge in the deployment of micro-services over Amazon Web Services. 
 Knowledge of Agile methodologies & best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations
-Stronghold on Data Structure, Algorithms, Problem-solving skills",0.0,NO,NA,1500000 INR  [1200000 + 300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Development Engineer - I,Online/Offline test (Max 30 mins),PLACEMENT
+Stronghold on Data Structure, Algorithms, Problem-solving skills",0.0,498,NO,NA,1500000 INR  [1200000 + 300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Development Engineer - I,Online/Offline test (Max 30 mins),PLACEMENT
 "This will be a hugely challenging role - you will effectively be building the bank of the future. Your legacy will
 be a product range and tech stack that has meaningfully impacted the lives of people around the world, in the
 most intimate way. You will lead the launch of all new consumer products in various markets, building an
@@ -2427,7 +2427,7 @@ You will work deeply across the organisation, collaborating with various stakeho
 customer service to collections, risk, fraud, data science, marketing and beyond.
 
 You will be obsessed with data, responsible for tracking metrics and measuring the impact of your product
-changes and features. You oversee all documentation, flow charts, wire frames of our consumer products",0.0,NO,NO,1500000 INR  [1200000 + 300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Product Management,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+changes and features. You oversee all documentation, flow charts, wire frames of our consumer products",0.0,498,NO,NO,1500000 INR  [1200000 + 300000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,4,Product Management,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "	Mesh/Geometry generation software developer
  Experience in developing geometric/mesh generation/mesh manipulation algorithms and related data structures in industry, research, or academia
  High proficiency in mathematics, discrete geometry and numerical techniques
@@ -2437,20 +2437,20 @@ changes and features. You oversee all documentation, flow charts, wire frames of
  Understanding of CAD/CAE element software a plus
  Experience with Agile and lean software development processes is also a plus.
  Requires good communication skills and the ability to work in a collaborative team environment
-	Experience with software development process environment tools is also a plus. Requires good communication skills and the ability to work in a collaborative team environment",0.0,NO,,1200269 INR  [CTC 1200269 (Basic 463200 | HRA 185280 | Employee Allowances 453936 | PF 55584 | Gratuity 22269 | Health benefits 20000)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Developer - Mesh and Geometry,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+	Experience with software development process environment tools is also a plus. Requires good communication skills and the ability to work in a collaborative team environment",0.0,492,NO,,1200269 INR  [CTC 1200269 (Basic 463200 | HRA 185280 | Employee Allowances 453936 | PF 55584 | Gratuity 22269 | Health benefits 20000)],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Developer - Mesh and Geometry,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "To be a part of Innovation vertical of ADROSONIC and responsible for 
 - Identification of Business problems gaps and to play a key role in designing Business Architecture for creating a digital roadmap for customers.
  - Research, Analysis & POC of AI & Machine Learning tools. 
 - Conceptualisation, Design, Analysis & POC of Reusable Plugins for COTS Products using Cloud based Solutions. 
 - Conceptualisation, Design, Analysis & POC of ETL & BI Tools for Data Analytics 
 - Creating & developing the road map for new emerging technologies in machine learning, automation, data analytics helping in redefining and optimizing the current frameworks, architecture & solutions.
-- Reviewing Business solutions & Technical Architecture designed by Development Teams.",0.0,INR 1 Lakh with 2 Years contract,,"907576 INR  [In addition to above, Research & Innovation Engineers will be eligible for ADROSONIC annual performance bonus program.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,Research & Innovation Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+- Reviewing Business solutions & Technical Architecture designed by Development Teams.",0.0,31,INR 1 Lakh with 2 Years contract,,"907576 INR  [In addition to above, Research & Innovation Engineers will be eligible for ADROSONIC annual performance bonus program.]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,Research & Innovation Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Now with ~200,000 people in over 40+ countries, Capgemini is one of the world's foremost providers of
 consulting, technology and outsourcing services. The Group reported 2017 global revenues of EUR 12.8 billion.
 Together with its clients, Capgemini creates and delivers business, technology and digital solutions that fit
 their needs, enabling them to achieve innovation and competitiveness. A deeply multicultural organization,
 Capgemini has developed its own way of working, the Collaborative Business ExperienceTM, and draws on
-Rightshore®, its worldwide delivery model. For more details, please visit www.capgemini.com.",0.0,NO,,850000 INR  [850000],AE_AG_BT_CH_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,Associate Consultant,Online/Offline test (Max 30 mins),PLACEMENT
+Rightshore®, its worldwide delivery model. For more details, please visit www.capgemini.com.",0.0,75,NO,,850000 INR  [850000],AE_AG_BT_CH_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,Associate Consultant,Online/Offline test (Max 30 mins),PLACEMENT
 "- Design/Build /Extend Scalable, Distributed Server Side/Web/Mobile Components.
 - Data Structures and Algorithms
 - Software Design and Design Patterns
@@ -2460,8 +2460,8 @@ Rightshore®, its worldwide delivery model. For more details, please visit www.c
 - iOS/Android Mobile Development
 - Javascript Technologies
 - Application Security
-- Server and Client Performance Tuning",0.0,NO,,1500000 INR  [12 Lakhs + Stock Options + Insurance],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,"Software Engineer (Backend, Web, Mobile)","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-"TEACHING SYLLABUS PRESCRIBED BY THE BOARDS AND COACHING STUDENTS FOR THE NATIONAL LEVEL COMPETITIVE / ENTRANCE EXAMINATIONS LIKE JEE MAIN/JEE ADVANCED  MATHS , PHYSICS AND CHEMISTRY SUBJECTS.",0.0,it's just a mutual understanding,NIL,540000 INR  [420000 TAKE HOME+120000 IN THE FORM OF BACHELOR ACCOMMIDATION WITH FOOD],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,SENIOR/ASSOCIATED LECTURER IN MATHS/PHYSICS/CHEMISTRY,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+- Server and Client Performance Tuning",0.0,105,NO,,1500000 INR  [12 Lakhs + Stock Options + Insurance],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,"Software Engineer (Backend, Web, Mobile)","Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+"TEACHING SYLLABUS PRESCRIBED BY THE BOARDS AND COACHING STUDENTS FOR THE NATIONAL LEVEL COMPETITIVE / ENTRANCE EXAMINATIONS LIKE JEE MAIN/JEE ADVANCED  MATHS , PHYSICS AND CHEMISTRY SUBJECTS.",0.0,318,it's just a mutual understanding,NIL,540000 INR  [420000 TAKE HOME+120000 IN THE FORM OF BACHELOR ACCOMMIDATION WITH FOOD],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,SENIOR/ASSOCIATED LECTURER IN MATHS/PHYSICS/CHEMISTRY,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Designation: Business Analyst
 Location: Bangalore
 
@@ -2493,14 +2493,14 @@ Skill Requirements:
 
 
 Way Forward:
-SCaLA program would help you build expertise around one of the Expert Personas  this will be enabled through blend of course work and deployment on projects in roles that allow you opportunities to build your expertise in that area.",0.0,NO,,"850000 INR  [8,50,000 fixed +Joining Bonus 50,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Business Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
+SCaLA program would help you build expertise around one of the Expert Personas  this will be enabled through blend of course work and deployment on projects in roles that allow you opportunities to build your expertise in that area.",0.0,648,NO,,"850000 INR  [8,50,000 fixed +Joining Bonus 50,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Business Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Coordinate between Data Scientists and Business Analysts
 Automate infrastructure used by the Data Science team
 Convert machine learning models into APIs so that other applications can access them
 Test and deploy models
 Develop minimum viable products based on machine learning
 Automate processes by utilizing machine learning
-Use AI to empower the company with novel capabilities",0.0,NO,,700000 INR  [700000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA,software development and machine learning,Resume,PLACEMENT
+Use AI to empower the company with novel capabilities",0.0,473,NO,,700000 INR  [700000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA,3,software development and machine learning,Resume,PLACEMENT
 "Company Profile:
 Merilytics is a fast-growing, analytics firm offering advanced and intelligent analytical solutions to clients globally. We combine domain expertise, advanced analytics and technology to provide robust solutions for clients business problems. You can find further details about the company at https://merilytics.com We partner with our clients in the Private Equity, CPG, Retail, Media & Entertainment, Consumer Finance industries etc. by providing analytical solutions to generate superior returns. We solve clients business problems by analyzing large amount of data to help guide their Operations, Marketing, Pricing, Customer Strategies, and much more.
 Job description for Senior Analyst role:
@@ -2516,7 +2516,7 @@ Pre-requisites and skillsets for this role:
  Knowledge of SQL, R or Python a huge bonus
 What is in it for me if I join Merilytics:
 High growth environment: How fast you grow within the company into leadership positions with greater responsibility is only dependent on your performance and contributions; Semi-annual performance management and promotion cycles enabling fast track to leadership responsibility
-Unparalleled quality of work: Exposure to CXO level at the clients enabling to hone your capabilities; Solve interesting and hard problems across multiple industries and domains that keeps you always excited and motivated; Integrated technology and business teams that offers a strong foundation for building sustainable data science culture",0.0,No,"CGPA => 6.5
+Unparalleled quality of work: Exposure to CXO level at the clients enabling to hone your capabilities; Solve interesting and hard problems across multiple industries and domains that keeps you always excited and motivated; Integrated technology and business teams that offers a strong foundation for building sustainable data science culture",0.0,77,No,"CGPA => 6.5
 12 %   => 65%
 10%  => 65%","6,00,000 INR  [Pay Item (per month)	Amount in Rs. ( Annual )
 Basic	                        3,00,000
@@ -2537,7 +2537,7 @@ Total deductions ( B )	               48,600
 Estimated Net Pay ( C = A - B )	5,51,400
 Variable Pay ( D )	              up to 1,10,000
 Retention Bonus ( E )	                1,00,000
-Total CTC ( A + D + E)	                8,10,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Senior Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
+Total CTC ( A + D + E)	                8,10,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Senior Analyst,"GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "About EagleView
 
 
@@ -2643,7 +2643,7 @@ Corporate Website        |     EagleView Leaders Speak    |      EagleView India
 
 Office Address:
 
-APMSE Software Services Pvt. Ltd., 6th Floor, Block 5A, Pritech Park SEZ, RMZ Ecospace, Bellandur Village, Varthur Hobli, Bengaluru - 560103",0.0,NO,,1400000 INR  [1400000(fixed)+98000(variable)+1 Lac relocation],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer 1,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+APMSE Software Services Pvt. Ltd., 6th Floor, Block 5A, Pritech Park SEZ, RMZ Ecospace, Bellandur Village, Varthur Hobli, Bengaluru - 560103",0.0,639,NO,,1400000 INR  [1400000(fixed)+98000(variable)+1 Lac relocation],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer 1,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Indian Political Action Committee (I-PAC) is seeking professionals who can play a pivotal role in the election campaign for the upcoming West Bengal Assembly Elections in 2021. After making a mark in an extensive Lok Sabha election campaign and assembly election campaigns across Bihar, Punjab, Uttar Pradesh, Uttarakhand, Andhra Pradesh and, I-PAC is now gearing up for the West Bengal Assembly Elections 2021. If you are interested in making meaningful contribution to political affairs and want to experience it from close quarters, then read on!
 
 What Will You Do?
@@ -2671,18 +2671,18 @@ What Are We Looking For?
  Willingness to travel extensively and work long hours;
  Ability to work in coordination with multiple teams.
 
-Location: West Bengal",0.0,NO,,"630336 INR  [Total CTC - 819,437 pa
+Location: West Bengal",0.0,631,NO,,"630336 INR  [Total CTC - 819,437 pa
 Base Salary -  315,168 pa
 Net Pay -  449,040 pa
 Gross Pay -  615,180 pa
 Fixed Component -  630,336 pa
-Variable Pay - Upto  189,101 pa]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,Core Team Member,"Resume,GD",PLACEMENT
+Variable Pay - Upto  189,101 pa]",AE_AG_BT_CH_CE_CS_EE_EC_IM_ME_MT_MI_NA,1,Core Team Member,"Resume,GD",PLACEMENT
 "As a Software Developer with BeeHyv,you will undergo training on Java/Python and web programming.  You  will work with its customers, who are start-ups and established product firms in building new products.  BeeHyv primarily works on Java and Python stacks but also uses other technology stacks based on requirements of customers.  As a developer, you will be expected to be quick and nimble in learning new technologies. 
         Design, develop, test, deploy, maintain, support and improve software.
         Manage individual project priorities, deadlines and deliverables.
         Work in one or multiple projects and deliver results
         Be versatile and enthusiastic to tackle new problems across different technologies
-   You should be willing to be a full stack developer and be proficient in both backend and UI technologies.",0.0,"Yes, Non-disclosure and confidentiality agreement to be signed at the time of joining.  If an employee leaves between 6 months to 1 year of joining the company, they have to pay back 3 months of their salary. If an employee leaves before 6 months of joining, they have to pay back 75% of the total salary paid by the company to the employee.",We will conduct an aptitude test and the duration of the test will be 2 hrs. We will also conduct a programming test and the duration of the test will be 1 hr. Both the tests will be pen and paper tests. The shortlisted candidates will have to undergo a personal interview which will be minimum of 2 hrs.,"800000 INR  [830000 [ Rs. 800000 (fixed) Rs.10,000(other benefits)+ Rs,20,000(Variable Bonus)]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Developer- Trainee,Online/Offline test (Max 30 mins),PLACEMENT
+   You should be willing to be a full stack developer and be proficient in both backend and UI technologies.",0.0,299,"Yes, Non-disclosure and confidentiality agreement to be signed at the time of joining.  If an employee leaves between 6 months to 1 year of joining the company, they have to pay back 3 months of their salary. If an employee leaves before 6 months of joining, they have to pay back 75% of the total salary paid by the company to the employee.",We will conduct an aptitude test and the duration of the test will be 2 hrs. We will also conduct a programming test and the duration of the test will be 1 hr. Both the tests will be pen and paper tests. The shortlisted candidates will have to undergo a personal interview which will be minimum of 2 hrs.,"800000 INR  [830000 [ Rs. 800000 (fixed) Rs.10,000(other benefits)+ Rs,20,000(Variable Bonus)]]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Developer- Trainee,Online/Offline test (Max 30 mins),PLACEMENT
 "Designation: Associate  Content Development
 TEAM: CONTENT
 
@@ -2710,7 +2710,7 @@ language
 ●	ideate and implement effective pedagogy and different teaching methodologies
 ●	be kind, collaborative, and a team player who people love working with 
 ●	have the ability to manage schedules and prioritize own work and that of others
-●	have prior writing experience. Prior teaching experience is a plus.",0.0,NO,,800000 INR  [800000 INR [CTC = 700000 LPA (Gross) + 100000 LPA(Variable)]],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate - Content Development,Online/Offline test (Max 30 mins),PLACEMENT
+●	have prior writing experience. Prior teaching experience is a plus.",0.0,85,NO,,800000 INR  [800000 INR [CTC = 700000 LPA (Gross) + 100000 LPA(Variable)]],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Associate - Content Development,Online/Offline test (Max 30 mins),PLACEMENT
 "The primary role of the Software Engineer is to develop software applications that would be used by the Company or the Group itself to support its business operations. The candidate shall be involved in the whole software development lifecycle from requirements elicitation, design, implementation, testing, deployment, maintenance, to evolution.
  
 Key Responsibilities:
@@ -2747,13 +2747,13 @@ Soft-Skills
 	The ability to work with minimal supervision in a dynamic environment and as a team player;
 	Excellent communication skills;
 	High resourcefulness and creativity;
-	Strong analytical and time management skills",0.0,"2-year contract (a requirement for the work permit 
+	Strong analytical and time management skills",0.0,155,"2-year contract (a requirement for the work permit 
 application), renewable",,"1,429,000 INR  [Cost to Company        : in the range of 1,020,000 INR to 1,429,000 per annum, depending on the candidates                
                                            qualification and experience.
 
  *Gross (Take-home, before tax and other deductions): in the range of 990,000 to 1,336,000 per annum
 
- Bonus/Perks/Incentive (if any)          : Performance bonus, no fixed scale]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,SOFTWARE ENGINEERS / FULL-STACK DEVELOPERS,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+ Bonus/Perks/Incentive (if any)          : Performance bonus, no fixed scale]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,SOFTWARE ENGINEERS / FULL-STACK DEVELOPERS,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "Joiners will be working on Software/Product development | Job description:
 Ability & Readiness to work with any technology;
 Familiarity with software development process;
@@ -2762,13 +2762,13 @@ Strong logical and analytical disposition;
 High Quality Orientation in all aspects of work;
 Ability to work in a collaborative environment;
 High sense of Individual accountability;
-Strong Orientation towards self-learning and growth",0.0,No,No arrears at the time of placement.,"1100000 INR  [Compensation Details: 11 LPA (10,47,619 - Fixed; 52,381 - Performance Bonus) + they will be given these below benefits
+Strong Orientation towards self-learning and growth",0.0,194,No,No arrears at the time of placement.,"1100000 INR  [Compensation Details: 11 LPA (10,47,619 - Fixed; 52,381 - Performance Bonus) + they will be given these below benefits
 
 ·         5L INR Group Health Insurance cover for Self, Spouse and Kids (premium fully paid by company)
 
 ·         5X Annual Gross Salary Group Life Insurance cover (premium fully paid by company)
 
-·         Reimbursable expenses (Mobile phone, Broadband Internet, etc) up to INR 2000 per month]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+·         Reimbursable expenses (Mobile phone, Broadband Internet, etc) up to INR 2000 per month]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Engineer,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
 "The role of an Intern in the Risk Analytics team is to understand and contribute their Analytical and logical skills to support the team in their day to day activities. 
 
 Key responsibilities
@@ -2791,7 +2791,7 @@ SKILLS AND EXPERIENCE
 	Strong Analytical aptitude and logical reasoning ability
 	Strong presentation and communication skills. 
 	Knowledge of analytical tools such as R/Python/SAS/SQL 
-	Preferred:  Candidates with some project knowledge/ experience in Analytics.",0.0,No,na,"930000 INR  [Compensation breakup :
+	Preferred:  Candidates with some project knowledge/ experience in Analytics.",0.0,242,No,na,"930000 INR  [Compensation breakup :
 
 Job role
 
@@ -2823,7 +2823,7 @@ Gratuity
 
 CTC (Cost to Company)
 
-10,66,956.00]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Analytics Scientist,Online/Offline test (Max 30 mins),PLACEMENT
+10,66,956.00]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Analytics Scientist,Online/Offline test (Max 30 mins),PLACEMENT
 "For over 30 years, JDA has been the leading provider of end-to-end, integrated retail and supply chain planning and execution solutions. Our heritage, customer base and industry expertise have combined to create the leader in supply chain and retail solutions. JDA is positioned as a leader across all of these Gartner Magic Quadrant reports focused on retail merchandising and supply chain technology, providing customers with uniquely capable supply chain and retail solutions to solve the omni-channel challenges of retailers, manufacturers, distribution and logistics companies alike across the end-to-end value chain
 Campus Job Description
 Business Unit : Consulting
@@ -2839,15 +2839,15 @@ Roles and Responsibilities
  Provides advice to customers regarding industry best practices and process methodology. Provides non-technical support during the ""go-live"" period.
  Provides primary user support and verifies that the system provides the required business functions and maintains data integrity.
  Recognizes and highlights incremental revenue opportunities with existing customers / projects. Serves as a functional liaison and attends and contributes to key meetings between Project Manager, key customer contacts, and customer users, up to and including key executive project sponsors.
- Understands how the JDA solutions within area of focus can be configured and delivered to better facilitate customer business processes (ensuring ability to design, execute, and deliver).",0.0,No,,"650000 INR  [650000+100000 Joining Bonus+30,000 Relocation Allowance=6,80,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Technical Consultant,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+ Understands how the JDA solutions within area of focus can be configured and delivered to better facilitate customer business processes (ensuring ability to design, execute, and deliver).",0.0,663,No,,"650000 INR  [650000+100000 Joining Bonus+30,000 Relocation Allowance=6,80,000]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Associate Technical Consultant,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "The job role of the Master Teacher primarily involves teaching for all the JEE and JEE related offerings for grades 11th & 12th. The candidate is also expected to conduct other student and course-related interventions like taking webinars, attending PTMs etc.,
 The Master Teacher is expected to prepare for their sessions well in advance.
 The Master Teacher is also expected to keep the sessions interactive, exciting and engaging.
 The Master Teacher is also expected to conduct webinars live or simulated (Recorded Webinars) for promoting relevant courses to the students.
 The master teacher has to sync up with their respective secondary teachers on a regular basis and get updates on student performance.
-He/She would also be responsible to work and improvise on the existing content (Wavebook slides, tests, assignments) wherever required",0.0,NO,,1200000 INR  [1200000],AE_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA,Master Teacher,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Software Developer,0.0,18 months,,1200000 INR  [CTC includes fixed salary plus performance incentives. In addition there are benefits of medical insurance and personal accident insurance],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Technical Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
-Consult with coaching classes and add value to them. Guide coaching classes to use CollegeDoors leading to enhanced performance of their students.,0.0,NO,Candidates willing to make a difference to education sector in India,"800000 INR  [600000 + 200000 bonus + medical, life & accident insurance. The salary breakup will be given later]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Business Development,"Resume,GD",PLACEMENT
+He/She would also be responsible to work and improvise on the existing content (Wavebook slides, tests, assignments) wherever required",0.0,393,NO,,1200000 INR  [1200000],AE_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA,1,Master Teacher,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Software Developer,0.0,99,18 months,,1200000 INR  [CTC includes fixed salary plus performance incentives. In addition there are benefits of medical insurance and personal accident insurance],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Technical Trainee,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+Consult with coaching classes and add value to them. Guide coaching classes to use CollegeDoors leading to enhanced performance of their students.,0.0,404,NO,Candidates willing to make a difference to education sector in India,"800000 INR  [600000 + 200000 bonus + medical, life & accident insurance. The salary breakup will be given later]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Business Development,"Resume,GD",PLACEMENT
 "Basic Qualification: B. Tech, BE or an equivalent degree
  
 Key Skills: 
@@ -2875,9 +2875,9 @@ Technical
 7.	Deployment Activities
 8.	Siebel Marketing and Campaign Management
 9.	Siebel Outbound and Inbound Email Configuration, Response Groups, Templates.
-10.	Troubleshooting Issues",0.0,No,,774888 INR  [500000 + 200000 + gratuity+ Insurance etc],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Associate Consultant,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
-"The Academic Consultant is responsible for taking Live Online lectures in the K  12 segment of US and India, creating, monitoring, improving the content as required by our education services department from time-to-time. The position requires excellent oratory skills, capability of educating in the K-12 segment, content review, content editing, and content writing skills of the subject of your choice. Along with it, time management and finishing skills; as well as working as part of a team and taking lead on specified elements of this project, would be expected. High level of comfort with MS Office and MathML required.",0.0,Bond of 1 year wherever applicable,"Should have very good communication skills, ability to work in a team",700000 INR  [6 to 7 lacs],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Academic Consultant,Resume,PLACEMENT
-Software development,0.0,NO,"B.Tech (CSE/IT) Knowledge of programming languages, DBMS, UML etc.","419112 INR  [1419112 total ctc, 419112 fixed ctc]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+10.	Troubleshooting Issues",0.0,301,No,,774888 INR  [500000 + 200000 + gratuity+ Insurance etc],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Associate Consultant,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+"The Academic Consultant is responsible for taking Live Online lectures in the K  12 segment of US and India, creating, monitoring, improving the content as required by our education services department from time-to-time. The position requires excellent oratory skills, capability of educating in the K-12 segment, content review, content editing, and content writing skills of the subject of your choice. Along with it, time management and finishing skills; as well as working as part of a team and taking lead on specified elements of this project, would be expected. High level of comfort with MS Office and MathML required.",0.0,371,Bond of 1 year wherever applicable,"Should have very good communication skills, ability to work in a team",700000 INR  [6 to 7 lacs],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Academic Consultant,Resume,PLACEMENT
+Software development,0.0,183,NO,"B.Tech (CSE/IT) Knowledge of programming languages, DBMS, UML etc.","419112 INR  [1419112 total ctc, 419112 fixed ctc]",AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,2,Software Developer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "1) Strong in data structures and algorithms. Solid grasp of few topics from curriculum (Like RDBMS, N/W, OS, SDLC etc.) 
 2) Good in one programming language. 
 3) Awareness of the project domain.
@@ -2888,25 +2888,25 @@ Software development,0.0,NO,"B.Tech (CSE/IT) Knowledge of programming languages,
 8) Should be able to explains own work in client/colleagues telecommunication
 9) Excellent written and verbal communication 
 10) Excellent customer orientation
-11) Analytical skills and Innovative and Individual contributor.",0.0,No,"Candidate graduated in year 2020  
+11) Analytical skills and Innovative and Individual contributor.",0.0,163,No,"Candidate graduated in year 2020  
 No live ATKT in any subject (Theory / Practical / Oral / any other) at the time of the selection process 
 10th and 12th Marks: Minimum 60% 
  BE  with CS, IT : Min 60% (aggregate )
 
 
-Online Objective and Adavanced Coding Test",1541000 INR  [To be communicated during PPT],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Senior Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
-Job description attached,0.0,NO,NA,1150000 INR  [Base- 1150000],AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Systems Engineer,Resume,PLACEMENT
+Online Objective and Adavanced Coding Test",1541000 INR  [To be communicated during PPT],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Senior Software Engineer,Online/Offline test (Max 30 mins),PLACEMENT
+Job description attached,0.0,110,NO,NA,1150000 INR  [Base- 1150000],AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Systems Engineer,Resume,PLACEMENT
 "As a Faculty, you would be required to teach students preparing for IIT-JEE, NEET and other competitive entrance examinations for Engineering and Medical. You would be teaching any one of Physics, Chemistry or Mathematics based on IIT-JEE/NEET syllabus. Also, you would be required to mentor a bunch of students preparing for JEE/NEET and prepare test papers and other practice sheets of your respective subject for students.
-We want people with ability to think differently, having innovative teaching ideas who are able to teach from fundamentals. Having a positive attitude and a passion for teaching is a must, as we believe in ""hiring for passion and training for skills"".",0.0,NO,,"700000 INR  [CTC of Rs. 30,00,000/- paid out over a period of 3 years.
+We want people with ability to think differently, having innovative teaching ideas who are able to teach from fundamentals. Having a positive attitude and a passion for teaching is a must, as we believe in ""hiring for passion and training for skills"".",0.0,679,NO,,"700000 INR  [CTC of Rs. 30,00,000/- paid out over a period of 3 years.
 
 First year of Employment: Fixed salary of Rs. 6,50,000/- per annum and variable bonus of upto Rs. 50,000/- per annum.
 Second year of Employment: Fixed salary of upto Rs. 7,50,000/- per annum and variable bonus of upto Rs. 2,00,000/- per annum
 Third year of Employment: Fixed salary of upto Rs. 11,00,000/- per annum and variable bonus of upto Rs. 2,00,000/- per annum
-You would also be entitled to a gratuity of 5% of fixed salary every year.]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Faculty,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
-We are interested in students who want to pursue a career in software development. This will require them to have top-notch analytical and a passion for coding,0.0,No,,900000 INR  [(736000+ 164000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
+You would also be entitled to a gratuity of 5% of fixed salary every year.]",AE_AG_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Faculty,"Resume,GD,Online/Offline test (Max 30 mins)",PLACEMENT
+We are interested in students who want to pursue a career in software development. This will require them to have top-notch analytical and a passion for coding,0.0,412,No,,900000 INR  [(736000+ 164000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_HS_IM_MA_ME_MT_MI_NA_PH,1,Software Engineer,"Resume,Online/Offline test (Max 30 mins)",PLACEMENT
 "	Classroom teaching for the respective subject as per JEE / Medical entrance curriculum
 	Students doubt clearing
 	Content development 
 	Question paper and question bank preparation
-	Completing I Tutor sessions",0.0,3 Years,"CTC Offered to candidates may vary as per the profile and quality of the candidate.
-[On Training (consolidated gross) (3 months)	: Rs. 50,000/- p.m. On Probation (consolidated gross) (4 months)	: Rs. 60,000/- p.m. On Confirmation (consolidated gross)	: Rs. 70,000/- p.m",840000 INR  [840000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,Trainee Faculty - Physics,Online/Offline test (Max 30 mins),PLACEMENT
+	Completing I Tutor sessions",0.0,531,3 Years,"CTC Offered to candidates may vary as per the profile and quality of the candidate.
+[On Training (consolidated gross) (3 months)	: Rs. 50,000/- p.m. On Probation (consolidated gross) (4 months)	: Rs. 60,000/- p.m. On Confirmation (consolidated gross)	: Rs. 70,000/- p.m",840000 INR  [840000],AE_AG_AR_BT_CH_CY_CE_CS_EE_EC_GG_IM_MA_ME_MT_MI_NA_PH,1,Trainee Faculty - Physics,Online/Offline test (Max 30 mins),PLACEMENT

@@ -1,4 +1,4 @@
-about,address,category,city,company,country,employees,reference,sector,turnover,website,zipcode
+about,address,category,city,com_id,company,country,employees,reference,sector,turnover,website,zipcode
 "
 About American Express
 
@@ -7,7 +7,7 @@ American Express is a global services company that provides consumers and busine
 American Express Commercial Block-3, Zone-6, DLF City Phase-V, Gurugram  122002 | Haryana
 ","
 Private
-",Gurugram,AMERICAN EXPRESS,India,"
+",Gurugram,562,AMERICAN EXPRESS,India,"
 >5000
 ","
 Contacted by CDC
@@ -22,7 +22,7 @@ Finance
 3rd and 4th floor Commerz building, Bagmane Tech Park,
 ","
 MNC,StartUp
-","Bengaluru,  Karnataka",AppDynamics India Pvt Ltd,India,"
+","Bengaluru,  Karnataka",202,AppDynamics India Pvt Ltd,India,"
 Between 1000 to 5000
 ","
 Alumini Contact
@@ -45,7 +45,7 @@ Location: This role is based in Hyderabad India.Apple is an Equal Employment Opp
 Waverock SEZ campus, Financial District Road Number 2, Nanakramguda - Gachibowli 500082
 ","
 Other
-",Hyderabad,Apple India Private Limited,India,"
+",Hyderabad,549,Apple India Private Limited,India,"
 Between 100 to 500
 ","
 Self
@@ -60,7 +60,7 @@ Auctus Advisors Pvt Ltd is a management consulting firm committed to supporting 
 4th Floor, Worldmark II, Aerocity, New Delhi, Delhi 110037
 ","
 Private
-",New Delhi,Auctus Advisors,India,"
+",New Delhi,323,Auctus Advisors,India,"
 Between 50 to 100
 ","
 Contacted by CDC
@@ -73,7 +73,7 @@ BlackRock is one of the worlds preeminent asset management firms and a premier
 Building -14 Tower C 14th floor DLF-Cyber city DLF Phase-2
 ","
 Private
-",Gurgaon,Blackrock,Haryana,"
+",Gurgaon,536,Blackrock,Haryana,"
 Between 1000 to 5000
 ","
 Self
@@ -86,7 +86,7 @@ At DataLabs Capital One India, we are at the cutting edge of solving some of the
 Ascendas ITPB SEZ 3rd Floor Voyager Building ITPL Whitefield Main Road
 ","
 MNC
-",Bangalore,Capital One Services (India) Private Limited,India,"
+",Bangalore,97,Capital One Services (India) Private Limited,India,"
 Between 100 to 500
 ","
 Self
@@ -99,7 +99,7 @@ EXL is an established leader in the analytics domain with a consistent industry 
 4th Floor, Tower C&D, Building no.14, DLF Cybercity
 ","
 Private
-",Gurgaon,EXL Service,India,"
+",Gurgaon,156,EXL Service,India,"
 Between 1000 to 5000
 ","
 Contacted by CDC
@@ -114,7 +114,7 @@ Flipkart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, I
 Flipkart Tower 5A - Embassy Tech Village
 ","
 Private
-",Bangalore,Flipkart,India,"
+",Bangalore,118,Flipkart,India,"
 >5000
 ","
 Contacted by CDC
@@ -127,7 +127,7 @@ IT/Software,Ecommerce
 Princeville, Embassy Golf Links, Domlur, Bangalore
 ","
 MNC
-",Bengaluru,Goldman Sachs,India,"
+",Bengaluru,140,Goldman Sachs,India,"
 >5000
 ","
 Self
@@ -140,7 +140,7 @@ Investment Banking
 Google India Pvt Ltd.
 ","
 Private
-",Bangalore,Google,India,"
+",Bangalore,201,Google,India,"
 >5000
 ","
 Contacted by CDC
@@ -153,7 +153,7 @@ Core Engineering
 Google India Pvt Ltd.
 ","
 Private
-",Bangalore,Google,India,"
+",Bangalore,201,Google,India,"
 >5000
 ","
 Contacted by CDC
@@ -174,7 +174,7 @@ In December 2017 the company entered the FTSE 100 where it is now firmly establi
 Prestige shantiniketan, Tower C,7th Floor, Mahadevapura
 ","
 MNC
-",Bangalore,Halma plc (rep Halma India),India,"
+",Bangalore,285,Halma plc (rep Halma India),India,"
 >5000
 ","
 Alumini Contact
@@ -189,7 +189,7 @@ J.P. Morgan is a leader in financial services, offering solutions to clients in 
 J.P. Morgan Towers, Floor 8, Off CST Road, Kalina, Santacruz East, Mumbai, 400098, India
 ","
 MNC
-",Mumbai,JPMorgan Chase & Co.,India,,"
+",Mumbai,211,JPMorgan Chase & Co.,India,,"
 Self
 ","
 Finance,Investment Banking
@@ -200,7 +200,7 @@ J.P. Morgan is a leader in financial services, offering solutions to clients in 
 J.P. Morgan Towers, Floor 8, Off CST Road, Kalina, Santacruz East, Mumbai, 400098, India
 ","
 MNC
-",Mumbai,JPMorgan Chase & Co.,India,,"
+",Mumbai,211,JPMorgan Chase & Co.,India,,"
 Self
 ","
 Finance,Investment Banking
@@ -209,7 +209,7 @@ Finance,Investment Banking
 Hiranandani Busienss Park, Nomura Building, Powai
 ","
 MNC
-",Mumbai,Nomura Structured Finance Services India Pvt. Ltd.,India,"
+",Mumbai,45,Nomura Structured Finance Services India Pvt. Ltd.,India,"
 >5000
 ","
 Self
@@ -220,7 +220,7 @@ Finance
 Hiranandani Busienss Park, Nomura Building, Powai
 ","
 MNC
-",Mumbai,Nomura Structured Finance Services India Pvt. Ltd.,India,"
+",Mumbai,45,Nomura Structured Finance Services India Pvt. Ltd.,India,"
 >5000
 ","
 Self
@@ -231,7 +231,7 @@ Finance
 Hiranandani Busienss Park, Nomura Building, Powai
 ","
 MNC
-",Mumbai,Nomura Structured Finance Services India Pvt. Ltd.,India,"
+",Mumbai,45,Nomura Structured Finance Services India Pvt. Ltd.,India,"
 >5000
 ","
 Self
@@ -242,7 +242,7 @@ Finance
 P&G Plaza, Cardinal Gracious Rd, Chakala, Andheri East, Mumbai, Maharashtra 400099
 ","
 MNC
-",Mumbai,Procter & Gamble,India,"
+",Mumbai,216,Procter & Gamble,India,"
 Between 1000 to 5000
 ","
 Self
@@ -255,7 +255,7 @@ Between 1000 to 5000
 1-7-1 Konan Minato-ku
 ","
 MNC
-",Tokyo,Sony Japan,Japan,,"
+",Tokyo,391,Sony Japan,Japan,,"
 Self
 ","
 IT/Software
@@ -264,7 +264,7 @@ IT/Software
 DLF Phase 5 Sector 43 Golf Course Road
 ","
 Other
-",Gurgaon,Uber India Systems,India,"
+",Gurgaon,17,Uber India Systems,India,"
 Between 1000 to 5000
 ","
 Self
@@ -275,7 +275,7 @@ IT/Software
 DLF Atria
 ","
 Private
-",Gurgaon,VEDANTA OIL AND GAS,India,"
+",Gurgaon,443,VEDANTA OIL AND GAS,India,"
 Between 500 to 1000
 ","
 Self
@@ -286,7 +286,7 @@ Core Engineering
 Akasaka Intercity AIR 1-8-1, Akasaka, Minato-ku
 ","
 MNC
-",Tokyo,Accenture Japan Ltd.,Japan,,"
+",Tokyo,375,Accenture Japan Ltd.,Japan,,"
 Self
 ","
 Consulting
@@ -295,7 +295,7 @@ Consulting
 26/1, Brigade Gateway, Dr Rajkumar Rd, Malleshwaram West, Bengaluru, Karnataka 560055
 ","
 Private
-",Bangalore,Amazon India,India,"
+",Bangalore,18,Amazon India,India,"
 >5000
 ","
 Self
@@ -308,7 +308,7 @@ NA
 Citibank, FIFC,Mumbai
 ","
 Private
-",Mumbai and Pune,Citibank,India,"
+",Mumbai and Pune,321,Citibank,India,"
 >5000
 ","
 Contacted by CDC
@@ -329,7 +329,7 @@ be tomorrows business leaders. We recruit globally at any location where we fi
 Essex Lake Group, Bestech Business Tower, Unit no. 819-826, 8th Floor, Sector 48, Gurugram, Haryana 122018
 ","
 MNC
-",Gurugram,Essex Lake Group,India,"
+",Gurugram,399,Essex Lake Group,India,"
 Between 100 to 500
 ","
 Alumini Contact
@@ -342,7 +342,7 @@ EXL is an established leader in the analytics domain with a consistent industry 
 4th Floor, Tower C&D, Building no.14, DLF Cybercity
 ","
 Private
-",Gurgaon,EXL Service,India,"
+",Gurgaon,156,EXL Service,India,"
 Between 1000 to 5000
 ","
 Contacted by CDC
@@ -357,7 +357,7 @@ Flipkart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, I
 Flipkart Tower 5A - Embassy Tech Village
 ","
 Private
-",Bangalore,Flipkart,India,"
+",Bangalore,118,Flipkart,India,"
 >5000
 ","
 Contacted by CDC
@@ -372,7 +372,7 @@ LINE Corporation is based in Japan. It was renamed from NHN Japan Corporation on
 JR Shinjuku Miraina Tower 23rd F+. 4-1-6 Shinjuku
 ","
 Private
-",Tokyo,LINE Corp,Japan,"
+",Tokyo,474,LINE Corp,Japan,"
 >5000
 ","
 Contacted by CDC
@@ -389,7 +389,7 @@ MathWorks develops MATLAB and Simulink, the leading technical computing software
 MathWorks India Pvt Ltd, Salarpuria Sattva Knowledge City, 2nd and 3rd Floors, Octave Block, Raidurg, Hyderabad  500 081
 ","
 Private
-",Hyderabad,MATHWORKS INDIA PVT LTD,India,"
+",Hyderabad,176,MATHWORKS INDIA PVT LTD,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -406,7 +406,7 @@ The Nutanix Engineering team is led by the same developers and architects who cr
 Nutanix, The Hub,
 ","
 MNC
-",Bangalore,Nutanix Technologies,India,"
+",Bangalore,41,Nutanix Technologies,India,"
 Between 1000 to 5000
 ","
 Contacted by CDC
@@ -421,7 +421,7 @@ Sprinklr describes itself as a ""unified customer experience management platform
 902, Block A, Iris Tech Park, Sohna Road, Sector 48, Gurgaon, Haryana - 122018
 ","
 Private
-",Gurgaon,Sprinklr India Pvt. Ltd.,India,"
+",Gurgaon,188,Sprinklr India Pvt. Ltd.,India,"
 Between 1000 to 5000
 ","
 Alumini Contact
@@ -434,7 +434,7 @@ Attached in Mail
 Salarpuria Aura, Block B, 4th Floor,Kadubeesanahalli, Outer Ring Road, Bangalore  560103
 ","
 MNC
-",Bangalore,Walmart Labs,India,"
+",Bangalore,243,Walmart Labs,India,"
 Between 1000 to 5000
 ","
 Self
@@ -450,7 +450,7 @@ This is who we are. We are a community looking to deliver true flagship experien
 Redbrick Primea, 10 & 11, Phoenix Primea, Road No - 2, Financial District, Nanakram Guda, Hyderabad - 500032
 ","
 MNC
-",Hyderabad,OnePlus,India,"
+",Hyderabad,125,OnePlus,India,"
 Between 1000 to 5000
 ","
 Self
@@ -467,7 +467,7 @@ Ola was founded in 2011 by Bhavish Aggarwal and Ankit Bhati with a mission to bu
 ANI Technologies Pvt. Ltd, 5th Floor, Maruthi Infotech Centre, Embassy Golf Links, Domlur, Bangalore 560071
 ","
 StartUp
-",Bangalore,ANI Technologies,India,"
+",Bangalore,274,ANI Technologies,India,"
 >5000
 ","
 Self
@@ -480,7 +480,7 @@ J.P. Morgan is a leader in financial services, offering solutions to clients in 
 J.P. Morgan Towers, Floor 8, Off CST Road, Kalina, Santacruz East, Mumbai, 400098, India
 ","
 MNC
-",Mumbai,JPMorgan Chase & Co.,India,,"
+",Mumbai,211,JPMorgan Chase & Co.,India,,"
 Self
 ","
 Finance,Investment Banking
@@ -500,7 +500,7 @@ Futureforce is for college students or new grads wanting to experience life at S
 Block 5, DivyaSree Orion IT/ITES SEZ, Survey 66/1 Panmakhta, Raidurg Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad,
 ","
 Private
-",Telangana,Salesforce,India,,"
+",Telangana,70,Salesforce,India,,"
 Self
 ","
 IT/Software
@@ -511,7 +511,7 @@ We are world's best Beer Company
 Peridot Block, 12th & 13th Floor,Bagmane World Technology Centre SEZ,K.R.Puram Marathalli Ring Road,Bengaluru -560048, Karnataka, India CIN - U74900KA2014FTC077722 Ph No: +91-80-4676-9100
 ","
 MNC
-",Bangalore,AB InBev,India,"
+",Bangalore,42,AB InBev,India,"
 >5000
 ","
 Contacted by CDC
@@ -526,7 +526,7 @@ Honeywell International Inc. is an American multinational conglomerate company t
 Campus 2
 ","
 MNC
-",Bangalore,Honeywell,India,"
+",Bangalore,111,Honeywell,India,"
 >5000
 ","
 Self
@@ -541,7 +541,7 @@ Honeywell International Inc. is an American multinational conglomerate company t
 Campus 2
 ","
 MNC
-",Bangalore,Honeywell,India,"
+",Bangalore,111,Honeywell,India,"
 >5000
 ","
 Self
@@ -559,7 +559,7 @@ Enterprise Global Services (EGS) enables global talent capabilities for Wells Fa
 Embassy Tech Village, Deverabeesanahalli, VarthurHobli, ORR, Bangalore  560 103
 ","
 Private
-",Bangalore,Wells Fargo,India,"
+",Bangalore,68,Wells Fargo,India,"
 >5000
 ","
 Self
@@ -574,7 +574,7 @@ SAP is the market leader in enterprise application software, helping companies o
 #138, SAP Labs Rd, EPIP Zone,
 ","
 MNC
-",Bangalore,SAP,India,"
+",Bangalore,389,SAP,India,"
 >5000
 ","
 Contacted by CDC
@@ -585,7 +585,7 @@ IT/Software
 Silver Metropolis, Western Express Highway, Goregaon East, Mumbai 400063.
 ","
 Private
-",Mumbai,Fractal Analytics Pvt. Ltd.,India,"
+",Mumbai,449,Fractal Analytics Pvt. Ltd.,India,"
 Between 1000 to 5000
 ","
 Contacted by CDC
@@ -598,7 +598,7 @@ For a long time, we have felt that enabling frictionless transactions is a major
 Ground & 1st Floor, SJR Cyber Laskar, Hosur Rd, Bengaluru, Karnataka 560030
 ","
 StartUp
-",Bangalore,Razorpay,India,"
+",Bangalore,224,Razorpay,India,"
 Between 500 to 1000
 ","
 Self
@@ -611,7 +611,7 @@ Oracle, a global provider of enterprise cloud computing, is empowering businesse
 Oracle Technology Park,#3,
 ","
 MNC
-",Bangalore,Oracle India Private Limited,India,,"
+",Bangalore,149,Oracle India Private Limited,India,,"
 Self
 ","
 IT/Software
@@ -622,7 +622,7 @@ Mastercard is a leader in global payments and a technology company that connects
 Business Bay Yerwada, Pune
 ","
 Private
-",Pune,Mastercard,India,"
+",Pune,257,Mastercard,India,"
 >5000
 ","
 Contacted by CDC
@@ -637,7 +637,7 @@ Sprinklr describes itself as a ""unified customer experience management platform
 902, Block A, Iris Tech Park, Sohna Road, Sector 48, Gurgaon, Haryana - 122018
 ","
 Private
-",Gurgaon,Sprinklr India Pvt. Ltd.,India,"
+",Gurgaon,188,Sprinklr India Pvt. Ltd.,India,"
 Between 1000 to 5000
 ","
 Alumini Contact
@@ -648,7 +648,7 @@ IT/Software
 Campus 5, 2nd Floor, RMZ Millenia -II, Perungudi
 ","
 Other
-",Chennai,Tiger Analytics,India,"
+",Chennai,214,Tiger Analytics,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -663,7 +663,7 @@ We develop and use machine learning methods to discover trading signals and effe
 5th Floor, Tower- C, Cyber Greens, DLF Cyber City
 ","
 MNC
-",Gurgaon,Trexquant (India) Business Consulting LLP,India,"
+",Gurgaon,239,Trexquant (India) Business Consulting LLP,India,"
 Between 50 to 100
 ","
 Self
@@ -673,7 +673,7 @@ Self
 Eon Free Zone, Kharadi
 ","
 Private
-",Pune,Barclays Global Service Center,India,,"
+",Pune,455,Barclays Global Service Center,India,,"
 Self
 ","
 IT/Software
@@ -682,7 +682,7 @@ IT/Software
 4/1 IBC Knowledge Park, Bannerghatta Road
 ","
 Private
-",Bengaluru,ACCENTURE SOLUTIONS PVT LTD,India,"
+",Bengaluru,169,ACCENTURE SOLUTIONS PVT LTD,India,"
 >5000
 ","
 Self
@@ -693,7 +693,7 @@ Analytics
 Axis Bank Limited, Corporate Office, Bombay Dyeing Mills Compound
 ","
 Other
-",Mumbai,Axis Bank,India,"
+",Mumbai,180,Axis Bank,India,"
 >5000
 ","
 Self
@@ -704,7 +704,7 @@ Others
 Axis Bank Limited, Corporate Office, Bombay Dyeing Mills Compound
 ","
 Other
-",Mumbai,Axis Bank,India,"
+",Mumbai,180,Axis Bank,India,"
 >5000
 ","
 Self
@@ -715,7 +715,7 @@ Others
 Axis Bank Limited, Corporate Office, Bombay Dyeing Mills Compound
 ","
 Other
-",Mumbai,Axis Bank,India,"
+",Mumbai,180,Axis Bank,India,"
 >5000
 ","
 Self
@@ -728,7 +728,7 @@ GE Digital connects streams of machine data to powerful analytics, providing Ind
 Prestige Shantineketan Tech Park Thigalarapalya, Hoodi
 ","
 MNC
-",Bengaluru,GE Digital,India,"
+",Bengaluru,585,GE Digital,India,"
 >5000
 ","
 Self
@@ -743,7 +743,7 @@ General Electric Company is an American multinational conglomerate incorporated 
 JFWTC,
 ","
 Private
-",Bangalore,GE,India,"
+",Bangalore,100,GE,India,"
 >5000
 ","
 Self
@@ -756,7 +756,7 @@ ICICI Bank Limited is an Indian multinational banking and financial services com
 ICICI Bank Tower, Ground Floor, Bandra Kurla Complex-bandra East, Mumbai - 400051
 ","
 Private
-",Mumbai,ICICI Bank,Maharashtra,"
+",Mumbai,465,ICICI Bank,Maharashtra,"
 >5000
 ","
 Contacted by CDC
@@ -771,7 +771,7 @@ Morgan Stanley is a financial services corporation that, through its subsidiarie
 Athena, Bldg. No. 5, Malad, Goregaon (W), Mindspace, Sector 30
 ","
 MNC
-",Mumbai,Morgan Stanley,India,"
+",Mumbai,167,Morgan Stanley,India,"
 >5000
 ","
 Contacted by CDC
@@ -790,7 +790,7 @@ Ola was founded in 2011 by Bhavish Aggarwal and Ankit Bhati with a mission to bu
 ANI Technologies Pvt. Ltd, 5th Floor, Maruthi Infotech Centre, Embassy Golf Links, Domlur, Bangalore 560071
 ","
 StartUp
-",Bangalore,ANI Technologies,India,"
+",Bangalore,274,ANI Technologies,India,"
 >5000
 ","
 Self
@@ -807,7 +807,7 @@ Ola was founded in 2011 by Bhavish Aggarwal and Ankit Bhati with a mission to bu
 ANI Technologies Pvt. Ltd, 5th Floor, Maruthi Infotech Centre, Embassy Golf Links, Domlur, Bangalore 560071
 ","
 StartUp
-",Bangalore,ANI Technologies,India,"
+",Bangalore,274,ANI Technologies,India,"
 >5000
 ","
 Self
@@ -824,7 +824,7 @@ Ola was founded in 2011 by Bhavish Aggarwal and Ankit Bhati with a mission to bu
 ANI Technologies Pvt. Ltd, 5th Floor, Maruthi Infotech Centre, Embassy Golf Links, Domlur, Bangalore 560071
 ","
 StartUp
-",Bangalore,ANI Technologies,India,"
+",Bangalore,274,ANI Technologies,India,"
 >5000
 ","
 Self
@@ -835,7 +835,7 @@ Others
 Office No 701 - 7th Floor, Building No 6 - Commerzone, Survey No 144/145 - Yerawada
 ","
 Private
-",Pune,Schlumberger,India,"
+",Pune,102,Schlumberger,India,"
 >5000
 ","
 Alumini Contact
@@ -848,7 +848,7 @@ IT/Software
 Sony World Signal, SJR Koramangala, Plot 36, 1st floor, 100 Feet Rd, Venkappa Garden, Koramangala, Bengaluru, Karnataka 560095
 ","
 StartUp
-",Bangalore,Embibe.com (Indiavidual Learning),India,,"
+",Bangalore,703,Embibe.com (Indiavidual Learning),India,,"
 Self
 ","
 Teaching / education
@@ -857,7 +857,7 @@ Teaching / education
 Ernst & Young Golf View Corporate Tower B, Golf Course Road, Sector 42,Gurugram, 122002, Haryana , India
 ","
 Private,MNC
-",Gurgaon,EY India,India,,"
+",Gurgaon,414,EY India,India,,"
 Self
 ","
 Core Engineering,IT/Software,Analytics,Consulting,Professional Services
@@ -868,7 +868,7 @@ Honeywell International Inc. is an American multinational conglomerate company t
 Campus 2
 ","
 MNC
-",Bangalore,Honeywell,India,"
+",Bangalore,111,Honeywell,India,"
 >5000
 ","
 Self
@@ -885,7 +885,7 @@ In the space between next and now is how. And we believe that how you seize that
 2870, Building Virgo, Bagmane Constellation Business Park, Outer Ring Rd, Doddanekundi, Marathahalli
 ","
 MNC
-",Bangalore,Publicis Sapient,India,"
+",Bangalore,127,Publicis Sapient,India,"
 >5000
 ","
 Self
@@ -898,7 +898,7 @@ IT/Software,Consulting
 Bangalore
 ","
 MNC
-",Bangalore,Societe Generale,India,,"
+",Bangalore,124,Societe Generale,India,,"
 Self
 ","
 Others
@@ -907,7 +907,7 @@ Others
 4/1 Bannerghatta Main Road 9th Floor Tower D IBC Towers, Bhavani Nagar, S.G. Palya, Bengaluru, Karnataka 560029
 ","
 StartUp
-",Bangalore,Swiggy,India,"
+",Bangalore,24,Swiggy,India,"
 >5000
 ","
 Self
@@ -926,7 +926,7 @@ company
 Unit No. 1201, 1301, 1401, Building No 2,Gigaplex, I.T.5, MIDC Knowledge Park, T.T.C Industrial Area, Airoli West, Navi Mumbai - 400708
 ","
 MNC
-",Navi Mumbai,UBS,India,"
+",Navi Mumbai,53,UBS,India,"
 >5000
 ","
 Contacted by CDC
@@ -939,7 +939,7 @@ Finance
 Capillary Technologies 31/9, Krimson Square, 1st Floor Roopena Agrahara, Hosur Main Road 
 ","
 MNC
-",Bangalore,Capillary Technologies,India,"
+",Bangalore,271,Capillary Technologies,India,"
 Between 500 to 1000
 ","
 Self
@@ -950,7 +950,7 @@ IT/Software
 Sony World Signal, SJR Koramangala, Plot 36, 1st floor, 100 Feet Rd, Venkappa Garden, Koramangala, Bengaluru, Karnataka 560095
 ","
 StartUp
-",Bangalore,Embibe.com (Indiavidual Learning),India,,"
+",Bangalore,703,Embibe.com (Indiavidual Learning),India,,"
 Self
 ","
 Teaching / education
@@ -959,7 +959,7 @@ Teaching / education
 Sony World Signal, SJR Koramangala, Plot 36, 1st floor, 100 Feet Rd, Venkappa Garden, Koramangala, Bengaluru, Karnataka 560095
 ","
 StartUp
-",Bangalore,Embibe.com (Indiavidual Learning),India,,"
+",Bangalore,703,Embibe.com (Indiavidual Learning),India,,"
 Self
 ","
 Teaching / education
@@ -968,7 +968,7 @@ Teaching / education
 5th Floor Tower 3, Equinox Business Park Kurla West
 ","
 MNC
-",Mumbai,Experian,India,,"
+",Mumbai,336,Experian,India,,"
 Self
 ","
 Finance,Consulting
@@ -979,7 +979,7 @@ Ernst & Young is a multinational professional services firm headquartered in Lon
 3, Swamy Vivekananda Rd, Sadanandanagar, Bennigana Halli, Bengaluru, Karnataka 560016
 ","
 MNC
-",Bangalore,EY GDS,India,"
+",Bangalore,620,EY GDS,India,"
 Between 1000 to 5000
 ","
 Self
@@ -992,7 +992,7 @@ Between 1000 to 5000
 Naman Chambers, G Block Rd, Opposite Dena Bank, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051
 ","
 Private
-",Mumbai,IDFC First Bank,India,"
+",Mumbai,723,IDFC First Bank,India,"
 >5000
 ","
 Self
@@ -1017,7 +1017,7 @@ We are the digital company which raises and solves customer's and social issues 
 JP Tower, 2-7-2, Marunouchi, Chiyoda-ku, Tokyo, 100-7015
 ","
 MNC
-",Tokyo,Konica Minolta,Japan,"
+",Tokyo,513,Konica Minolta,Japan,"
 >5000
 ","
 Self
@@ -1032,7 +1032,7 @@ www.jio.com
 Relaince Corporate Park, Thane Belapur road, Ghansoli, Navi mumbai, Thane, Maharashtra
 ","
 Private
-",Navi Mumbai,Reliance Jio Infocom Limited,India,"
+",Navi Mumbai,461,Reliance Jio Infocom Limited,India,"
 >5000
 ","
 Self
@@ -1058,7 +1058,7 @@ Consolidated：31.5 billion yen (Fiscal year ended in August 2018)
 Shinagawa season terrace 28F, 1-2-70 Konan, Minato-ku
 ","
 Private
-",Tokyo,SOU Japan,Japan,,"
+",Tokyo,583,SOU Japan,Japan,,"
 Self
 ","
 IT/Software
@@ -1067,7 +1067,7 @@ IT/Software
 No.1, Haddows Road,
 ","
 Private,MNC
-","Chennai, Tamilnadu",Standard Chartered GBS India Pvt Ltd,India,,"
+","Chennai, Tamilnadu",123,Standard Chartered GBS India Pvt Ltd,India,,"
 Self
 ","
 IT/Software
@@ -1082,7 +1082,7 @@ Our clients range from major global brands and large government entities, to sma
 Bengal Intelligent ParkBuilding-Omega, 16th Floor, Block  EP & GPSector  V Saltlake, Kolkata 700 091, India
 ","
 MNC
-",Kolkata,TCG Digital Solutions Pvt Ltd,India,"
+",Kolkata,212,TCG Digital Solutions Pvt Ltd,India,"
 Between 500 to 1000
 ","
 Self
@@ -1095,7 +1095,7 @@ We are an insur-tech platform with the largest agent network for multi-brand ins
 002, Ground Floor, Prime Corporate Park, Near ITC Maratha, Sahar Road, Andheri East, Mumbai - 400 099.
 ","
 StartUp
-",Mumbai,Turtlemint,India,,"
+",Mumbai,568,Turtlemint,India,,"
 Self
 ","
 IT/Software
@@ -1117,7 +1117,7 @@ Vaibhav Gupta: An alumnus of IIT Delhi and Darden School of Business. Ex McKinse
 No. 1090, 18th Cross, 14th Main, Sector 3, HSR Layout, Bangalore
 ","
 StartUp
-",Bangalore,Udaan,India,"
+",Bangalore,158,Udaan,India,"
 Between 500 to 1000
 ","
 Self
@@ -1141,7 +1141,7 @@ Vaibhav Gupta: An alumnus of IIT Delhi and Darden School of Business. Ex McKinse
 No. 1090, 18th Cross, 14th Main, Sector 3, HSR Layout, Bangalore
 ","
 StartUp
-",Bangalore,Udaan,India,"
+",Bangalore,158,Udaan,India,"
 Between 500 to 1000
 ","
 Self
@@ -1158,7 +1158,7 @@ Zilingo was founded in 2015 by Ankiti Bose and Dhruv Kapoor, and our family has 
 Zilingo Funline Private Limited, 2nd Floor, HM Vibha Towers, Chikku Laksmaiah layout, Adugodi,Hosur Road, Bangalore, Karnataka - 560030
 ","
 StartUp
-",Bengaluru,Zilingo Funline Private Limited,India,"
+",Bengaluru,529,Zilingo Funline Private Limited,India,"
 Between 500 to 1000
 ","
 Self
@@ -1171,7 +1171,7 @@ ZS is a professional services firm that works side by side with companies to hel
 World Trade Centre, Tower 3, Kharadi
 ","
 MNC
-",Pune,ZS Associates,India,"
+",Pune,306,ZS Associates,India,"
 >5000
 ","
 Alumini Contact
@@ -1184,7 +1184,7 @@ Analytics
 26/1, Brigade Gateway, Dr Rajkumar Rd, Malleshwaram West, Bengaluru, Karnataka 560055
 ","
 Private
-",Bangalore,Amazon India,India,"
+",Bangalore,18,Amazon India,India,"
 >5000
 ","
 Self
@@ -1212,7 +1212,7 @@ Category: Agility and Efficiency
 Plot No: 564-A-26-III, Rd No: 92, Jubilee Hils,
 ","
 Private
-",Hyderabad,Arth Design Build India Pvt Ltd,India,"
+",Hyderabad,246,Arth Design Build India Pvt Ltd,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1228,7 +1228,7 @@ Since our founding in 2010, technology innovation has been our winning different
 SEZ, DLF CyberCity, Bldg. 14, Tower B, 11th Floor & Tower D, 12th Floor, 	DLF  III, Gurgaon, Haryana 122001
 ","
 Private
-",Gurgaon,Axtria India Pvt. Ltd.,India,"
+",Gurgaon,71,Axtria India Pvt. Ltd.,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1241,7 +1241,7 @@ Delhivery is a third-party logistics service provider, operating in over 1,200 c
 Plot No 5, Sector 44 Gurgaon, Haryana
 ","
 StartUp
-",Gurgaon,Delhivery,India,"
+",Gurgaon,78,Delhivery,India,"
 >5000
 ","
 Self
@@ -1254,7 +1254,7 @@ Between 1000 to 5000
 genpact, DLF Phase 5, Golf Course Road,Sector 53, Gurgaon
 ","
 MNC
-",Gurgaon,Genpact,India,"
+",Gurgaon,296,Genpact,India,"
 >5000
 ","
 Contacted by CDC
@@ -1269,7 +1269,7 @@ HSBC is one of the largest banking and financial services organizations in the w
 HSBC Technology and Services - Service Delivery, RMZ Futura I, Bannerghatta Main Road
 ","
 MNC
-",Bangalore,HSBC,India,"
+",Bangalore,462,HSBC,India,"
 >5000
 ","
 Self
@@ -1284,7 +1284,7 @@ Building the software platform for Enterprise Data Operations & Orchestration fo
 Frontline Grandeur, No. 14, Third Floor, Walton Road
 ","
 Private,StartUp
-",Bangalore,Infoworks Data Pvt Ltd,India,"
+",Bangalore,378,Infoworks Data Pvt Ltd,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1297,7 +1297,7 @@ Quantiphi is a category defining Applied AI and Machine Learning software and se
 Level 2, Eureka Towers, Mindspace, Link Road, Malad (W), Mumbai, Maharashtra - 400064
 ","
 Private
-",Mumbai,Quantiphi Analytics Solutions Pvt. Ltd.,India,"
+",Mumbai,191,Quantiphi Analytics Solutions Pvt. Ltd.,India,"
 Between 500 to 1000
 ","
 Self
@@ -1312,7 +1312,7 @@ ZSs India Capability & Expertise Center (CEC) houses more than 60% of ZS peopl
 ZS Associates India Pvt Ltd
 ","
 Private,MNC
-",Pune,ZS Associates,India,"
+",Pune,366,ZS Associates,India,"
 >5000
 ","
 Self
@@ -1329,7 +1329,7 @@ Our passionate team brings technological and domain expertise in image processin
 Dosti Pinnacle,Unit No. 801, Road Number 22, Waghle Estate, Thane West
 ","
 Other
-",Thane,Aditya Imaging Information Technologies (DBA AIRA MATRIX),India,,"
+",Thane,235,Aditya Imaging Information Technologies (DBA AIRA MATRIX),India,,"
 Self
 ","
 IT/Software
@@ -1340,7 +1340,7 @@ AWL, Inc. is a team that will revolutionize the retail industry with AI. Our HQ 
 Tokumiya Bldg. 6F, 1-12-4 Kudan-kita,
 ","
 StartUp
-","Chiyoda-ku, Tokyo","AWL, Inc.",Japan,"
+","Chiyoda-ku, Tokyo",82,"AWL, Inc.",Japan,"
 Between 50 to 100
 ","
 Alumini Contact
@@ -1353,7 +1353,7 @@ Below 50
 58, 1st main road, JP Nagar phase 3
 ","
 Private
-",Bangalore,Brillio Technologies,India,"
+",Bangalore,22,Brillio Technologies,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1366,7 +1366,7 @@ We are in the process of creating a new age credit card
 D-27 Bootstart
 ","
 StartUp
-",Pune,FPL,India,"
+",Pune,572,FPL,India,"
 Below 50
 ","
 Alumini Contact
@@ -1382,7 +1382,7 @@ We offer an integrated portfolio of products, solutions, services, and IP throug
 94, South Phase AMB-4, Ambattur Industrial Estate Rd, Ambattur, Chennai, Tamil Nadu 600058
 ","
 MNC
-",Chennai,HCL Technologies,India,"
+",Chennai,500,HCL Technologies,India,"
 >5000
 ","
 Self
@@ -1393,7 +1393,7 @@ Core Engineering,IT/Software
 HSBC Technology India Level 1, Business Bay, Survey No 103, Hissa No 2, Airport Road, Yerwada, Pune-411006
 ","
 MNC
-",Pune,HSBC Technology India,India,,"
+",Pune,506,HSBC Technology India,India,,"
 Self
 ","
 Others
@@ -1404,7 +1404,7 @@ We are a technology driven fast paced logistics startup started in 2017. We have
 LoadShare Networks, 2nd and 3rd Floor, 509, 6th Cross, 6th Block, Koramangala
 ","
 StartUp
-",Bangalore,LoadShare Networks,India,"
+",Bangalore,269,LoadShare Networks,India,"
 Between 100 to 500
 ","
 Alumini Contact
@@ -1419,7 +1419,7 @@ Watch our corporate video here: https://www.youtube.com/watch?v=VbldHPFltQQ
 DLF Building, Tower C, N-10, DLF Cyber City, DLF Phase 2, Sector 24,
 ","
 Private,MNC
-","Gurugram, Haryana",Schneider Electric,India,"
+","Gurugram, Haryana",523,Schneider Electric,India,"
 >5000
 ","
 Self
@@ -1437,7 +1437,7 @@ Backed by Sequoia and Qualcomm Ventures, Sigmoid operates out of California- San
 7, 3rd floor, Lightspro Building, Gulmohar Enclave Road, Kundanahalli Gate, Silver Springs Layout, Munnekollal, Bengaluru, Karnataka 560037
 ","
 Private,StartUp
-",Bangalore,Sigmoid,India,"
+",Bangalore,66,Sigmoid,India,"
 Between 100 to 500
 ","
 Alumini Contact
@@ -1450,7 +1450,7 @@ Between 500 to 1000
 TVS Credit Services Limited Jayalakshmi Estates, 29, Haddows Road, Nungambakkam, Chennai - 600006
 ","
 Private
-",Chennai,TVS Credit Services Limited,India,"
+",Chennai,607,TVS Credit Services Limited,India,"
 >5000
 ","
 Self
@@ -1465,7 +1465,7 @@ People love working at ZestMoney, just read our Glassdoor pages if you havent 
 Ground & Third Floor Indiqube Celestia, Site No. 19 & 20, Koramangala 1A Block, Koramangala, Bengaluru, Karnataka 560034
 ","
 StartUp
-",Bangalore,ZestMoney,India,,"
+",Bangalore,498,ZestMoney,India,,"
 Self
 ","
 Finance
@@ -1478,7 +1478,7 @@ People love working at ZestMoney, just read our Glassdoor pages if you havent 
 Ground & Third Floor Indiqube Celestia, Site No. 19 & 20, Koramangala 1A Block, Koramangala, Bengaluru, Karnataka 560034
 ","
 StartUp
-",Bangalore,ZestMoney,India,,"
+",Bangalore,498,ZestMoney,India,,"
 Self
 ","
 Finance
@@ -1495,7 +1495,7 @@ Privately held with more than 2,000 employees, Altair has more than 82 offices i
 Altair Engineering India Pvt Ltd, Prestige Trade Tower | 1st Floor,45/1, Palace Road | High Grounds, Sampangiram Nagar, Bengaluru, Karnataka 560001
 ","
 MNC
-",Bangalore,Altair Engineering,India,"
+",Bangalore,492,Altair Engineering,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1513,7 +1513,7 @@ ADROSONIC was founded in late 2013 with a vision to be an innovative and busines
 Unit 3&4, 4th Floor, D Wing, ADROSONIC,
 ","
 Private
-",Mumbai,ADROSONIC IT Consultancy Services Pvt Ltd,India,"
+",Mumbai,31,ADROSONIC IT Consultancy Services Pvt Ltd,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1526,7 +1526,7 @@ Below 50
 B5, Second floor, Yosemite, AISEZ, Airoli, Navi Mumbai, Thane Belapur road, Maharashtra 400708
 ","
 Private
-","Airoli , Navi Mumbai",Capgemini Technology Services India ltd,INDIA,,"
+","Airoli , Navi Mumbai",75,Capgemini Technology Services India ltd,INDIA,,"
 Self
 ","
 IT/Software
@@ -1537,7 +1537,7 @@ Zinier builds Software for Automated Field Service Management using Machine Lear
 1419 Chapin Ave. Suite 201
 ","
 StartUp
-","Burlingame, CA 94010",Zinier,USA,"
+","Burlingame, CA 94010",105,Zinier,USA,"
 Between 50 to 100
 ","
 Self
@@ -1550,7 +1550,7 @@ SRI CHAITANYA IS ASIA'S LARGEST EDUCATIONAL ORGANISATION RUNNING IT'S OWNGOVT. R
 304, KASETTY HEIGHTS, AYYAPPA SOCIETY MAIN ROAD , MADHAPUR
 ","
 Private
-",HYDERABAD,SRI CHAITANYA EDUCATIONAL INSTITUTIONS,India,"
+",HYDERABAD,318,SRI CHAITANYA EDUCATIONAL INSTITUTIONS,India,"
 >5000
 ","
 Self
@@ -1563,7 +1563,7 @@ Between 1000 to 5000
 2 Floor, Umiya Business Bay, Tower 1, Cessna Business Park
 ","
 Private
-",BANGALORE,BRIDGEi2i Analytics Solutions,India,"
+",BANGALORE,648,BRIDGEi2i Analytics Solutions,India,"
 Between 500 to 1000
 ","
 Alumini Contact
@@ -1576,7 +1576,7 @@ Uniworks Pvt. Ltd has built a versatile team of architects, builders, interior d
 Uniworks Designs 1st floor Lamba Trendz Unity, Madhapur
 ","
 Private
-",Hyderabad,Uniworks Designs Pvt. Ltd,India,"
+",Hyderabad,473,Uniworks Designs Pvt. Ltd,India,"
 Between 50 to 100
 ","
 Contacted by CDC
@@ -1592,7 +1592,7 @@ We partner with our clients in the CPG, Retail, Media & Entertainment, Consumer 
 Merilytics
 ","
 Private
-",Hyderabad,Merilytics,IN,"
+",Hyderabad,77,Merilytics,IN,"
 Between 100 to 500
 ","
 Alumini Contact
@@ -1603,7 +1603,7 @@ Analytics,Consulting
 Pritech Park,6th Floor (Wing A), Building No. 5, Outer Ring Road, Bellandur, Bangalore, Karnataka  560103
 ","
 Private
-",Bangalore,APMSE Software Services Pvt. Ltd. (EagleView),India,"
+",Bangalore,639,APMSE Software Services Pvt. Ltd. (EagleView),India,"
 Between 100 to 500
 ","
 Self
@@ -1618,7 +1618,7 @@ I-PAC works with visionary leaders with a proven track record. In the process, t
 11th Floor, Tower - 1, GODREJ WATERSIDE
 ","
 Private
-",Kolkata,Indian PAC Consulting Pvt Ltd,India,"
+",Kolkata,631,Indian PAC Consulting Pvt Ltd,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1633,7 +1633,7 @@ BeeHyv Software Solutions is a software product engineering firm based in India 
 BeeHyv Software Solutions Pvt Ltd Raja Praasadamu, Level 3 Plot No. 6, 6A and 6B, Masjid Banda Road, Botanical Gardens Road, Kondapur Hyderabad - 500084
 ","
 Private
-",Hyderabad,BeeHyv Software Solutions Pvt Ltd,India,"
+",Hyderabad,299,BeeHyv Software Solutions Pvt Ltd,India,"
 Between 50 to 100
 ","
 Contacted by CDC
@@ -1646,7 +1646,7 @@ Below 50
 2nd Floor, Tower D, IBC, 4/1
 ","
 Private
-",Bangalore,BYJU'S - The Learning App,India,"
+",Bangalore,85,BYJU'S - The Learning App,India,"
 >5000
 ","
 Self
@@ -1673,7 +1673,7 @@ Our philosophy is premised on our 3 is  Independence, Intelligence, Integr
 16th Floor, Plaza First Nationwide
 ","
 MNC
-",Kuala Lumpur,Capital Dynamics group,Malaysia,"
+",Kuala Lumpur,155,Capital Dynamics group,Malaysia,"
 Between 50 to 100
 ","
 Contacted by CDC
@@ -1688,7 +1688,7 @@ At Enquero, you will be part of a dynamic work environment and surrounded by som
 3rd Floor
 ","
 StartUp
-",Bengaluru,Enquero Global,India,"
+",Bengaluru,194,Enquero Global,India,"
 Between 500 to 1000
 ","
 Contacted by CDC
@@ -1708,7 +1708,7 @@ OUR GROUP OF COMPANIES:
 GLOBAL ANALYTICS INDIA PVT LTD (a subsidiary of GAIN CREDIT INC.) Pacifica Tech Park, 101A, First Floor 23, Old Mahabalipuram Road Navallur Chennai, India  603 103
 ","
 Private
-",Chennai,Global Analytics India Pvt Ltd,India,"
+",Chennai,242,Global Analytics India Pvt Ltd,India,"
 Between 100 to 500
 ","
 Self
@@ -1721,7 +1721,7 @@ Between 100 to 500
 Mantri Commercio, Belandur
 ","
 Private
-",Bangalore,JDA Software,India,"
+",Bangalore,663,JDA Software,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1757,7 +1757,7 @@ Lakshya: FYSE Top 100 startups in South East Asia
 Vedantu Innovations Pvt Ltd
 ","
 Private
-",BENGALURU,Vedantu Innovations Pvt Ltd,India,"
+",BENGALURU,393,Vedantu Innovations Pvt Ltd,India,"
 Between 1000 to 5000
 ","
 Self
@@ -1770,7 +1770,7 @@ Between 50 to 100
 #1603 G2, PS Srijan Corporate Park, Block GP, Sector V Salt Lake
 ","
 Private
-",Kolkata,Vehere Interactive,India,"
+",Kolkata,99,Vehere Interactive,India,"
 Between 50 to 100
 ","
 Self
@@ -1783,7 +1783,7 @@ CollegeDoors is a leading online test platform for competitive exams, currently 
 282, Powai Plaza,
 ","
 Private
-",MUMBAI,CollegeDoors (Seshat Technologies Pvt. Ltd.),India,"
+",MUMBAI,404,CollegeDoors (Seshat Technologies Pvt. Ltd.),India,"
 Below 50
 ","
 Contacted by CDC
@@ -1798,7 +1798,7 @@ Cubastion Consulting Pvt Ltd is a technology service provider. With a specializa
 Cubastion Consulting, 701, Tower- 2, Vatika Business Park, Sector-49,Sohana Road,
 ","
 Private
-",Gurgaon,Cubastion Consulting Pvt Ltd,India,"
+",Gurgaon,301,Cubastion Consulting Pvt Ltd,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1812,7 +1812,7 @@ Tomorrows Genius India Pvt Ltd isa subsidiary of GreenPoint Global. TG India (
 Unit#T241, 4th Floor, Tower#10, International Technology Center, CBD Belapur Station Complex, CBD Belapur, Navi Mumbai - 400614
 ","
 Private
-",Navi Mumbai,Green Point Technology Services (India) Pvt Ltd - [Tomorrow's Genius],India,"
+",Navi Mumbai,371,Green Point Technology Services (India) Pvt Ltd - [Tomorrow's Genius],India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1839,7 +1839,7 @@ xi) The educational group has one of the strongest Placement Cells in the countr
 Y12 Electronics Complex
 ","
 Private
-",Kolkata,Institute of Engineering & Management,India,"
+",Kolkata,183,Institute of Engineering & Management,India,"
 Between 100 to 500
 ","
 Contacted by CDC
@@ -1854,7 +1854,7 @@ We build software that drives the business of our customers; enterprises and sof
 Aryabhata- Pingala, 9A/ 12 Erandwana CTS No 12A / 12Pune 411004 India
 ","
 MNC
-",Pune,Persistent Systems Limited,India,"
+",Pune,163,Persistent Systems Limited,India,"
 >5000
 ","
 Contacted by CDC
@@ -1870,7 +1870,7 @@ TCS is the largest Indian company by market capitalization. TCS is now placed am
 Gitanjali Park SEZ, IT/ITES SEZ, Plot- IIF / 3 Action Area - II, New Town, Rajarhat
 ","
 MNC
-",Kolkata,Tata Consultancy Services Ltd.,India,"
+",Kolkata,110,Tata Consultancy Services Ltd.,India,"
 >5000
 ","
 Alumini Contact
@@ -1883,7 +1883,7 @@ IT/Software
 Plot No. 96, Patparganj Industrial Area
 ","
 Private
-",Delhi,Vidyamandir Classes,India,,"
+",Delhi,679,Vidyamandir Classes,India,,"
 Self
 ","
 Teaching / education
@@ -1894,7 +1894,7 @@ ZeMoSo Technologies, (http://www.zemosolabs.com/) was founded by a team with a t
 8th Floor, MJR Magnifique, Near Raidurg Police station, Gachibowli road, Hyderabad500008
 ","
 Private
-",Hyderabad,ZeMoSO Technologies Pvt Ltd,India,"
+",Hyderabad,412,ZeMoSO Technologies Pvt Ltd,India,"
 Between 100 to 500
 ","
 Self
@@ -1907,7 +1907,7 @@ Aakash Institute is synonymous as a leader in the competitive coaching industry.
 4A, 23 Circus Avenue
 ","
 Private
-",Kolkata,Balajee Education Pvt Ltd,India,"
+",Kolkata,531,Balajee Education Pvt Ltd,India,"
 Between 500 to 1000
 ","
 Self

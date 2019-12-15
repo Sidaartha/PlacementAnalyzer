@@ -64,6 +64,8 @@ for ids in com_ids:
 	del data_raw[0:4], data_raw[6], data_raw[7]
 
 	company_dict = {
+		'com_id': com_id,
+		'jnf_id': jnf_id,
 		'type': data_raw[0].string,
 		'profile': data_raw[1].string,
 		'ctc': data_raw[2].string,

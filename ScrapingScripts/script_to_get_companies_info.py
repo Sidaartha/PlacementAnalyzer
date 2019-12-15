@@ -63,9 +63,10 @@ for com_id in com_ids:
 	for key in old_keys:
 		company_dict[key_mapping[key]] = company_dict[key]
 		del company_dict[key]
+	company_dict['com_id'] = com_id
 	company_dict_list.append(company_dict)
 	com_count += 1
 	print("Scraped com_id: {0};\t {1} out of {2} Done! ".format(com_id, com_count, len(com_ids)))
 
 df = pd.DataFrame(company_dict_list)
-# df.to_csv("OutputFiles/placements_companies_info.csv", sep=',', index=False)
+df.to_csv("OutputFiles/placements_companies_info.csv", sep=',', index=False)
