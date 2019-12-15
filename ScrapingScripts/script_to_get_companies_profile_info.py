@@ -75,7 +75,7 @@ class GetCompaniesProfileInfo(object):
 			company_dict['dep_str'] = dep_str
 			company_dict_list.append(company_dict)
 			com_count += 1
-			print("Scraped com_id: {0}, jnf_id: {1};\t {2} out of {3} Done! ".format(com_id, jnf_id, com_count, len(com_ids)))
+			print("Scraped com_id: {0}, jnf_id: {1};\t {2} out of {3} Done! ".format(com_id, jnf_id, com_count, len(self._com_ids)))
 		return company_dict_list
 
 	def get_request_url(self, com_id, jnf_id):
@@ -97,8 +97,11 @@ class GetCompaniesProfileInfo(object):
 		return request_url
 
 	def remove_special_chars(self, string):
-		final_string = re.sub('\n', '', string)
-		return final_string
+		if string:
+			final_string = re.sub('\n', '', string)
+			return final_string
+		else:
+			return ''
 
 
 if __name__ == '__main__':

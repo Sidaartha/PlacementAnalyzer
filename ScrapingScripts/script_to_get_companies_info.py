@@ -49,7 +49,7 @@ class GetCompaniesInfo(object):
 			company_dict['com_id'] = com_id
 			company_dict_list.append(company_dict)
 			com_count += 1
-			print("Scraped com_id: {0};\t {1} out of {2} Done! ".format(com_id, com_count, len(com_ids)))
+			print("Scraped com_id: {0};\t {1} out of {2} Done! ".format(com_id, com_count, len(self._com_ids)))
 		return company_dict_list
 
 	def get_request_url(self, com_id):
@@ -70,8 +70,11 @@ class GetCompaniesInfo(object):
 		return request_url
 
 	def remove_special_chars(self, string):
-		final_string = re.sub('  ', '', string)
-		return final_string
+		if string:
+			final_string = re.sub('  ', '', string)
+			return final_string
+		else:
+			return ''
 
 
 if __name__ == '__main__':
