@@ -1,2 +1,4 @@
 /test
 /venv
+*config_local.py
+*__pycache__/

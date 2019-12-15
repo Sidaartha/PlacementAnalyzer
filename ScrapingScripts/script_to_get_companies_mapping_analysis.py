@@ -62,5 +62,4 @@ for index, row in placements_data.iterrows():
 		else:
 			print(company)
 
-placements_data.to_csv("OutputFiles/placements_new.csv", sep=',', index=False)
-
+# placements_data.to_csv("OutputFiles/placements_companies.csv", sep=',', index=False)
