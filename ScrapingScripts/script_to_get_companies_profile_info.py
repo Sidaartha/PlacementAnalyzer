@@ -44,12 +44,14 @@ class GetCompaniesProfileInfo(object):
 
 				table = soup.select('table')[0]
 				data_raw = table.find_all('td')
+				name = data_raw[1].string[10:]
 				del data_raw[0:4], data_raw[6], data_raw[7]
 
 				if data_raw[0].string == 'PLACEMENT':
 					company_dict = {
 						'com_id': com_id,
 						'jnf_id': jnf_id,
+						'name': name,
 						'type': data_raw[0].string,
 						'profile': data_raw[1].string,
 						'ctc': data_raw[2].string,
