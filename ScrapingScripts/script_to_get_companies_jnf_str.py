@@ -38,4 +38,4 @@ for com in placements_companies:
 			com['company_fullname'] = full_name
 
 df = pd.DataFrame(placements_companies)
-df.to_csv("OutputFiles/placements_companies.csv", sep=',', index=False)
+# df.to_csv("OutputFiles/placements_companies.csv", sep=',', index=False)
