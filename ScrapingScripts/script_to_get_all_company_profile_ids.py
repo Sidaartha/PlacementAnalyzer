@@ -101,4 +101,4 @@ for obj in company_dict_list:
 	company_dict_list_old.append(obj)
 
 df = pd.DataFrame(company_dict_list_old)
-df.to_csv(file_path, sep=',', index=False)
+# df.to_csv(file_path, sep=',', index=False)
