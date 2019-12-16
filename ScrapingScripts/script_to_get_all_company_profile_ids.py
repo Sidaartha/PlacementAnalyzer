@@ -45,7 +45,7 @@ for i in range(int(max_com_id/group_size)+1):
 		company_dict_list_old.append(obj)
 
 	df = pd.DataFrame(company_dict_list_old)
-	# df.to_csv("OutputFiles/placements_companies_all_info.csv", sep=',', index=False)
+	# df.to_csv(file_path, sep=',', index=False)
 
 	print("Scraped till {0}!".format(stop_id))
 
@@ -84,6 +84,21 @@ for i in range(int((min_com_id)/group_size), int((max_com_id)/group_size)+1):
 		company_dict_list_old.append(obj)
 
 	df = pd.DataFrame(company_dict_list_old)
-	# df.to_csv("OutputFiles/placements_companies_profile_all_info.csv", sep=',', index=False)
+	# df.to_csv(file_path, sep=',', index=False)
 
 	print("Scraped till {0}!".format(stop_id))
+
+
+print("================= Started scraping manual entries =================")
+
+file_path = 'OutputFiles/placements_companies_profile_all_info.csv'
+manual_entries = [[239,2]]
+jnf_obj = GetCompaniesProfileInfo(com_ids=manual_entries)
+company_dict_list = jnf_obj.get_data()
+
+company_dict_list_old = csv_to_dict(file_path)
+for obj in company_dict_list:
+	company_dict_list_old.append(obj)
+
+df = pd.DataFrame(company_dict_list_old)
+df.to_csv(file_path, sep=',', index=False)
