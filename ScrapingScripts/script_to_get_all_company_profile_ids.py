@@ -1,5 +1,7 @@
 import csv
+import requests
 import pandas as pd
+from bs4 import BeautifulSoup
 from script_to_get_companies_info import GetCompaniesInfo 
 from script_to_get_companies_profile_info import GetCompaniesProfileInfo 
 
@@ -19,20 +21,19 @@ def csv_to_dict(file_path):
 	except:
 		return object_list
 
-file_path = 'OutputFiles/placements_companies_all_info.csv'
-placements_data = pd.read_csv("OutputFiles/placements_companies.csv", skiprows=[0], names=['company','day','com_id','jnf_id','company_fullname'])
-com_ids_known = list(set(list(placements_data['com_id'].dropna(how='any',axis=0).astype(int))))
-com_ids_known.sort()
 
 min_com_id = 1
 max_com_id = 754
-group_size = 50
+group_size = 10
 
+
+print("================= Started scraping companies info =================")
+
+file_path = 'OutputFiles/placements_companies_all_info.csv'
 for i in range(int(max_com_id/group_size)+1):
 	start_id = i*group_size+1
 	stop_id = max_com_id if i == int(max_com_id/group_size) else i*group_size+group_size
 	com_ids_all = list(range(start_id, stop_id+1))
-	# com_ids = list(set(com_ids_all) - set(com_ids_known))
 
 	print("Scraping between {0} to {1} ...............".format(start_id, stop_id))
 	
@@ -44,6 +45,45 @@ for i in range(int(max_com_id/group_size)+1):
 		company_dict_list_old.append(obj)
 
 	df = pd.DataFrame(company_dict_list_old)
-	df.to_csv("OutputFiles/placements_companies_all_info.csv", sep=',', index=False)
+	# df.to_csv("OutputFiles/placements_companies_all_info.csv", sep=',', index=False)
+
+	print("Scraped till {0}!".format(stop_id))
+
+
+print("================== Started scraping profile info ==================")
+
+file_path = 'OutputFiles/placements_companies_profile_all_info.csv'
+for i in range(int((min_com_id)/group_size), int((max_com_id)/group_size)+1):
+	company_dict_list = []
+	start_id = i*group_size+1
+	stop_id = max_com_id if i == int(max_com_id/group_size) else i*group_size+group_size
+	com_ids = list(range(start_id, stop_id+1))
+
+	print("Scraping between {0} to {1} ...............".format(start_id, stop_id))
+
+	for com in com_ids:
+		j=1
+		while True:
+			jnf_obj = GetCompaniesProfileInfo(com_ids=[[com, j]])
+			request_url = jnf_obj.get_request_url(com_id=com, jnf_id=j)
+			page = requests.get(request_url)
+			soup = BeautifulSoup(page.text, "html.parser")
+			try:
+				table = soup.select('table')[0]
+				company_dict = jnf_obj.get_data()
+				if company_dict:
+					company_dict_list.append(company_dict[0])
+				j+=1
+			except:
+				print("com_id: {0}, jnf_id: {1} response code: 500!".format(com, j))
+				j+=1
+				break
+
+	company_dict_list_old = csv_to_dict(file_path)
+	for obj in company_dict_list:
+		company_dict_list_old.append(obj)
+
+	df = pd.DataFrame(company_dict_list_old)
+	# df.to_csv("OutputFiles/placements_companies_profile_all_info.csv", sep=',', index=False)
 
 	print("Scraped till {0}!".format(stop_id))
