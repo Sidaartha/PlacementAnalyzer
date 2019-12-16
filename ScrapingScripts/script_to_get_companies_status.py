@@ -28,7 +28,9 @@ file_path = 'OutputFiles/placements_companies.csv'
 placements_companies = list(set(get_com_list(file_path)))
 placements_companies.remove(0)
 
-all_companies = csv_to_dict("OutputFiles/placements_companies_all_info.csv")
+# file_path = "OutputFiles/placements_companies_all_info.csv"
+# file_path = "OutputFiles/placements_companies_profile_all_info.csv"
+all_companies = csv_to_dict(file_path)
 
 for com in all_companies:
 	if com['com_id'] in placements_companies:
@@ -37,4 +39,4 @@ for com in all_companies:
 		com['status'] = 0
 
 df = pd.DataFrame(all_companies)
-# df.to_csv("OutputFiles/placements_companies_all_info.csv", sep=',', index=False)
+# df.to_csv(file_path, sep=',', index=False)
