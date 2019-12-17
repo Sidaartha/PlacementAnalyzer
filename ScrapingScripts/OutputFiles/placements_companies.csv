@@ -63,7 +63,7 @@ com_id,company,company_fullname,day,jnf_id,jnf_str
 224,RAZORPAY,Razorpay,Day-2,3,3
 70,SALESFORCE,Salesforce,Day-2,2,2
 389,SAP,SAP,Day-2,1,1
-0,SEMICON,SEMICON,Day-2,1,1
+146,SEMICON,Samsung Semiconductor India R&D Center,Day-2,,2_3
 188,SPRINKLR,Sprinklr India Pvt. Ltd.,Day-2,5,5
 188,SPRINKLR PRODUCT,Sprinklr India Pvt. Ltd.,Day-2,4,4
 13,SRI B,"Samsung R&D Institute, Bangalore",Day-2,,2_3_4
@@ -135,7 +135,7 @@ com_id,company,company_fullname,day,jnf_id,jnf_str
 338,COLLINS,Collins Aerospace,Day-5,1,1
 674,DASSAULT,Dassault Systemes Solutions Lab Pvt. Ltd.,Day-5,1,1
 78,DELHIVERY,Delhivery,Day-5,2,2
-0,DISHMAN,DISHMAN,Day-5,1,1
+340,DISHMAN,Dishman Carbogen Amcis Limited,Day-5,1,1
 341,FUTUREFIRST,Futures First Info Services Pvt.Ltd.,Day-5,1,1
 104,GENERAL MILLS,GENERAL MILLS,Day-5,1,1
 296,GENPACT,Genpact,Day-5,1,1
@@ -197,7 +197,7 @@ com_id,company,company_fullname,day,jnf_id,jnf_str
 393,VEDANTU,Vedantu Innovations Pvt Ltd,Day-9,1,1
 99,VEHERE,Vehere Interactive,Day-9,2,2
 567,VEM TECHNOLOGIES,VEM TECHNOLOGIES PVT LTD,Day-9,,1_2_3_4_5_6
-0,AIR LIQUIDE,AIR LIQUIDE,Day-10,1,1
+39,AIR LIQUIDE,Air Liquide Global E&C Solutions,Day-10,,2_3_4
 603,CHADHA AND CHADHA,Chadha & Chadha,Day-10,1,1
 404,COLLEGEDOORS,CollegeDoors (Seshat Technologies Pvt. Ltd.),Day-10,1,1
 301,CUBASTION CONSULTING,Cubastion Consulting Pvt Ltd,Day-10,1,1
