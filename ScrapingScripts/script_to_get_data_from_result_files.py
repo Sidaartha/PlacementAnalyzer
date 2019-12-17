@@ -36,4 +36,4 @@ for day in range(1, placement_days+1):
 	print("Total offers in day {0}: {1}".format(day, offers_new))
 
 df = pd.DataFrame(data_list)
-df.to_csv("OutputFiles/placements.csv", sep=',', index=False)
+# df.to_csv("OutputFiles/placements.csv", sep=',', index=False)

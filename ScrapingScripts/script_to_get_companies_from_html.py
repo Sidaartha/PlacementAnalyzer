@@ -20,5 +20,5 @@ for tr in table.find_all('tr'):
 		'jnf_id': id_values_list[2]
 		})
 df = pd.DataFrame(tabs)
-df.to_csv("OutputFiles/companies_mining.csv", sep=',', index=False)
+# df.to_csv("OutputFiles/companies_mining.csv", sep=',', index=False)
 file.close()
