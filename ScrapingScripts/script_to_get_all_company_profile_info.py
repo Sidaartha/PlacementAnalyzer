@@ -92,7 +92,7 @@ for i in range(int((min_com_id)/group_size), int((max_com_id)/group_size)+1):
 print("================= Started scraping manual entries =================")
 
 file_path = 'OutputFiles/placements_companies_profile_all_info.csv'
-manual_entries = [[239,2]]
+manual_entries = [[239,2],[39,2],[39,3],[39,4]]
 jnf_obj = GetCompaniesProfileInfo(com_ids=manual_entries)
 company_dict_list = jnf_obj.get_data()
 
