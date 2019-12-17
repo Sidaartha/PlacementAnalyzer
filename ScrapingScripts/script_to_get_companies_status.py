@@ -26,7 +26,10 @@ def get_com_list(file_path):
 
 file_path = 'OutputFiles/placements_companies.csv'
 placements_companies = list(set(get_com_list(file_path)))
-placements_companies.remove(0)
+try:
+	placements_companies.remove(0)
+except:
+	pass
 
 # file_path = "OutputFiles/placements_companies_all_info.csv"
 # file_path = "OutputFiles/placements_companies_profile_all_info.csv"
