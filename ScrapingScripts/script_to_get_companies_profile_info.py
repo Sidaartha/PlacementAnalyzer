@@ -71,7 +71,7 @@ class GetCompaniesProfileInfo(object):
 						'name': name,
 						'type': data_raw[0].string,
 						'profile': data_raw[1].string,
-						'ctc': data_raw[2].string,
+						'package': data_raw[2].string,
 						'contract': data_raw[3].string,
 						'criteria': data_raw[4].string,
 						'cgpa_cutoff': data_raw[5].string,

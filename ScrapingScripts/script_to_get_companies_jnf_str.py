@@ -18,7 +18,7 @@ def csv_to_dict(file_path):
 file_path = 'OutputFiles/placements_companies.csv'
 placements_companies = csv_to_dict(file_path)
 
-all_companies_profiles = pd.read_csv("OutputFiles/placements_companies_profile_all_info.csv", skiprows=[0], names=["about","cgpa_cutoff","com_id","contract","criteria","ctc","dep_str","jnf_id","name","profile","selection","type"])
+all_companies_profiles = pd.read_csv("OutputFiles/placements_companies_profile_all_info.csv", skiprows=[0], names=["about","cgpa_cutoff","com_id","contract","criteria","package","dep_str","jnf_id","name","profile","selection","type"])
 
 for com in placements_companies:
 	if com['com_id'] != 0:
