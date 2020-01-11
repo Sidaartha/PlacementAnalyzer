@@ -64,8 +64,6 @@ departments_list = list(departments.keys())
 companies_list = list(set([comp['com_id'] for comp in placements_companies]))
 students_list = list(set([stud['roll_no'] for stud in students_data]))
 locations_list = list(set([comp['city'] for comp in companies]))
-print(locations_list)
-print(len(locations_list))
 
 companies_dict = {}
 for com_id in companies_list:
@@ -136,3 +134,14 @@ for profile in companies_profile:
 
 # with open('../DataJSON/departments.json', 'w') as f:
 #     json.dump(departments_dict, f, ensure_ascii=False, indent=4)
+
+locations_dict = {}
+for com in companies:
+	city = com['city']
+	if city not in locations_dict:
+		locations_dict[city] = [com['com_id']]
+	else:
+		locations_dict[city].append(com['com_id'])
+
+# with open('../DataJSON/locations.json', 'w') as f:
+#     json.dump(locations_dict, f, ensure_ascii=False, indent=4)
