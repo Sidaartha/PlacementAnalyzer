@@ -63,6 +63,9 @@ departments = {
 departments_list = list(departments.keys())
 companies_list = list(set([comp['com_id'] for comp in placements_companies]))
 students_list = list(set([stud['roll_no'] for stud in students_data]))
+locations_list = list(set([comp['city'] for comp in companies]))
+print(locations_list)
+print(len(locations_list))
 
 companies_dict = {}
 for com_id in companies_list:
