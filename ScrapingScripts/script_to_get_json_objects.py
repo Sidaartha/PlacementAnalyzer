@@ -14,6 +14,16 @@ def csv_to_dict(file_path):
 			object_list.append(object_dict)
 	return object_list
 
+def capitalize(title):
+	words = title.split(' ')
+	capitalized_title = ''
+	for word in words:
+		if word not in ['AND', 'OF', 'FOR']:
+			capitalized_title += ' '+word.capitalize()
+		else:
+			capitalized_title += ' '+word.lower()
+	return capitalized_title
+
 file_path = ['OutputFiles/placements.csv', 'OutputFiles/placements_companies.csv', 'OutputFiles/placements_companies_final.csv', 'OutputFiles/placements_companies_profile_final.csv', 'Files/students.csv']
 
 companies = csv_to_dict(file_path[2])
@@ -118,6 +128,7 @@ for roll in students_list:
 departments_dict = {}
 for dep in departments_list:
 	departments_dict[dep] = {
+		'name': capitalize(departments[dep]),
 		'com_ids': []
 	}
 for profile in companies_profile:
