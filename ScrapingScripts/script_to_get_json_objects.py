@@ -202,3 +202,70 @@ for com in companies:
 
 # with open('../DataJSON/sectors.json', 'w') as f:
 #     json.dump(sectors_dict, f, ensure_ascii=False, indent=4)
+
+packages_dict = {
+	'package_strs': ["> 25 Lakhs", "20 to 25 Lakhs", "15 to 20 Lakhs", "12 to 15 Lakhs", "12 to 10 Lakhs", "10 to 8 Lakhs", "8 to 5 Lakhs", "< 5 Lakhs"]
+}
+for i in range(1,9):
+	packages_dict[str(i)] = {
+		'package_str': packages_dict['package_strs'][i-1],
+		'com_ids': []
+	}
+for profile in companies_profile:
+	ctc = float(profile['ctc'])
+	currency = profile['currency']
+	if currency == 'USD':
+		ctc = ctc*70
+	elif currency == 'JPY':
+		ctc = ctc*0.64
+	if ctc > 25:
+		if profile['com_id'] in packages_dict['1']['com_ids']:
+			packages_dict['1'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['1']['com_ids'].append(profile['com_id'])
+			packages_dict['1'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 25 and ctc > 20:
+		if profile['com_id'] in packages_dict['2']['com_ids']:
+			packages_dict['2'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['2']['com_ids'].append(profile['com_id'])
+			packages_dict['2'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 20 and ctc > 15:
+		if profile['com_id'] in packages_dict['3']['com_ids']:
+			packages_dict['3'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['3']['com_ids'].append(profile['com_id'])
+			packages_dict['3'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 15 and ctc > 12:
+		if profile['com_id'] in packages_dict['4']['com_ids']:
+			packages_dict['4'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['4']['com_ids'].append(profile['com_id'])
+			packages_dict['4'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 12 and ctc > 10:
+		if profile['com_id'] in packages_dict['5']['com_ids']:
+			packages_dict['5'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['5']['com_ids'].append(profile['com_id'])
+			packages_dict['5'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 10 and ctc > 8:
+		if profile['com_id'] in packages_dict['6']['com_ids']:
+			packages_dict['6'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['6']['com_ids'].append(profile['com_id'])
+			packages_dict['6'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 8 and ctc > 5:
+		if profile['com_id'] in packages_dict['7']['com_ids']:
+			packages_dict['7'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['7']['com_ids'].append(profile['com_id'])
+			packages_dict['7'][profile['com_id']] = [profile['jnf_id']]
+	elif ctc <= 5:
+		if profile['com_id'] in packages_dict['8']['com_ids']:
+			packages_dict['8'][profile['com_id']].append(profile['jnf_id'])
+		else:
+			packages_dict['8']['com_ids'].append(profile['com_id'])
+			packages_dict['8'][profile['com_id']] = [profile['jnf_id']]
+
+# with open('../DataJSON/packages.json', 'w') as f:
+#     json.dump(packages_dict, f, ensure_ascii=False, indent=4)
