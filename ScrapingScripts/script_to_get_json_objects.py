@@ -163,3 +163,23 @@ for com in companies:
 
 # with open('../DataJSON/locations.json', 'w') as f:
 #     json.dump(locations_dict, f, ensure_ascii=False, indent=4)
+
+days_dict = {}
+for plac_comp in placements_companies:
+	if plac_comp['day'][4:] in days_dict:
+		if plac_comp['com_id'] in days_dict[plac_comp['day'][4:]]['com_ids']:
+			jnf_ids = [int(i) for i in plac_comp['jnf_str'].split('_')]
+			days_dict[plac_comp['day'][4:]][plac_comp['com_id']].extend(jnf_ids)
+		else:
+			days_dict[plac_comp['day'][4:]]['com_ids'].append(plac_comp['com_id'])
+			jnf_ids = [int(i) for i in plac_comp['jnf_str'].split('_')]
+			days_dict[plac_comp['day'][4:]][plac_comp['com_id']] = jnf_ids
+	else:
+		jnf_ids = [int(i) for i in plac_comp['jnf_str'].split('_')]
+		days_dict[plac_comp['day'][4:]] = {
+			'com_ids': [plac_comp['com_id']],
+			plac_comp['com_id']: jnf_ids
+		}
+
+# with open('../DataJSON/days.json', 'w') as f:
+#     json.dump(days_dict, f, ensure_ascii=False, indent=4)
