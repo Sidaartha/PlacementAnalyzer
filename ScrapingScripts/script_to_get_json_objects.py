@@ -75,6 +75,13 @@ companies_list = list(set([comp['com_id'] for comp in placements_companies]))
 students_list = list(set([stud['roll_no'] for stud in students_data]))
 locations_list = list(set([comp['city'] for comp in companies]))
 
+sectors_list = []
+for comp in companies:
+	sectors = comp['sector'].replace("\n", "").split(",")
+	sectors_list.extend(sectors)
+sectors_list.remove('')
+sectors_list = list(set(sectors_list))
+
 companies_dict = {}
 for com_id in companies_list:
 	for com in companies:
@@ -183,3 +190,15 @@ for plac_comp in placements_companies:
 
 # with open('../DataJSON/days.json', 'w') as f:
 #     json.dump(days_dict, f, ensure_ascii=False, indent=4)
+
+sectors_dict = {}
+for com in companies:
+	sectors = com['sector'].replace("\n", "").split(",")
+	for sector in sectors:
+		if sector not in sectors_dict:
+			sectors_dict[sector] = [com['com_id']]
+		else:
+			sectors_dict[sector].append(com['com_id'])
+
+# with open('../DataJSON/sectors.json', 'w') as f:
+#     json.dump(sectors_dict, f, ensure_ascii=False, indent=4)
