@@ -108,9 +108,16 @@ for com_id in companies_list:
 			profile['dep_list'] = profile['dep_str'].split('_')
 		if profile['com_id'] == com_id:
 			profiles[profile['jnf_id']] = profile
+			for plac_comp in placements_companies:
+				if plac_comp['com_id'] == com_id:
+					if plac_comp['jnf_id']:
+						if plac_comp['jnf_id'] == profile['jnf_id']:
+							profiles[profile['jnf_id']]['day'] = int(plac_comp['day'][4:])
+					else :
+						profiles[profile['jnf_id']]['day'] = int(plac_comp['day'][4:])
 	profile_dict[com_id] = profiles
 
-# with open('../DataJSON/profiles.json', 'w', encoding='utf-8') as f:
+# with open('../DataJSON/profiles.json', 'w') as f:
 #     json.dump(profile_dict, f, ensure_ascii=False, indent=4)
 
 students_dict = {}
