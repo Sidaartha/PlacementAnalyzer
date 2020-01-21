@@ -36,7 +36,7 @@ com_id,company,company_fullname,day,jnf_id,jnf_str
 42,AB INBEV,AB InBev,Day-2,2,2
 375,ACCENTURE JAPAN,Accenture Japan Ltd.,Day-2,1,1
 169,ACCENTURE SOLUTIONS,ACCENTURE SOLUTIONS PVT LTD,Day-2,2,2
-523,ADOBE,Schneider Electric,Day-2,1,1
+520,ADOBE,Adobe,Day-2,1,1
 18,AMAZON (SDE),Amazon India,Day-2,1,1
 154,BAJAJ AUTO,Bajaj Auto Ltd,Day-2,,1_3
 455,BARCLAYS,Barclays Global Service Center,Day-2,1,1
@@ -127,7 +127,7 @@ com_id,company,company_fullname,day,jnf_id,jnf_str
 158,UDAAN (SDE),Udaan,Day-4,3,3
 558,VEDANTA LIMITED,Vedanta Limited,Day-4,1,1
 529,ZILINGO,Zilingo Funline Private Limited,Day-4,1,1
-306,ZS ASSOCIATES,ZS Associates,Day-4,1,1
+306,ZS ASSOCIATES,ZS Associates,Day-4,2,2
 18,AMAZON (OPS),Amazon India,Day-5,5,5
 246,ARTH DESIGN,Arth Design Build India Pvt Ltd,Day-5,3,3
 71,AXTRIA,Axtria India Pvt. Ltd.,Day-5,1,1

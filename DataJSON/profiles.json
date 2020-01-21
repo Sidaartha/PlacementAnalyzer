@@ -2973,6 +2973,39 @@
             "ctc": 23
         }
     }, 
+    "520": {
+        "1": {
+            "selection": "Online/Offline test (Max 30 mins)", 
+            "vp": 0, 
+            "currency": "INR", 
+            "dep_str": "AT_CS_EE_EC_TE_MA", 
+            "cgpa_criteria": "0.0", 
+            "rb": 3, 
+            "criteria": "", 
+            "eso": 3, 
+            "jnf_id": 1, 
+            "type": "PLACEMENT", 
+            "profile": "Member of Technical Staff", 
+            "dep_list": [
+                "AT", 
+                "CS", 
+                "EE", 
+                "EC", 
+                "TE", 
+                "MA"
+            ], 
+            "com_id": 520, 
+            "cgpa_cutoff": "0.0", 
+            "base": 12, 
+            "day": 2, 
+            "jb": 2, 
+            "about": "\tContribute extensively in analysis, design and programming for major and dot software releases\n\tInterface with product management to evaluate and determine new features to be added\n\tProactive self starter who can develop methods, techniques and evaluation criterion for obtaining results\n\tAddress broad architecture and design issues of future products or technologies\n\tProvide strategic direction in evaluating new technologies in his/her area of expertise", 
+            "name": "Adobe", 
+            "package": "2335838 INR  [2335838 (distribution can be found here : https://files.acrobat.com/a/preview/105f1009-9795-4968-adf1-3bbcfad3962f)]", 
+            "contract": "NO", 
+            "ctc": "23.35"
+        }
+    },
     "68": {
         "1": {
             "selection": "Online/Offline test (Max 30 mins)", 

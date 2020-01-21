@@ -137,24 +137,6 @@
         "reference": "\nSelf\n", 
         "students": [
             {
-                "company": "ADOBE", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-2", 
-                "roll_no": "16EE10044", 
-                "name": "SAURABH AGARWAL"
-            }, 
-            {
-                "company": "ADOBE", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15CS10039", 
-                "name": "SAMBOJI KRISHNA MAITHREYA"
-            }, 
-            {
                 "company": "SCHNEIDER ELECTRIC", 
                 "jnf_ids": [
                     3
@@ -184,6 +166,45 @@
         "website": "se.com/in", 
         "sector": "\nCore Engineering\n", 
         "address": "DLF Building, Tower C, N-10, DLF Cyber City, DLF Phase 2, Sector 24,", 
+        "international": 0, 
+        "employees": ">5000", 
+        "turnover": ""
+    }, 
+    "520": {
+        "category": "\nMNC\n", 
+        "city": "Noida", 
+        "about": "", 
+        "reference": "\nSelf\n", 
+        "students": [
+            {
+                "company": "ADOBE", 
+                "jnf_ids": [
+                    1
+                ], 
+                "day": "Day-2", 
+                "roll_no": "16EE10044", 
+                "name": "SAURABH AGARWAL"
+            }, 
+            {
+                "company": "ADOBE", 
+                "jnf_ids": [
+                    1
+                ], 
+                "day": "Day-2", 
+                "roll_no": "15CS10039", 
+                "name": "SAMBOJI KRISHNA MAITHREYA"
+            }
+        ], 
+        "country": "India", 
+        "company": "Adobe", 
+        "zipcode": 201304, 
+        "profiles": [
+            1
+        ], 
+        "com_id": 520, 
+        "website": "www.adobe.com", 
+        "sector": "\nIT/Software\n", 
+        "address": "Adobe Systems, Plot 05, Block A", 
         "international": 0, 
         "employees": ">5000", 
         "turnover": ""
@@ -9308,7 +9329,7 @@
             {
                 "company": "ZS ASSOCIATES", 
                 "jnf_ids": [
-                    1
+                    2
                 ], 
                 "day": "Day-4", 
                 "roll_no": "15CH30036", 
@@ -9317,7 +9338,7 @@
             {
                 "company": "ZS ASSOCIATES", 
                 "jnf_ids": [
-                    1
+                    2
                 ], 
                 "day": "Day-4", 
                 "roll_no": "15EX20019", 
@@ -9326,7 +9347,7 @@
             {
                 "company": "ZS ASSOCIATES", 
                 "jnf_ids": [
-                    1
+                    2
                 ], 
                 "day": "Day-4", 
                 "roll_no": "15GG20003", 
@@ -9335,7 +9356,7 @@
             {
                 "company": "ZS ASSOCIATES", 
                 "jnf_ids": [
-                    1
+                    2
                 ], 
                 "day": "Day-4", 
                 "roll_no": "15IM30002", 
