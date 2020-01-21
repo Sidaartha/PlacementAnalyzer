@@ -1925,48 +1925,6 @@
                 "day": "Day-10", 
                 "roll_no": "15EC32002", 
                 "name": "SANDEEP SHARMA"
-            }, 
-            {
-                "company": "VEM TECHNOLOGIES", 
-                "jnf_ids": [
-                    1, 
-                    2, 
-                    3, 
-                    4, 
-                    5, 
-                    6
-                ], 
-                "day": "Day-9", 
-                "roll_no": "18EC63R08", 
-                "name": "RAHUL KUMAR"
-            }, 
-            {
-                "company": "VEM TECHNOLOGIES", 
-                "jnf_ids": [
-                    1, 
-                    2, 
-                    3, 
-                    4, 
-                    5, 
-                    6
-                ], 
-                "day": "Day-9", 
-                "roll_no": "18EC63R12", 
-                "name": "AKSHAT RATHORE"
-            }, 
-            {
-                "company": "VEM TECHNOLOGIES", 
-                "jnf_ids": [
-                    1, 
-                    2, 
-                    3, 
-                    4, 
-                    5, 
-                    6
-                ], 
-                "day": "Day-10", 
-                "roll_no": "15EC32002", 
-                "name": "SANDEEP SHARMA"
             }
         ], 
         "country": "India", 
@@ -4078,321 +4036,6 @@
                 "day": "Day-2", 
                 "roll_no": "15AE30038", 
                 "name": "SUBODH RANJAN"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-2", 
-                "roll_no": "16EC10036", 
-                "name": "MD DANISH IMAM"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18MA60R38", 
-                "name": "SUTOPA PAUL"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16MF10034", 
-                "name": "R AMARTYA"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16CH10048", 
-                "name": "SUGATO MUKHOPADHYAY"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15AE30005", 
-                "name": "BHAVYA PRANATHI NANDI"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15CY20018", 
-                "name": "MODI NIHAAL SHAILESH"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16CE10043", 
-                "name": "RAHUL JAIN"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16IM10029", 
-                "name": "ZEESHAN"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15EX20029", 
-                "name": "VANGALA RAVI TEJA"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15MF3IM01", 
-                "name": "ASHISH KUMAR"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15MA20009", 
-                "name": "ARSALAN MD. SAAD"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16IM10003", 
-                "name": "DEBJOY DAS"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16AG10006", 
-                "name": "DARPAN RUPARELIYA"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15NA30010", 
-                "name": "MUKUL KUMAR"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16CH10017", 
-                "name": "GAURAV KUMAR"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16EE10049", 
-                "name": "SWEETY KACHHAP"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18EE64R12", 
-                "name": "BINGI NAGESH"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18EC65R07", 
-                "name": "SRIJITA SAHA ROY"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18EC65R05", 
-                "name": "ANKITA KUMARI"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18EE64R09", 
-                "name": "N SARAVANAN"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18AT61R02", 
-                "name": "TATHAGATA CHATTERJEE"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18EC65R16", 
-                "name": "SIVARAM YADAV PALLA"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15IM30027", 
-                "name": "MANISH AGRAWAL"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16MI10027", 
-                "name": "SACHIN SINGH RAJPUT"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "14PH20028", 
-                "name": "RAVI SHEORAN"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18CS60R56", 
-                "name": "NARAYAN KUNAL"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16AG10028", 
-                "name": "SAURABH SIYAG"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16AG10024", 
-                "name": "RAHUL TRIPATHI"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15AE30027", 
-                "name": "WAKHARE ONKAR SUNIL"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15EE35011", 
-                "name": "SHIVAM CHOUDHARY"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16CS10028", 
-                "name": "K KUNDAN NAG"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16CH10012", 
-                "name": "DEEPAK GAUTAM"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "16NA10013", 
-                "name": "KINTADA PRUDHVI SAI DURGA RAJU"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18MA60R32", 
-                "name": "VIKAS MEENA"
-            }, 
-            {
-                "company": "HONEYWELL", 
-                "jnf_ids": [
-                    1
-                ], 
-                "day": "Day-3", 
-                "roll_no": "18CS60R70", 
-                "name": "TELANG ONKAR AJAY"
             }
         ], 
         "country": "India", 
@@ -6034,7 +5677,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15AE30012", 
@@ -6043,7 +5686,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15AR10023", 
@@ -6052,7 +5695,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15BT30031", 
@@ -6061,7 +5704,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15CE31004", 
@@ -6070,7 +5713,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15CH30005", 
@@ -6079,7 +5722,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15CH30035", 
@@ -6088,7 +5731,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15HS20025", 
@@ -6097,7 +5740,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15HS20041", 
@@ -6106,7 +5749,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15MA20002", 
@@ -6115,7 +5758,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15ME33007", 
@@ -6124,7 +5767,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15ME33027", 
@@ -6133,7 +5776,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15ME33040", 
@@ -6142,7 +5785,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15ME33043", 
@@ -6151,7 +5794,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15MI31002", 
@@ -6160,7 +5803,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "15MI31031", 
@@ -6169,7 +5812,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16AE10030", 
@@ -6178,7 +5821,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16CE10014", 
@@ -6187,7 +5830,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16CE10033", 
@@ -6196,7 +5839,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16CE10036", 
@@ -6205,7 +5848,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16CH10056", 
@@ -6214,7 +5857,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16IE10028", 
@@ -6223,7 +5866,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16IM10021", 
@@ -6232,7 +5875,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16IM10023", 
@@ -6241,7 +5884,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16ME10050", 
@@ -6250,259 +5893,7 @@
             {
                 "company": "EXL SERVICE", 
                 "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16MF10004", 
-                "name": "ANISH MOONKA"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18IM60R10", 
-                "name": "MONOJIT MANDAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18ME61R09", 
-                "name": "SUMAN BUTE"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18NA60R11", 
-                "name": "PRADEEPKUMAR JAGDALE"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15AE30012", 
-                "name": "RAHUL RAJ"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15AR10023", 
-                "name": "PRANAV AGARWAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15BT30031", 
-                "name": "SAHIL YADAV"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15CE31004", 
-                "name": "RISHU RAJ"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15CH30005", 
-                "name": "ARNAV DAS"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15CH30035", 
-                "name": "B V SAI PRAVEEN CHAKRAVARTHY"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15HS20025", 
-                "name": "PATIL YASH UMESH"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15HS20041", 
-                "name": "UMANG AGARWAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15MA20002", 
-                "name": "ABHISHEK CHAUHAN"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15ME33007", 
-                "name": "MEHTA DARSHAK RAMESH"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15ME33027", 
-                "name": "VIVEK MALIK"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15ME33040", 
-                "name": "RENJITH KADEPARAMBIL ANIL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15ME33043", 
-                "name": "DAMPANABOINA UMAR CHAND"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15MI31002", 
-                "name": "AYUSH BANSAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "15MI31031", 
-                "name": "ANAND KUMAR"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16AE10030", 
-                "name": "SWAPNIL AGARWAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16CE10014", 
-                "name": "BELLUM MAHEEDHAR"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16CE10033", 
-                "name": "PANKAJ AGRAWAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16CE10036", 
-                "name": "PINAKI MISHRA"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16CH10056", 
-                "name": "JAYA AGARWAL"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16IE10028", 
-                "name": "SHREYA SANTRA"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16IM10021", 
-                "name": "SUDHANSHU MADHUR"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16IM10023", 
-                "name": "SUNNY KUMAR"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
-                ], 
-                "day": "Day-1", 
-                "roll_no": "16ME10050", 
-                "name": "ROHIT SHARMA"
-            }, 
-            {
-                "company": "EXL SERVICE", 
-                "jnf_ids": [
-                    3
+                    2
                 ], 
                 "day": "Day-1", 
                 "roll_no": "16MF10004", 
@@ -9269,7 +8660,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15ME33002", 
@@ -9278,7 +8669,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "16IE10004", 
@@ -9287,7 +8678,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15EC35028", 
@@ -9296,7 +8687,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15AE30008", 
@@ -9305,7 +8696,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "18ME63R03", 
@@ -9314,7 +8705,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "18EE61R10", 
@@ -9323,7 +8714,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "18EE61R11", 
@@ -9332,7 +8723,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "16NA10026", 
@@ -9341,7 +8732,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15AE30032", 
@@ -9350,7 +8741,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15IM30001", 
@@ -9359,7 +8750,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15MT30025", 
@@ -9368,178 +8759,7 @@
             {
                 "company": "OLA", 
                 "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15BT30034", 
-                "name": "BHUKYA NIKHIL KUMAR"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15HS20013", 
-                "name": "CHANDORKAR SOHAM VIJAY"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15HS20043", 
-                "name": "VARNIKA SAINI"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15AR10022", 
-                "name": "PRAHARAJ IPSITA"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "14PH20025", 
-                "name": "PUKHRAJ BARASKAR"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15HS20001", 
-                "name": "AKHIL AGRAWAL"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15MI31008", 
-                "name": "KHORASIYA PRAKASH LAXMIDAS"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-3", 
-                "roll_no": "15HS20039", 
-                "name": "SHIVAM KANKANI"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15ME33002", 
-                "name": "PRITAM KUMAR"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "16IE10004", 
-                "name": "ANURAG MONDAL"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15EC35028", 
-                "name": "BODDU SAI KUMAR"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15AE30008", 
-                "name": "MALAVIYA RAKESH HIMMAT"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18ME63R03", 
-                "name": "KURAPATI AMBAREESH"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18EE61R10", 
-                "name": "DOTER RIBA"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "18EE61R11", 
-                "name": "NAGRALE KALYANI BANDU"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "16NA10026", 
-                "name": "SHUBHAM GARG"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15AE30032", 
-                "name": "MEDAM MAHESH"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15IM30001", 
-                "name": "A DEEPTHI"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
-                ], 
-                "day": "Day-2", 
-                "roll_no": "15MT30025", 
-                "name": "KHUSHAAL SUNDARAM JAISWAL"
-            }, 
-            {
-                "company": "OLA", 
-                "jnf_ids": [
-                    5
+                    3
                 ], 
                 "day": "Day-2", 
                 "roll_no": "15BT30034", 
