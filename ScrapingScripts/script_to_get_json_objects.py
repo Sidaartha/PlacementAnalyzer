@@ -93,18 +93,17 @@ for com_id in companies_list:
 				if profile['com_id'] == com_id:
 					profiles.append(profile['jnf_id'])
 			companies_dict[com_id]['profiles'] = profiles
+			companies_dict[com_id]['students'] = []
 
 			for plac_comp in placements_companies:
 				if plac_comp['com_id'] == com_id:
-					students = []
 					for student in placements_students:
 						if student['company'] == plac_comp['company']:
 							student['jnf_ids'] = [int(j) for j in plac_comp['jnf_str'].split('_')]
-							students.append(student)
-					companies_dict[com_id]['students'] = students
+							companies_dict[com_id]['students'].append(student)
 			break
 
-# with open('../DataJSON/companies.json', 'w', encoding='utf-8') as f:
+# with open('../DataJSON/companies.json', 'w') as f:
 #     json.dump(companies_dict, f, ensure_ascii=False, indent=4)
 
 profile_dict = {}
