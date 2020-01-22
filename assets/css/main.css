@@ -52,7 +52,7 @@ a:hover {
   margin-top: 2%;
 }
 .blocker {
-  margin-bottom: 4%;
+  margin-bottom: 14%;
 }
 .major {
   /*text-transform: uppercase;*/
@@ -63,8 +63,21 @@ a:hover {
   margin-bottom: 10px;
   color: #ED1C24;
 }
+.major_section {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 1.4em !important;
+  font-weight: 500 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ED1C24;
+}
 .minor {
   color: #235789;
+  font-size: 1.2em !important;
+}
+.minor_section {
+  color: #006494;
   font-size: 1.2em !important;
 }
 .break { 
@@ -160,6 +173,67 @@ a:hover {
 .star:hover {
 	opacity: 1;
 }
+.flash_me {
+	color: #ED1C24;
+	opacity: 0.8;
+}
+.proname_val {
+	font-size: 1.9em;
+	font-weight: 500;
+	font-family: 'Roboto',sans-serif;
+}
+.proname_str {
+	font-size: 0.6em;
+	font-weight: 500;
+	font-family: 'Roboto',sans-serif;
+	color: #ED1C24; 
+}
+.side_val_d {
+	position: relative;
+  	top: 0px;
+  	left: 21px;
+}
+.top_str_d {
+	position: relative;
+  	top: -12px;
+  	left: 22px;
+}
+.bottom_str_d {
+	position: relative;
+  	top: 0px;
+  	left: -23px;
+}
+.side_val_a {
+	position: relative;
+  	top: 0px;
+  	left: 20px;
+}
+.top_str_a {
+	position: relative;
+  	top: -12px;
+  	left: 22px;
+}
+.bottom_str_a {
+	position: relative;
+  	top: 0px;
+  	left: -13px;
+}
+.card {
+	background-color: #FBF5E3;
+	padding: 5px;
+	text-align: center;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.section_row {
+	margin-top: 20px;
+}
+.superscript {
+	font-size: 0.3em;
+	position: relative;
+  	top: 0px;
+  	left: 0px;
+}
 
 @media screen and (min-width: 800px) {
   .pitema:nth-child(1),
@@ -179,6 +253,10 @@ a:hover {
   .pitema:nth-child(8){
     border-top: 1px solid #ddd;
   }
+/*  .card_n:nth-child(6),
+  .card_n:nth-child(12) {
+	margin-bottom: 10px;
+  }*/
   .portfolioimage {
     max-width: 72%;
   }
