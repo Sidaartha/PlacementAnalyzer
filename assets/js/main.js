@@ -1,5 +1,5 @@
 
-$('.fa-pie-chart').click(function() {
+$('.pitema_pie-chart').click(function() {
   document.getElementById('statistics').scrollIntoView(true);
 });
 
