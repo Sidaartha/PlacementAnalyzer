@@ -9,6 +9,10 @@ google.charts.setOnLoadCallback(drawChart_sector);
 google.charts.setOnLoadCallback(drawChart_location);
 google.charts.setOnLoadCallback(drawChart_package);
 
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBar_dep);
+google.charts.setOnLoadCallback(drawBar_sec);
+
 function drawChart_degree() {
 	var data = google.visualization.arrayToDataTable([
 	  ['Degree', 'Placed'],
@@ -119,3 +123,109 @@ function drawChart_package() {
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_package'));
 	chart.draw(data, options);
 }
+
+function createCustomHTMLContent(lable, v1, v2, v3) {
+  return '<div style="padding:10px 10px 10px 10px; max-width: 170px; white-space: nowrap;">' +
+      '<span style="font-size: 1.3em; font-weight: 500; color: #454545;">' + lable + '</span><br/>' +
+      '<hr style="margin: 4px 0px 5px 0px;">' +
+      '<table style="font-size: 1em;">' + '<tr>' +
+      '<td style="padding-bottom: 2px; color: #ED1C24; white-space: nowrap;">Base: <b>' + v1 + '</b></td>' + '</tr>' + '<tr>' +
+      '<td style="padding-bottom: 2px; color: #235789; white-space: nowrap;">CTC: <b>' + v2 + '</b></td>' + '</tr>' + '<tr>' +
+      '<td style="padding-bottom: 2px; color: #F49D37; white-space: nowrap;">Placed: <b>' + v3 + '</b></td>' + '</tr>' + '</table>' + '</div>';
+}
+
+function drawBar_dep() {
+      var data = google.visualization.arrayToDataTable([
+        ['Department', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Base', 'CTC'],
+        ['AE', createCustomHTMLContent('AE', 11.0, 12.8, 41), 11.0, 12.8],
+		['AG', createCustomHTMLContent('AG', 11.2, 13.2, 37), 11.2, 13.2],
+		['AR', createCustomHTMLContent('AR', 8.4, 9.5, 28), 8.4, 9.5],
+		['AT', createCustomHTMLContent('AT', 13.2, 16.0, 3), 13.2, 16.0],
+		['BT', createCustomHTMLContent('BT', 12.3, 14.7, 23), 12.3, 14.7],
+		['CE', createCustomHTMLContent('CE', 10.6, 13.0, 52), 10.6, 13.0],
+		['CH', createCustomHTMLContent('CH', 12.4, 14.2, 76), 12.4, 14.2],
+		['CL', createCustomHTMLContent('CL', 5.1, 5.7, 2), 5.1, 5.7],
+		['CR', createCustomHTMLContent('CR', 4.6, 6.5, 2), 4.6, 6.5],
+		['CS', createCustomHTMLContent('CS', 18.5, 22.5, 104), 18.5, 22.5],
+		['CY', createCustomHTMLContent('CY', 8.8, 10.1, 18), 8.8, 10.1],
+		['EC', createCustomHTMLContent('EC', 15.6, 19.3, 100), 15.6, 19.3],
+		['EE', createCustomHTMLContent('EE', 14.5, 17.1, 74), 14.5, 17.1],
+		['EX', createCustomHTMLContent('EX', 10.4, 11.4, 11), 10.4, 11.4],
+		['GG', createCustomHTMLContent('GG', 9.7, 10.8, 13), 9.7, 10.8],
+		['GS', createCustomHTMLContent('GS', 14.8, 21.5, 2), 14.8, 21.5],
+		['HS', createCustomHTMLContent('HS', 12.9, 14.8, 29), 12.9, 14.8],
+		['IE', createCustomHTMLContent('IE', 15.0, 18.6, 28), 15.0, 18.6],
+		['IM', createCustomHTMLContent('IM', 12.3, 14.5, 38), 12.3, 14.5],
+		['IP', createCustomHTMLContent('IP', 8.8, 9.3, 8), 8.8, 9.3],
+		['IT', createCustomHTMLContent('IT', 12.0, 14.0, 1), 12.0, 14.0],
+		['MA', createCustomHTMLContent('MA', 14.3, 17.6, 52), 14.3, 17.6],
+		['ME', createCustomHTMLContent('ME', 13.0, 15.8, 87), 13.0, 15.8],
+		['MF', createCustomHTMLContent('MF', 11.7, 13.5, 36), 11.7, 13.5],
+		['MI', createCustomHTMLContent('MI', 11.8, 13.6, 46), 11.8, 13.6],
+		['MM', createCustomHTMLContent('MM', 12.0, 14.0, 1), 12.0, 14.0],
+		['MS', createCustomHTMLContent('MS', 10.6, 12.7, 1), 10.6, 12.7],
+		['MT', createCustomHTMLContent('MT', 13.9, 17.7, 32), 13.9, 17.7],
+		['NA', createCustomHTMLContent('NA', 10.1, 12.2, 24), 10.1, 12.2],
+		['PH', createCustomHTMLContent('PH', 10.5, 12.2, 20), 10.5, 12.2],
+		['QE', createCustomHTMLContent('QE', 12.5, 13.7, 6), 12.5, 13.7],
+		['QM', createCustomHTMLContent('QM', 10.8, 14.7, 3), 10.8, 14.7],
+		['RE', createCustomHTMLContent('RE', 9.2, 9.8, 2), 9.2, 9.8],
+		['RT', createCustomHTMLContent('RT', 4.2, 5.4, 1), 4.2, 5.4]
+      ]);
+
+      var options = {
+        title: 'Department wise Base & CTC',
+        titlePosition: 'none',
+        focusTarget: 'category',
+        tooltip: { isHtml: true },
+        chartArea: {top:5, bottom:30},
+        backgroundColor: { fillOpacity: 0 },
+        colors: ['#F1555B', '#4B759E'],
+        legend: {position: 'bottom', textStyle: {fontSize: 8}},
+        hAxis: {textPosition: 'out', textStyle: {fontSize: 7}},
+        vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_dep'));
+      chart.draw(data, options);
+    }
+
+function drawBar_sec() {
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Sector');
+	data.addColumn({'type': 'string', 'role': 'tooltip', 'p': {'html': true}});
+	data.addColumn('number', 'Base');
+	data.addColumn('number', 'CTC');
+    data.addRows([
+      	['Manufacturing', createCustomHTMLContent('Manufacturing', 20.0, 23.8, 27), 20.0, 23.8],
+		['Telecommunication', createCustomHTMLContent('Telecommunication', 19.0, 19.8, 10), 19.0, 19.8],
+		['Investment Banking', createCustomHTMLContent('Investment Banking', 18.6, 27.3, 26), 18.6, 27.3],
+		['IT/Software', createCustomHTMLContent('IT/Software', 14.4, 16.6, 427), 14.4, 16.6],
+		['Finance', createCustomHTMLContent('Finance', 14.0, 16.9, 107), 14.0, 16.9],
+		['Core Engineering', createCustomHTMLContent('Core Engineering', 13.4, 15.7, 181), 13.4, 15.7],
+		['Consulting', createCustomHTMLContent('Consulting', 13.1, 17.3, 96), 13.1, 17.3],
+		['Automobile', createCustomHTMLContent('Automobile', 12.1, 12.9, 35), 12.1, 12.9],
+		['Ecommerce', createCustomHTMLContent('Ecommerce', 11.9, 13.8, 29), 11.9, 13.8],
+		['Analytics', createCustomHTMLContent('Analytics', 10.6, 12.6, 154), 10.6, 12.6],
+		['Health Care', createCustomHTMLContent('Health Care', 10.0, 11.7, 6), 10.0, 11.7],
+		['Others', createCustomHTMLContent('Others', 9.8, 11.9, 116), 9.8, 11.9],
+		['Mining/Petrolium', createCustomHTMLContent('Mining/Petrolium', 9.5, 13.0, 3), 9.5, 13.0],
+		['Teaching/Education', createCustomHTMLContent('Teaching/Education', 9.2, 12.3, 28), 9.2, 12.3],
+		['Professional Services', createCustomHTMLContent('Professional Services', 8.9, 9.4, 17), 8.9, 9.4],
+		['Construction', createCustomHTMLContent('Construction', 7.7, 9.0, 26), 7.7, 9.0],
+		['Management', createCustomHTMLContent('Management', 6.3, 8.2, 8), 6.3, 8.2]
+    ]);
+
+      var options = {
+        title: 'Sector wise Base & CTC',
+        colors: ['#F1555B', '#4B759E'],
+        focusTarget: 'category',
+        tooltip: { isHtml: true },
+        titlePosition: 'none',
+        chartArea: {top:5, bottom:30, left:130, right:130},
+        backgroundColor: { fillOpacity: 0 },
+        legend: {position: 'bottom', textStyle: {fontSize: 8}},
+        hAxis: {textPosition: 'none', gridlines: {color: 'transparent'}},
+        vAxis: {textPosition: 'out', textStyle: {fontSize: 10}}
+      };
+      new google.visualization.BarChart(document.getElementById('chart_sec')).draw(data, options);
+    }

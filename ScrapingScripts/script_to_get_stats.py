@@ -102,8 +102,8 @@ for key1, val1 in companies.items():
 			else:
 				ctc_list_domestic.append(ctc_list[-1])
 				base_list_domestic.append(base_list[-1])
-		sectors = val1['sector'].replace("\n", "").split(",")
-	for sector in sectors:
+		sectors_ = val1['sector'].replace("\n", "").split(",")
+	for sector in sectors_:
 		if sector in sector_dict:
 			sector_dict[sector] += len(val1['students'])
 		else:
@@ -168,3 +168,30 @@ for key, val in packages.items():
 			packages_dict[key] += len(companies[str(com_id)]['students'])
 for key, val in packages_dict.items():
 	print("{0} : {1}".format(packages["package_strs"][int(key)-1], val))
+
+sectors_dict = {}
+for key, val in sectors.items():
+	sectors_list = key.replace("\n", "").split(",")
+	for sector in sectors_list:
+		sectors_dict[sector] = {}
+		sectors_dict[sector]['base'] = []
+		sectors_dict[sector]['ctc'] = []
+		for com_id in val:
+			com_id = str(com_id)
+			students = companies[com_id]['students']
+			for stu in students:
+				jnf_id = stu['jnf_ids'][0]
+				jnf_id = str(jnf_id)
+				currency = profiles[com_id][jnf_id]['currency']
+				if currency == 'USD':
+					multi_factor = 70.0
+				elif currency == 'JPY':
+					multi_factor = 0.64
+				else:
+					multi_factor = 1
+				base = float(profiles[com_id][jnf_id]['base'])*multi_factor
+				ctc = float(profiles[com_id][jnf_id]['ctc'])*multi_factor
+				sectors_dict[sector]['base'].append(base)
+				sectors_dict[sector]['ctc'].append(ctc)
+for key, val in sectors_dict.items():
+	print("{0} : \tBase:\t{1} \tCTC:\t{2}; \t{3}".format(key, round(sum(val['base'])/len(val['base']), 1), round(sum(val['ctc'])/len(val['ctc']), 1), len(val['base'])))
