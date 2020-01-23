@@ -151,3 +151,20 @@ print("PhD placed: {0}".format(len(list(set(grad_dict['phd'])))))
 
 for key, val in sector_dict.items():
 	print("{0} placed: {1}".format(key, val))
+
+locations_dict = {}
+for key, val in locations.items():
+	locations_dict[key] = 0
+	for com_id in val:
+		locations_dict[key] += len(companies[str(com_id)]['students'])
+for key, val in locations_dict.items():
+	print("{0} : {1}".format(key, val))
+
+packages_dict = {}
+for key, val in packages.items():
+	if key != "package_strs":
+		packages_dict[key] = 0
+		for com_id in val['com_ids']:
+			packages_dict[key] += len(companies[str(com_id)]['students'])
+for key, val in packages_dict.items():
+	print("{0} : {1}".format(packages["package_strs"][int(key)-1], val))
