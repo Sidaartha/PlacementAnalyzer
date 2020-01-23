@@ -235,7 +235,7 @@ a:hover {
   	top: 0px;
   	left: 0px;
 }
-.charts_title {
+.charts_head {
 	font-size: 1.2em;
 	font-weight: 500;
 	font-family: 'Roboto',sans-serif;
@@ -243,10 +243,17 @@ a:hover {
 	opacity: 0.2;
 }
 .charts {
-	width: 450px; 
-	height: 380px;
+	width: 320px; 
+	height: 250px;
 	display: block;
 	margin: 0 auto;
+}
+.charts_title {
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	opacity: 0.3;
 }
 
 @media screen and (min-width: 800px) {
@@ -292,6 +299,12 @@ a:hover {
     font-weight: 400;
     color: #ED1C24;
   }
+  .charts {
+	width: 450px; 
+	height: 340px;
+	display: block;
+	margin: 0 auto;
+	}
 }
 
 @media screen and (min-width: 700px) {

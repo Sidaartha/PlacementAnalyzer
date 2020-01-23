@@ -20,7 +20,7 @@ function drawChart_degree() {
 	  title: 'Students segregation based on courses',
 	  titlePosition: 'none',
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D4AFB9', '#985F99', '#4D9DE0'],
-	  chartArea: {top:0, bottom:80},
+	  chartArea: {top:0, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
 	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
 	};
@@ -53,7 +53,7 @@ function drawChart_sector() {
 	  title: 'Students segregation based on sectors',
 	  titlePosition: 'none',
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
-	  chartArea: {top:0, bottom:80},
+	  chartArea: {top:0, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
 	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
 	};
