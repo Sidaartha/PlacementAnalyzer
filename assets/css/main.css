@@ -150,7 +150,7 @@ a:hover {
     font-weight: 500;
     font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 22px;
     color: #006494;
     text-align: center;
     margin-bottom: 30px;
@@ -236,7 +236,7 @@ a:hover {
   	left: 0px;
 }
 .charts_head {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: 500;
 	font-family: 'Roboto',sans-serif;
 	color: #006494;
