@@ -70,6 +70,8 @@ base_list_abroad = []
 base_dict = {}
 ctc_dict = {}
 sector_dict = {}
+stu_ctc_dict = {}
+stu_base_dict = {}
 international=0
 for key1, val1 in companies.items():
 	for val2 in val1['students']:
@@ -103,6 +105,8 @@ for key1, val1 in companies.items():
 			else:
 				ctc_list_domestic.append(ctc_list[-1])
 				base_list_domestic.append(base_list[-1])
+			stu_ctc_dict[val2['roll_no']] = ctc_list[-1]
+			stu_base_dict[val2['roll_no']] = base_list[-1]
 		sectors_ = val1['sector'].replace("\n", "").split(",")
 	for sector in sectors_:
 		if sector in sector_dict:
@@ -118,6 +122,8 @@ print("Max CTC domestic: {0}".format(max(ctc_list_domestic)))
 print("Max CTC abroad: {0}".format(max(ctc_list_abroad)))
 print("Max Base domestic: {0}".format(max(base_list_domestic)))
 print("Max Base abroad: {0}".format(max(base_list_abroad)))
+print(stu_base_dict)
+print(stu_ctc_dict)
 
 for dep in dep_keys:
 	print("{0} \tBase: {1} \tCTC: {2} \tStudents: {3}".format(dep, round(sum(base_dict[dep])/len(base_dict[dep]), 1), round(sum(ctc_dict[dep])/len(ctc_dict[dep]), 1), len(ctc_dict[dep])))
