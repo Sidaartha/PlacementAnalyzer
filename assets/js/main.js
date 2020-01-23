@@ -127,12 +127,12 @@ function drawChart_package() {
 
 function createCustomHTMLContent(lable, v1, v2, v3) {
   return '<div style="padding:10px 10px 10px 10px; max-width: 170px; white-space: nowrap;">' +
-      '<span style="font-size: 1.3em; font-weight: 500; color: #454545;">' + lable + '</span><br/>' +
+      '<span style="font-size: 1.3em; font-weight: 500; color: #5B5B5B;">' + lable + '</span><br/>' +
       '<hr style="margin: 4px 0px 5px 0px;">' +
       '<table style="font-size: 1em;">' + '<tr>' +
       '<td style="padding-bottom: 2px; color: #ED1C24; white-space: nowrap;">Base: <b>' + v1 + '</b></td>' + '</tr>' + '<tr>' +
       '<td style="padding-bottom: 2px; color: #235789; white-space: nowrap;">CTC: <b>' + v2 + '</b></td>' + '</tr>' + '<tr>' +
-      '<td style="padding-bottom: 2px; color: #F49D37; white-space: nowrap;">Placed: <b>' + v3 + '</b></td>' + '</tr>' + '</table>' + '</div>';
+      '<td style="padding-bottom: 2px; color: #5B5B5B; white-space: nowrap;">Placed: <b>' + v3 + '</b></td>' + '</tr>' + '</table>' + '</div>';
 }
 
 function drawBar_dep() {
@@ -182,8 +182,8 @@ function drawBar_dep() {
         chartArea: {top:5, bottom:30},
         backgroundColor: { fillOpacity: 0 },
         colors: ['#F1555B', '#4B759E'],
-        legend: {position: 'bottom', textStyle: {fontSize: 8}},
-        hAxis: {textPosition: 'out', textStyle: {fontSize: 7}},
+        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
       };
       var chart = new google.visualization.ColumnChart(document.getElementById('chart_dep'));
@@ -214,8 +214,8 @@ function drawBar_day() {
         chartArea: {top:5, bottom:30},
         backgroundColor: { fillOpacity: 0 },
         colors: ['#F1555B', '#4B759E'],
-        legend: {position: 'bottom', textStyle: {fontSize: 8}},
-        hAxis: {textPosition: 'out', textStyle: {fontSize: 7}},
+        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
       };
       var chart = new google.visualization.ColumnChart(document.getElementById('chart_day'));
@@ -254,11 +254,11 @@ function drawBar_sec() {
         focusTarget: 'category',
         tooltip: { isHtml: true },
         titlePosition: 'none',
-        chartArea: {top:15, bottom:30, left:130, right:130},
+        chartArea: {top:25, bottom:30, left:130, right:130},
         backgroundColor: { fillOpacity: 0 },
-        legend: {position: 'bottom', textStyle: {fontSize: 8}},
+        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
         hAxis: {textPosition: 'none', gridlines: {color: 'transparent'}},
-        vAxis: {textPosition: 'out', textStyle: {fontSize: 10}}
+        vAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 10, color: '#5B5B5B'}}
       };
       new google.visualization.BarChart(document.getElementById('chart_sec')).draw(data, options);
     }

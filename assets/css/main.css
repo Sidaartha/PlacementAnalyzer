@@ -136,7 +136,7 @@ a:hover {
 }
 .catdescr {
     border-radius: 15px;
-    background-color: #FBF5E3;
+    background-color: #F9F4E0;
     /*font-family: 'Roboto', sans-serif;*/
     font-size: 14px;
     line-height: 1.612;
@@ -151,17 +151,17 @@ a:hover {
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 20px;
-    color: #235789;
+    color: #006494;
     text-align: center;
     margin-bottom: 30px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .pitema {
     padding-top: 20px;
     margin-bottom: -2px;
 }
 .pitema:hover {
-    background-color: #FBF5E3;
+    background-color: #F9F4E0;
 }
 .star {
 	position: absolute;
@@ -219,7 +219,7 @@ a:hover {
   	left: -13px;
 }
 .card {
-	background-color: #FBF5E3;
+	background-color: #F9F4E0;
 	padding: 5px;
 	text-align: center;
 	border-radius: 15px;
@@ -240,7 +240,7 @@ a:hover {
 	font-weight: 500;
 	font-family: 'Roboto',sans-serif;
 	color: #006494;
-	opacity: 0.2;
+	opacity: 0.7;
 }
 .charts {
 	width: 320px; 
@@ -265,7 +265,7 @@ a:hover {
 	font-family: 'Roboto',sans-serif;
 	font-size: 0.8em;
 	text-transform: uppercase;
-	opacity: 0.3;
+	opacity: 0.7;
 }
 
 @media screen and (min-width: 800px) {
