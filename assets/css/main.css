@@ -227,7 +227,7 @@ a:hover {
 }
 .section_row {
 	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-bottom: -10px;
 }
 .superscript {
 	font-size: 0.3em;
@@ -235,9 +235,16 @@ a:hover {
   	top: 0px;
   	left: 0px;
 }
+.charts_title {
+	font-size: 1.2em;
+	font-weight: 500;
+	font-family: 'Roboto',sans-serif;
+	color: #006494;
+	opacity: 0.2;
+}
 .charts {
-	width: 700px; 
-	height: 400px;
+	width: 450px; 
+	height: 380px;
 	display: block;
 	margin: 0 auto;
 }

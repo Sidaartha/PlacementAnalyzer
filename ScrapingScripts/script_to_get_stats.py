@@ -68,6 +68,7 @@ base_list_domestic = []
 base_list_abroad = []
 base_dict = {}
 ctc_dict = {}
+sector_dict = {}
 international=0
 for key1, val1 in companies.items():
 	for val2 in val1['students']:
@@ -101,6 +102,12 @@ for key1, val1 in companies.items():
 			else:
 				ctc_list_domestic.append(ctc_list[-1])
 				base_list_domestic.append(base_list[-1])
+		sectors = val1['sector'].replace("\n", "").split(",")
+	for sector in sectors:
+		if sector in sector_dict:
+			sector_dict[sector] += len(val1['students'])
+		else:
+			sector_dict[sector] = len(val1['students'])
 
 dep_keys = base_dict.keys()
 dep_keys.sort() 
@@ -141,3 +148,6 @@ print("DD placed: {0}".format(len(list(set(grad_dict['dd'])))))
 print("M.Sc placed: {0}".format(len(list(set(grad_dict['msc'])))))
 print("M.Tech placed: {0}".format(len(list(set(grad_dict['mtech'])))))
 print("PhD placed: {0}".format(len(list(set(grad_dict['phd'])))))
+
+for key, val in sector_dict.items():
+	print("{0} placed: {1}".format(key, val))
