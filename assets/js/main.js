@@ -254,7 +254,7 @@ function drawBar_sec() {
         focusTarget: 'category',
         tooltip: { isHtml: true },
         titlePosition: 'none',
-        chartArea: {top:5, bottom:30, left:130, right:130},
+        chartArea: {top:15, bottom:30, left:130, right:130},
         backgroundColor: { fillOpacity: 0 },
         legend: {position: 'bottom', textStyle: {fontSize: 8}},
         hAxis: {textPosition: 'none', gridlines: {color: 'transparent'}},
