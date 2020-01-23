@@ -12,6 +12,7 @@ google.charts.setOnLoadCallback(drawChart_package);
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBar_dep);
 google.charts.setOnLoadCallback(drawBar_sec);
+google.charts.setOnLoadCallback(drawBar_day);
 
 function drawChart_degree() {
 	var data = google.visualization.arrayToDataTable([
@@ -186,6 +187,38 @@ function drawBar_dep() {
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
       };
       var chart = new google.visualization.ColumnChart(document.getElementById('chart_dep'));
+      chart.draw(data, options);
+    }
+
+function drawBar_day() {
+      var data = google.visualization.arrayToDataTable([
+        ['Days', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Base', 'CTC'],
+        ['Day 1', createCustomHTMLContent('Day 1', 17.5, 21.7, 170), 17.5, 21.7],
+		['Day 2', createCustomHTMLContent('Day 2', 15.7, 20.0, 249), 15.7, 20.0],
+		['Day 3', createCustomHTMLContent('Day 3', 13.6, 15.1, 162), 13.6, 15.1],
+		['Day 4', createCustomHTMLContent('Day 4', 13.1, 15.0, 83), 13.1, 15.0],
+		['Day 5', createCustomHTMLContent('Day 5', 9.4, 10.8, 93), 9.4, 10.8],
+		['Day 6', createCustomHTMLContent('Day 6', 10.5, 11.4, 65), 10.5, 11.4],
+		['Day 7', createCustomHTMLContent('Day 7', 12.1, 12.6, 31), 12.1, 12.6],
+		['Day 8', createCustomHTMLContent('Day 8', 6.3, 7.6, 65), 6.3, 7.6],
+		['Day 9', createCustomHTMLContent('Day 9', 8.6, 9.3, 42), 8.6, 9.3],
+		['Day 10', createCustomHTMLContent('Day 10', 7.1, 9.6, 35), 7.1, 9.6],
+		['Day 11', createCustomHTMLContent('Day 11', 6.8, 6.9, 12), 6.8, 6.9]
+      ]);
+
+      var options = {
+        title: 'Day wise Base & CTC',
+        titlePosition: 'none',
+        focusTarget: 'category',
+        tooltip: { isHtml: true },
+        chartArea: {top:5, bottom:30},
+        backgroundColor: { fillOpacity: 0 },
+        colors: ['#F1555B', '#4B759E'],
+        legend: {position: 'bottom', textStyle: {fontSize: 8}},
+        hAxis: {textPosition: 'out', textStyle: {fontSize: 7}},
+        vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_day'));
       chart.draw(data, options);
     }
 

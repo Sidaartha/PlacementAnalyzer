@@ -195,3 +195,30 @@ for key, val in sectors.items():
 				sectors_dict[sector]['ctc'].append(ctc)
 for key, val in sectors_dict.items():
 	print("{0} : \tBase:\t{1} \tCTC:\t{2}; \t{3}".format(key, round(sum(val['base'])/len(val['base']), 1), round(sum(val['ctc'])/len(val['ctc']), 1), len(val['base'])))
+
+days_dict = {}
+for key, val in days.items():
+	days_dict[key] = {}
+	days_dict[key]['base'] = []
+	days_dict[key]['ctc'] = []
+	for com_id in val['com_ids']:
+		com_id = str(com_id)
+		jnf_ids = val[com_id]
+		students = companies[com_id]['students']
+		for stu in students:
+			jnf_id = stu['jnf_ids'][0]
+			if jnf_id in jnf_ids:
+				jnf_id = str(jnf_id)
+				currency = profiles[com_id][jnf_id]['currency']
+				if currency == 'USD':
+					multi_factor = 70.0
+				elif currency == 'JPY':
+					multi_factor = 0.64
+				else:
+					multi_factor = 1
+				base = float(profiles[com_id][jnf_id]['base'])*multi_factor
+				ctc = float(profiles[com_id][jnf_id]['ctc'])*multi_factor
+				days_dict[key]['base'].append(base)
+				days_dict[key]['ctc'].append(ctc)
+for key, val in days_dict.items():
+	print("{0} : \tBase:\t{1} \tCTC:\t{2}; \t{3}".format(key, round(sum(val['base'])/len(val['base']), 1), round(sum(val['ctc'])/len(val['ctc']), 1), len(val['base'])))
