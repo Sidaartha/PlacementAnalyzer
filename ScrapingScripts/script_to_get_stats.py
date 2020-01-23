@@ -118,6 +118,26 @@ print("Avg base: {0}".format(sum(base_list)/len(base_list)))
 print("Avg ctc: {0}".format(sum(ctc_list)/len(ctc_list)))
 base_list = [int(i) for i in base_list]
 ctc_list = [int(i) for i in ctc_list]
-print(collections.Counter(base_list), collections.Counter(ctc_list))
+# print(collections.Counter(base_list), collections.Counter(ctc_list))
 print("Mode base: {0}".format([max(set(base_list), key=base_list.count)][0]))
 print("Mode ctc: {0}".format([max(set(ctc_list), key=ctc_list.count)][0]))
+
+grad_dict = {'btech': [], 'dd': [],'msc': [], 'mtech': [], 'phd': []}
+for stu in placements_students:
+	grad = stu['roll_no'][4:5]
+	if grad in ['1']:
+		grad_dict['btech'].append(stu['roll_no'])
+	elif grad in ['3']:
+		grad_dict['dd'].append(stu['roll_no'])
+	elif grad in ['2']:
+		grad_dict['msc'].append(stu['roll_no'])
+	elif grad in ['4', '6']:
+		grad_dict['mtech'].append(stu['roll_no'])
+	elif grad in ['7','9']:
+		grad_dict['phd'].append(stu['roll_no'])
+
+print("B.Tech placed: {0}".format(len(list(set(grad_dict['btech'])))))
+print("DD placed: {0}".format(len(list(set(grad_dict['dd'])))))
+print("M.Sc placed: {0}".format(len(list(set(grad_dict['msc'])))))
+print("M.Tech placed: {0}".format(len(list(set(grad_dict['mtech'])))))
+print("PhD placed: {0}".format(len(list(set(grad_dict['phd'])))))
