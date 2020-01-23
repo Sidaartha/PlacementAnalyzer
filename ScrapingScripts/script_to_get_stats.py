@@ -124,8 +124,8 @@ for dep in dep_keys:
 
 print("Avg base: {0}".format(sum(base_list)/len(base_list)))
 print("Avg ctc: {0}".format(sum(ctc_list)/len(ctc_list)))
-base_list = [int(i) for i in base_list]
-ctc_list = [int(i) for i in ctc_list]
+base_list = [int(round(i)) for i in base_list]
+ctc_list = [int(round(i)) for i in ctc_list]
 # print(collections.Counter(base_list), collections.Counter(ctc_list))
 print("Mode base: {0}".format([max(set(base_list), key=base_list.count)][0]))
 print("Mode ctc: {0}".format([max(set(ctc_list), key=ctc_list.count)][0]))
