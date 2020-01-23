@@ -1,5 +1,6 @@
 import csv
 import json
+import operator
 import collections
 
 def load_json(filename):
@@ -222,3 +223,10 @@ for key, val in days.items():
 				days_dict[key]['ctc'].append(ctc)
 for key, val in days_dict.items():
 	print("{0} : \tBase:\t{1} \tCTC:\t{2}; \t{3}".format(key, round(sum(val['base'])/len(val['base']), 1), round(sum(val['ctc'])/len(val['ctc']), 1), len(val['base'])))
+
+top_dict = {}
+for key, val in companies.items():
+	top_dict[val['company']] = len(val['students'])
+sorted_top_list = sorted(top_dict.items(), key=operator.itemgetter(1), reverse=True)
+for i in range(15):
+	print(sorted_top_list[i])

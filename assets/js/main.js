@@ -13,6 +13,8 @@ google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBar_dep);
 google.charts.setOnLoadCallback(drawBar_sec);
 google.charts.setOnLoadCallback(drawBar_day);
+google.charts.setOnLoadCallback(drawBar_offers_day);
+google.charts.setOnLoadCallback(drawBar_offers_top);
 
 function drawChart_degree() {
 	var data = google.visualization.arrayToDataTable([
@@ -135,6 +137,15 @@ function createCustomHTMLContent(lable, v1, v2, v3, c1, c2) {
       '<td style="padding-bottom: 2px; color: #5B5B5B; white-space: nowrap;">Placed: <b>' + v3 + '</b></td>' + '</tr>' + '</table>' + '</div>';
 }
 
+function createCustomHTMLContentO(lable, v1, c1) {
+  return '<div style="padding:10px 10px 10px 10px; max-width: 170px; white-space: nowrap;">' +
+      '<span style="font-size: 1.3em; font-weight: 500; color: #5B5B5B;">' + lable + '</span><br/>' +
+      '<hr style="margin: 4px 0px 5px 0px;">' +
+      '<table style="font-size: 1em;">' + '<tr>' +
+      '<td style="padding-bottom: 2px; color: ' + c1 + '; white-space: nowrap;">Offers: <b>' + v1 + '</b></td>' + '</tr>' + '<tr>' +
+      '</table>' + '</div>';
+}
+
 function drawBar_dep() {
       var data = google.visualization.arrayToDataTable([
         ['Department', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Base', 'CTC'],
@@ -192,7 +203,7 @@ function drawBar_dep() {
     }
 
 function drawBar_day() {
-      var data = google.visualization.arrayToDataTable([
+    var data = google.visualization.arrayToDataTable([
         ['Days', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Base', 'CTC'],
         ['Day 1', createCustomHTMLContent('Day 1', 17.5, 21.7, 170, '#9DC5BB', '#8D5A97'), 17.5, 21.7],
 		['Day 2', createCustomHTMLContent('Day 2', 15.7, 20.0, 249, '#9DC5BB', '#8D5A97'), 15.7, 20.0],
@@ -264,4 +275,76 @@ function drawBar_sec() {
         vAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 10, color: '#5B5B5B'}}
       };
       new google.visualization.BarChart(document.getElementById('chart_sec')).draw(data, options);
+    }
+
+function drawBar_offers_day() {
+    var data = google.visualization.arrayToDataTable([
+        ['Days', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Offers', { role: 'annotation' }],
+        ['Day 1', createCustomHTMLContentO('Day 1', 170, '#F1555B'), 170, 170],
+		['Day 2', createCustomHTMLContentO('Day 2', 249, '#F1555B'), 249, 249],
+		['Day 3', createCustomHTMLContentO('Day 3', 162, '#F1555B'), 162, 162],
+		['Day 4', createCustomHTMLContentO('Day 4', 83, '#F1555B'), 83, 83],
+		['Day 5', createCustomHTMLContentO('Day 5', 93, '#F1555B'), 93, 93],
+		['Day 6', createCustomHTMLContentO('Day 6', 65, '#F1555B'), 65, 65],
+		['Day 7', createCustomHTMLContentO('Day 7', 31, '#F1555B'), 31, 31],
+		['Day 8', createCustomHTMLContentO('Day 8', 65, '#F1555B'), 65, 65],
+		['Day 9', createCustomHTMLContentO('Day 9', 42, '#F1555B'), 42, 42],
+		['Day 10', createCustomHTMLContentO('Day 10', 35, '#F1555B'), 35, 35],
+		['Day 11', createCustomHTMLContentO('Day 11', 12, '#F1555B'), 12, 12]
+      ]);
+
+      var options = {
+        title: 'Day wise Offers',
+        titlePosition: 'none',
+        focusTarget: 'category',
+        tooltip: { isHtml: true },
+        chartArea: {top:5, bottom:30},
+        backgroundColor: { fillOpacity: 0 },
+        colors: ['#F1555B'],
+        bar: {groupWidth: 25},
+        legend: {position: 'none'},
+        hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
+        vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, gridlines: {color: 'transparent'}},
+        annotations: {textStyle: {fontSize: 10}}
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_offers_day'));
+      chart.draw(data, options);
+    }
+
+function drawBar_offers_top() {
+    var data = google.visualization.arrayToDataTable([
+        ['Company', {'type': 'string', 'role': 'tooltip', 'p': {'html': true}}, 'Offers', { role: 'annotation' }],
+        ['Honeywell', createCustomHTMLContentO('Honeywell', 36, '#FA8E46'), 36, 36],
+		['EXL Service', createCustomHTMLContentO('EXL Service', 28, '#FA8E46'), 28, 28],
+		['Sri Chaitanya', createCustomHTMLContentO('Sri Chaitanya', 27, '#FA8E46'), 27, 27],
+		['Microsoft India', createCustomHTMLContentO('Microsoft India', 24, '#FA8E46'), 24, 24],
+		['OLA', createCustomHTMLContentO('OLA', 22, '#FA8E46'), 22, 22],
+		['Barclays', createCustomHTMLContentO('Barclays', 20, '#FA8E46'), 20, 20],
+		['Accenture Japan', createCustomHTMLContentO('Accenture Japan', 19, '#FA8E46'), 19, 19],
+		['Fractal Analytics', createCustomHTMLContentO('Fractal Analytics', 19, '#FA8E46'), 19, 19],
+		['Samsung, Bangalore', createCustomHTMLContentO('Samsung, Bangalore', 19, '#FA8E46'), 19, 19],
+		['Mastercard', createCustomHTMLContentO('Mastercard', 18, '#FA8E46'), 18, 18],
+		['HCL Technologies', createCustomHTMLContentO('HCL Technologies', 16, '#FA8E46'), 16, 16],
+		['Bajaj Finance', createCustomHTMLContentO('Bajaj Finance', 15, '#FA8E46'), 15, 15],
+		['Goldman Sachs', createCustomHTMLContentO('Goldman Sachs', 14, '#FA8E46'), 14, 14],
+		['Axis Bank', createCustomHTMLContentO('Axis Bank', 12, '#FA8E46'), 12, 12],
+		['Sprinklr India', createCustomHTMLContentO('Sprinklr India', 12, '#FA8E46'), 12, 12]
+      ]);
+
+      var options = {
+        title: 'Top recruiters by no.of offers',
+        titlePosition: 'none',
+        focusTarget: 'category',
+        tooltip: { isHtml: true },
+        chartArea: {top:25, bottom:5, left:130, right:130},
+        backgroundColor: { fillOpacity: 0 },
+        colors: ['#FA8E46'],
+        bar: {groupWidth: 17},
+        hAxis: {textPosition: 'none', gridlines: {color: 'transparent'}},
+        vAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 10, color: '#5B5B5B'}},
+        legend: {position: 'none'},
+        annotations: {textStyle: {fontSize: 10, color: 'grey',}}
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_offers_top'));
+      chart.draw(data, options);
     }
