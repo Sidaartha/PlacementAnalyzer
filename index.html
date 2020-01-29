@@ -51,14 +51,14 @@
           </div>
 
           <div class="prow">
-            <div class="col-md-3 col-sm-6 col-xs-12 pitem pitema pitema_pie-chart">
+            <div class="col-md-3 col-sm-6 col-xs-12 pitem pitema pitema_statistics">
               <div class="option">
                   <i class="fa fa-pie-chart" style="font-size: 90px; padding-top: 10px; color: #006494;"></i>
                   <span class="proname">Placements Stats</span>
               </div>
             </div>
 
-            <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema">
+            <div class="col-md-3 col-sm-12 col-xs-12 pitem pitema pitema_flatmates">
               <div class="option">
                 <i class="fa fa-home" style="font-size: 100px; color: #006494;"></i>
                 <span class="proname">Find Flatmates</span>
@@ -155,7 +155,7 @@
 
             <div class="col-md-2 col-sm-6 col-xs-6 card_n">
               <div class="card">
-                <span class="proname_val side_val_d">42<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_d"> Domestic</span><span class="bottom_str_d"> Max CTC</span></span>
+                <span class="proname_val side_val_d">43<sup class="superscript">L</sup></span><span class="proname_str"> <span class="top_str_d"> Domestic</span><span class="bottom_str_d"> Max CTC</span></span>
               </div>
             </div>
 
@@ -240,29 +240,39 @@
             </div>
 
             <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
-              <div id="piechart_location" class="charts"></div>
-              <div class="charts_title">segregation on location</div>
+              <div id="piechart_package" class="charts"></div>
+              <div class="charts_title">segregation on package(CTC)</div>
             </div>
 
             <div class="col-md-6 col-sm-12 col-xs-12 charts_ch">
-              <div id="piechart_package" class="charts"></div>
-              <div class="charts_title">segregation on package(CTC)</div>
+              <div id="piechart_package_base" class="charts"></div>
+              <div class="charts_title">segregation on package(Base)</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="piechart_location" class="charts"></div>
+              <div class="charts_title">segregation on location</div>
             </div>
 
             <div class="col-md-12 col-xs-12 " style="margin-top: 70px; text-align: center;"><span class="charts_head browse">Packages</span></div>
             <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
               <div id="chart_dep" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
-              <div class="charts_title">Department wise packages</div>
+              <div class="charts_title">Department wise avg packages</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="chart_dep_max" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
+              <div class="charts_title">Department wise Max packages</div>
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
               <div id="chart_day" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
-              <div class="charts_title">Day wise packages</div>
+              <div class="charts_title">Day wise avg packages</div>
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
               <div id="chart_sec" class="charts_bar" style="font-family: 'Roboto',sans-serif;"></div>
-              <div class="charts_title">Sector wise packages</div>
+              <div class="charts_title">Sector wise avg packages</div>
             </div>
 
             <div class="col-md-12 col-xs-12 " style="margin-top: 70px; text-align: center; padding-left: 40px;"><span class="charts_head browse">Offers</span></div>
@@ -290,6 +300,14 @@
           </div>
         </div>
       </div>
+
+      <div id="flatmates">
+        <div class="col-md-12 col-xs-12 major_section"><span>Find Flatmates</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+        </div>
+      </div>
     </div>
 
     <div style="height: 100%;"></div>
@@ -310,4 +328,5 @@
   <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
+  <script src="jquery.smooth-scroll.js"></script>
 </html>

@@ -128,11 +128,54 @@ print(stu_ctc_dict)
 for dep in dep_keys:
 	print("{0} \tBase: {1} \tCTC: {2} \tStudents: {3}".format(dep, round(sum(base_dict[dep])/len(base_dict[dep]), 1), round(sum(ctc_dict[dep])/len(ctc_dict[dep]), 1), len(ctc_dict[dep])))
 
+print("\nDep wise max packages: ")
+for dep in dep_keys:
+	print("{0} \tBase: {1} \tCTC: {2}".format(dep, max(base_dict[dep]), max(ctc_dict[dep])))
+
+packages_dict = {
+	"> 50 Lakhs": 0, 
+	"40 to 50 Lakhs": 0, 
+	"30 to 40 Lakhs": 0, 
+	"25 to 30 Lakhs": 0, 
+	"20 to 25 Lakhs": 0, 
+	"15 to 20 Lakhs": 0, 
+	"12 to 15 Lakhs": 0, 
+	"12 to 10 Lakhs": 0, 
+	"10 to 8 Lakhs": 0, 
+	"8 to 5 Lakhs": 0, 
+	"< 5 Lakhs": 0
+}
+for ctc in base_list:
+	if ctc > 50:
+		packages_dict["> 50 Lakhs"] += 1
+	elif ctc <= 50 and ctc > 40:
+		packages_dict["40 to 50 Lakhs"] += 1
+	elif ctc <= 40 and ctc > 30:
+		packages_dict["30 to 40 Lakhs"] += 1
+	elif ctc <= 30 and ctc > 25:
+		packages_dict["25 to 30 Lakhs"] += 1
+	elif ctc <= 25 and ctc > 20:
+		packages_dict["20 to 25 Lakhs"] += 1
+	elif ctc <= 20 and ctc > 15:
+		packages_dict["15 to 20 Lakhs"] += 1
+	elif ctc <= 15 and ctc > 12:
+		packages_dict["12 to 15 Lakhs"] += 1
+	elif ctc <= 12 and ctc > 10:
+		packages_dict["12 to 10 Lakhs"] += 1
+	elif ctc <= 10 and ctc > 8:
+		packages_dict["10 to 8 Lakhs"] += 1
+	elif ctc <= 8 and ctc > 5:
+		packages_dict["8 to 5 Lakhs"] += 1
+	elif ctc <= 5:
+		packages_dict["< 5 Lakhs"] += 1
+for key, val in packages_dict.items():
+	print("{0} : {1}".format(key, val))
+
 print("Avg base: {0}".format(sum(base_list)/len(base_list)))
 print("Avg ctc: {0}".format(sum(ctc_list)/len(ctc_list)))
 base_list = [int(round(i)) for i in base_list]
 ctc_list = [int(round(i)) for i in ctc_list]
-# print(collections.Counter(base_list), collections.Counter(ctc_list))
+print(collections.Counter(base_list), collections.Counter(ctc_list))
 print("Mode base: {0}".format([max(set(base_list), key=base_list.count)][0]))
 print("Mode ctc: {0}".format([max(set(ctc_list), key=ctc_list.count)][0]))
 
@@ -167,14 +210,14 @@ for key, val in locations.items():
 for key, val in locations_dict.items():
 	print("{0} : {1}".format(key, val))
 
-packages_dict = {}
-for key, val in packages.items():
-	if key != "package_strs":
-		packages_dict[key] = 0
-		for com_id in val['com_ids']:
-			packages_dict[key] += len(companies[str(com_id)]['students'])
-for key, val in packages_dict.items():
-	print("{0} : {1}".format(packages["package_strs"][int(key)-1], val))
+# packages_dict = {}
+# for key, val in packages.items():
+# 	if key != "package_strs":
+# 		packages_dict[key] = 0
+# 		for com_id in val['com_ids']:
+# 			packages_dict[key] += len(companies[str(com_id)]['students'])
+# for key, val in packages_dict.items():
+# 	print("{0} : {1}".format(packages["package_strs"][int(key)-1], val))
 
 sectors_dict = {}
 for key, val in sectors.items():
