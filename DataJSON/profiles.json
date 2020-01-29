@@ -8516,7 +8516,7 @@
             "criteria": "No", 
             "contract": "No", 
             "com_id": 188, 
-            "vp": 0, 
+            "vp": 10, 
             "currency": "INR", 
             "cgpa_cutoff": "0.0", 
             "base": 35, 
@@ -8598,7 +8598,7 @@
             "name": "Sprinklr India Pvt. Ltd.", 
             "package": "1200000 INR  [Fixed: 12LPA\nAdditional Yearly Performance Bonus\nStock Options\n10L Accidental Insurance Policy\n5L Medical Insurance Policy\nRelocation travel and temp accommodation\nAll in house meals]", 
             "contract": "No", 
-            "ctc": 12
+            "ctc": 22
         }, 
         "5": {
             "selection": "Online/Offline test (Max 30 mins)", 
@@ -8642,7 +8642,7 @@
             "name": "Sprinklr India Pvt. Ltd.", 
             "package": "1500000 INR  [Fixed 15 LPA\nAdditional Yearly Performance Bonus\nStock Options\nAll in house meals\n10L Accidental Insurance Policy\n5L Medical Insurance Policy\nTravel and temp accommodation at the time of relocation]", 
             "contract": "No", 
-            "ctc": 15
+            "ctc": 25
         }
     }, 
     "191": {
