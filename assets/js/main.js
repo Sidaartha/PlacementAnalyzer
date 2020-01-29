@@ -1,11 +1,3 @@
-
-$('.pitema_statistics').click(function() {
-  document.getElementById('statistics').scrollIntoView(true);
-});
-$('.pitema_flatmates').click(function() {
-  document.getElementById('flatmates').scrollIntoView(true);
-});
-
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart_degree);
 google.charts.setOnLoadCallback(drawChart_sector);
