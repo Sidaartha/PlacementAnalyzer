@@ -282,6 +282,16 @@
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="dep_stacked_ctc" class="charts_col" style="font-family: 'Roboto',sans-serif; height: 350px;"></div>
+              <div class="charts_title">Department wise CTC packages segregation</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
+              <div id="dep_stacked_base" class="charts_col" style="font-family: 'Roboto',sans-serif; height: 350px;"></div>
+              <div class="charts_title">Department wise base packages segregation</div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 charts_ch">
               <div id="chart_day" class="charts_col" style="font-family: 'Roboto',sans-serif;"></div>
               <div class="charts_title">Day wise avg packages</div>
             </div>
@@ -318,15 +328,57 @@
       </div>
     </div>
     
-    <div class="container mainbody">
+<!--     <div class="container mainbody">
       <div id="flatmates">
         <div class="col-md-12 col-xs-12 major_section"><span>Find Flatmates</span></div>
         <div class="col-md-12 col-xs-12 minor_section">
           <div class="break"></div>
 
+          <h2>Vertical Tabs</h2>
+          <p>Click on the buttons inside the tabbed menu:</p>
+
+          <div class="tab">
+            <button class="tablinks" onclick="openflatmates(event, 'London')" id="defaultOpen">London</button>
+            <button class="tablinks" onclick="openflatmates(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openflatmates(event, 'Tokyo')">Tokyo</button>
+            <button class="tablinks" onclick="openflatmates(event, 'Tokyo1')">Tokyo</button>
+            <button class="tablinks" onclick="openflatmates(event, 'Tokyo2')">Tokyo</button>
+            <button class="tablinks" onclick="openflatmates(event, 'Tokyo3')">Tokyo</button>
+          </div>
+
+          <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="Tokyo1" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="Tokyo2" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="Tokyo3" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div style="height: 100%;"></div>
 
@@ -346,5 +398,6 @@
   <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
-  <script src="jquery.smooth-scroll.js"></script>
+  <script type="text/javascript" src="assets/js/data.js"></script>
+  <script type="text/javascript" src="assets/js/tabs.js"></script>
 </html>
