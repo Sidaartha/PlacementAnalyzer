@@ -1,12 +1,14 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="Cache-control" content="public"/>
     <meta property="og:url" content="https://sidaartha.github.io/PlacementsAnalyzer"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Placements Analyzer"/>
     <meta property="og:description" content="Personal project display"/>
+    <meta charset="ISO-8859-1">
     <title>Placements Analyzer</title>
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -338,7 +340,7 @@
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
               <span id="selectValue_location">Select a location </span><span class="caret"></span>
             </button>
-            <ul class="dropdown-menu scrollable-menu " role="menu">
+            <ul class="dropdown-menu scrollable-menu " role="menu" style="max-width:170px;">
               <li><a onclick="select_location('Ahmedabad')">Ahmedabad</a></li>
               <li><a onclick="select_location('Bangalore')">Bangalore</a></li>
               <li><a onclick="select_location('Chennai')">Chennai</a></li>
@@ -361,7 +363,31 @@
 
         <div id="outer-block">
           <div id="inner-block">
-            <div id="stuValue_location"><span style="color: #006494; opacity: 0.1; position: relative; top: 80px; font-size: 1.8em;">Please choose a location...</span></div>
+            <div id="stuValue_location" class="location"><span style="color: #006494; opacity: 0.1; position: relative; top: 80px; font-size: 1.8em;">Please choose a location...</span></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainbody">
+      <div id="companies">
+        <div class="col-md-12 col-xs-12 major_section"><span>Companies</span></div>
+        <div class="col-md-12 col-xs-12 minor_section">
+          <div class="break"></div>
+
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_company">Select a company </span><span class="caret"></span>
+            </button>
+            <ul id="list_company" class="dropdown-menu scrollable-menu " role="menu" style="min-width:300px; min-height: 500px;">
+            </ul>
+        </div>
+
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="Value_company" class="company"><span style="color: #006494; opacity: 0.1; position: relative; top: 80px; font-size: 1.8em;">Please choose a company...</span></div>
           </div>
         </div>
 
