@@ -328,57 +328,46 @@
       </div>
     </div>
     
-<!--     <div class="container mainbody">
+    <div class="container mainbody">
       <div id="flatmates">
         <div class="col-md-12 col-xs-12 major_section"><span>Find Flatmates</span></div>
         <div class="col-md-12 col-xs-12 minor_section">
           <div class="break"></div>
 
-          <h2>Vertical Tabs</h2>
-          <p>Click on the buttons inside the tabbed menu:</p>
+          <div class="btn-group select_location">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="background-color: #006494; border-color: #235789; min-width: 170px;">
+              <span id="selectValue_location">Select a location </span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu scrollable-menu " role="menu">
+              <li><a onclick="select_location('Ahmedabad')">Ahmedabad</a></li>
+              <li><a onclick="select_location('Bangalore')">Bangalore</a></li>
+              <li><a onclick="select_location('Chennai')">Chennai</a></li>
+              <li><a onclick="select_location('Delhi')">Delhi</a></li>
+              <li><a onclick="select_location('Gurgaon')">Gurgaon</a></li>
+              <li><a onclick="select_location('Hosur')">Hosur</a></li>
+              <li><a onclick="select_location('Hsinchu City')">Hsinchu City</a></li>
+              <li><a onclick="select_location('Hyderabad')">Hyderabad</a></li>
+              <li><a onclick="select_location('Jamshedpur')">Jamshedpur</a></li>
+              <li><a onclick="select_location('Kolkata')">Kolkata</a></li>
+              <li><a onclick="select_location('Mumbai')">Mumbai</a></li>
+              <li><a onclick="select_location('Nagoya City')">Nagoya City</a></li>
+              <li><a onclick="select_location('Navi Mumbai')">Navi Mumbai</a></li>
+              <li><a onclick="select_location('New Delhi')">New Delhi</a></li>
+              <li><a onclick="select_location('Noida')">Noida</a></li>
+              <li><a onclick="select_location('Pune')">Pune</a></li>
+              <li><a onclick="select_location('Tokyo')">Tokyo</a></li>
+            </ul>
+        </div>
 
-          <div class="tab">
-            <button class="tablinks" onclick="openflatmates(event, 'London')" id="defaultOpen">London</button>
-            <button class="tablinks" onclick="openflatmates(event, 'Paris')">Paris</button>
-            <button class="tablinks" onclick="openflatmates(event, 'Tokyo')">Tokyo</button>
-            <button class="tablinks" onclick="openflatmates(event, 'Tokyo1')">Tokyo</button>
-            <button class="tablinks" onclick="openflatmates(event, 'Tokyo2')">Tokyo</button>
-            <button class="tablinks" onclick="openflatmates(event, 'Tokyo3')">Tokyo</button>
+        <div id="outer-block">
+          <div id="inner-block">
+            <div id="stuValue_location"><span style="color: #006494; opacity: 0.1; position: relative; top: 80px; font-size: 1.8em;">Please choose a location...</span></div>
           </div>
-
-          <div id="London" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-          </div>
-
-          <div id="Paris" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-          </div>
-
-          <div id="Tokyo" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
-
-          <div id="Tokyo1" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
-
-          <div id="Tokyo2" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
-
-          <div id="Tokyo3" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
+        </div>
 
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div style="height: 100%;"></div>
 
@@ -399,5 +388,6 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
   <script type="text/javascript" src="assets/js/data.js"></script>
+  <script type="text/javascript" src="assets/js/graphs.js"></script>
   <script type="text/javascript" src="assets/js/tabs.js"></script>
 </html>
