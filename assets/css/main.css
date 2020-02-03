@@ -389,6 +389,21 @@ a:hover {
   padding: 8px !important;
 }
 
+.heart {
+	color: #e00;
+	opacity: 0.8;
+	position: relative;
+	top: -2;
+	font-size: 0.6em !important;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
 
 @media screen and (min-width: 800px) {
   .pitema:nth-child(1),
