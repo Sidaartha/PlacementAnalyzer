@@ -1,3 +1,17 @@
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function() {
+  $(window).scrollTop(0);
+});
+
 function select_location(value){
 	document.getElementById("selectValue_location").innerHTML=value+" ";
 	var com_ids = locations[value];
