@@ -32,7 +32,7 @@ function drawChart_degree() {
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D4AFB9', '#985F99', '#4D9DE0'],
 	  chartArea: {top:30, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
-	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
+	  legend: {position: 'bottom', textStyle: {fontSize: 10}}
 	};
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_degree'));
 	chart.draw(data, options);
@@ -65,7 +65,7 @@ function drawChart_sector() {
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
 	  chartArea: {top:30, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
-	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
+	  legend: {position: 'bottom', textStyle: {fontSize: 10}}
 	};
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_sector'));
 	chart.draw(data, options);
@@ -98,7 +98,7 @@ function drawChart_location() {
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
 	  chartArea: {top:30, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
-	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
+	  legend: {position: 'bottom', textStyle: {fontSize: 10}}
 	};
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_location'));
 	chart.draw(data, options);
@@ -125,7 +125,7 @@ function drawChart_package() {
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
 	  chartArea: {top:0, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
-	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
+	  legend: {position: 'bottom', textStyle: {fontSize: 10}}
 	};
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_package'));
 	chart.draw(data, options);
@@ -151,7 +151,7 @@ function drawChart_package_base() {
 	  colors: ['#F1555B', '#4B759E', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
 	  chartArea: {top:0, bottom:30},
 	  backgroundColor: { fillOpacity: 0 },
-	  legend: {position: 'bottom', textStyle: {fontSize: 8}}
+	  legend: {position: 'bottom', textStyle: {fontSize: 10}}
 	};
 	var chart = new google.visualization.PieChart(document.getElementById('piechart_package_base'));
 	chart.draw(data, options);
@@ -234,7 +234,7 @@ function drawBar_dep() {
         backgroundColor: { fillOpacity: 0 },
         colors: ['#F26469', '#4B759E'],
         bar: {groupWidth: 17},
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
       };
@@ -290,7 +290,7 @@ function drawBar_dep_max() {
         backgroundColor: { fillOpacity: 0 },
         colors: ['#17AF84', '#FFC66A'],
         bar: {groupWidth: 17},
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 15, 30, 45, 60, 75, 90, 105], gridlines: {color: 'transparent'}}
       };
@@ -332,9 +332,9 @@ function drawBar_dep_stacked_ctc() {
         titlePosition: 'none',
         chartArea: {top:30, bottom:30},
         backgroundColor: { fillOpacity: 0 },
-        colors: ['#4B759E', '#FF8C42', '#F1555B', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
+        colors: ["#F24349", "#FF444B", "#F1555B", "#FF6368", "#FF777C", "#FF8C90", "#FFA0A3", "#FFB5B7", "#FFC9CB", "#FFDDDE"],
         bar: {groupWidth: 20},
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 6}, ticks: [0, .2, .4, .6, .8, 1], gridlines: {color: '#D4D6DC'}},
         hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         isStacked: 'percent'
@@ -377,9 +377,9 @@ function drawBar_dep_stacked_base() {
         titlePosition: 'none',
         chartArea: {top:30, bottom:30},
         backgroundColor: { fillOpacity: 0 },
-        colors: ['#4B759E', '#FF8C42', '#F1555B', '#17AF84', '#FFC66A', '#17BEBB', '#DFF3B1', '#D0E3CC', '#985F99', '#4D9DE0', '#EF7674', '#D6E681', '#61210F', '#966B9D', '#FCB97D', '#565554', '#CACAAA', '#D4AFB9'],
+        colors: ['#1669BC', '#2571BC', '#3478BC', '#4380BC', '#5689BC', '#6591BC', '#7498BC', '#84A0BC', '#93A7BC', '#9FB4CC', '#ABBBCC'],
         bar: {groupWidth: 20},
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 6}, ticks: [0, .2, .4, .6, .8, 1], gridlines: {color: '#D4D6DC'}},
         hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         isStacked: 'percent'
@@ -413,7 +413,7 @@ function drawBar_day() {
         backgroundColor: { fillOpacity: 0 },
         colors: ['#9DC5BB', '#8D5A97'],
         bar: {groupWidth: 25},
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         hAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 8.4, color: '#5B5B5B'}},
         vAxis: {textPosition: 'out', textStyle: {fontSize: 7}, ticks: [0, 5, 10, 15, 20, 25], gridlines: {color: 'transparent'}}
       };
@@ -456,7 +456,7 @@ function drawBar_sec() {
         titlePosition: 'none',
         chartArea: {top:25, bottom:30, left:130, right:130},
         backgroundColor: { fillOpacity: 0 },
-        legend: {position: 'bottom', textStyle: {fontSize: 8, color: '#5B5B5B'}},
+        legend: {position: 'bottom', textStyle: {fontSize: 10, color: '#5B5B5B'}},
         hAxis: {textPosition: 'none', gridlines: {color: 'transparent'}},
         vAxis: {textPosition: 'out', textStyle: {bold: true, fontSize: 10, color: '#5B5B5B'}}
       };
