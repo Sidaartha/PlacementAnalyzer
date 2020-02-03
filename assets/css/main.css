@@ -375,10 +375,6 @@ a:hover {
   max-height: 200px;
   overflow-x: hidden;
 }
-/*ul.dropdown-menu>li {
-    text-align: center;
-}
-*/
 
 #outer-block {
    	display: inline-block;
@@ -464,6 +460,11 @@ a:hover {
   position: relative !important;
   top: 5 !important;
 }
+.dropdown-toggle {
+  background-color: #006494 !important;
+  border-color: #235789 !important;
+  min-width: 170px !important;
+}
 
 /* Heart beat animation */
 @keyframes beat{
@@ -486,10 +487,6 @@ a:hover {
   .bor_top:nth-child(4){
     border-top: 1px solid #ddd;
   }
-/*  .card_n:nth-child(6),
-  .card_n:nth-child(12) {
-	margin-bottom: 10px;
-  }*/
   .charts_ch:nth-child(4),
   .charts_ch:nth-child(5) {
   	margin-top: 30px;
@@ -523,8 +520,98 @@ a:hover {
 	}
 }
 
-@media screen and (min-width: 700px) {
-}
-
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  .major {
+    font-size: 1.6em !important;
+  }
+  .catdescr {
+    border-radius: 15px;
+    background-color: #F9F4E0;
+    font-size: 10px;
+    line-height: 1.612;
+    padding:5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  ul {
+    padding-inline-start: 20px!important;
+  }
+  .browse {
+    font-size: 12px;
+    letter-spacing: 15px;
+    margin-bottom: 0px;
+  }
+  .prow {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .blocker {
+    margin-bottom: 2%;
+  }
+  .proname_val {
+    font-size: 1.5em;
+  }
+  .proname_str {
+    font-size: 0.5em;
+  }
+  .bottom_str_d {
+    position: relative;
+      top: 0px;
+      left: -16px;
+  }
+  .bottom_str_a {
+    position: relative;
+      top: 0px;
+      left: -7px;
+  }
+  .charts_title {
+    font-size: 0.6em;
+  }
+  .charts {
+    width: 230px; 
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .charts_col {
+    width: 1000px; 
+    height: 200px!important;
+    position: relative;
+    left: -150px;
+  }
+  .charts_bar {
+    width: 1000px; 
+    height: 400px;
+    position: relative;
+    left: -80px;
+  }
+  .dis {
+    position: relative;
+    left: -45px;
+  }
+  .charts_bar1 {
+    position: relative;
+    left: -170px;
+  }
+  .pitem {
+    margin-top: 0.2%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .proname {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+  .please_str {
+    font-size: 0.7em!important;
+  }
+  .select_location {
+    margin-top: 20px;
+    margin-left: 22%;
+  }
+  .catdescr1 {
+    font-size: 10px;
+  }
 }
