@@ -471,7 +471,7 @@ a:hover {
 }
 
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .pitema:nth-child(1),
   .pitema:nth-child(2),
   .pitema:nth-child(3),
