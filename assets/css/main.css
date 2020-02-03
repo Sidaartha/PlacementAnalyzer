@@ -614,4 +614,7 @@ a:hover {
   .catdescr1 {
     font-size: 10px;
   }
+  #outer-block {
+    width: 200%;
+  }
 }
