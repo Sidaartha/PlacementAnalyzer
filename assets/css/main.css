@@ -474,19 +474,16 @@ a:hover {
 @media screen and (min-width: 800px) {
   .pitema:nth-child(1),
   .pitema:nth-child(2),
-  .pitema:nth-child(3),
-  .pitema:nth-child(5),
-  .pitema:nth-child(6),
-  .pitema:nth-child(7){
+  .pitema:nth-child(3){
     border: 1px solid #ddd;
     border-top: 0;
     border-bottom: 0;
     border-left: 0;
   }
-  .pitema:nth-child(5),
-  .pitema:nth-child(6),
-  .pitema:nth-child(7),
-  .pitema:nth-child(8){
+  .bor_top:nth-child(1),
+  .bor_top:nth-child(2),
+  .bor_top:nth-child(3),
+  .bor_top:nth-child(4){
     border-top: 1px solid #ddd;
   }
 /*  .card_n:nth-child(6),
