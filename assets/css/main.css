@@ -471,8 +471,8 @@ a:hover {
 }
 
 
-@media screen and (min-width: 800px) {
-/*  .pitema:nth-child(1),
+@media screen and (min-width: 1100px) {
+  .pitema:nth-child(1),
   .pitema:nth-child(2),
   .pitema:nth-child(3),
   .pitema:nth-child(5),
@@ -488,7 +488,7 @@ a:hover {
   .pitema:nth-child(7),
   .pitema:nth-child(8){
     border-top: 1px solid #ddd;
-  }*/
+  }
 /*  .card_n:nth-child(6),
   .card_n:nth-child(12) {
 	margin-bottom: 10px;
