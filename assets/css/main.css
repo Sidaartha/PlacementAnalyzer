@@ -615,9 +615,9 @@ a:hover {
     font-size: 10px;
   }
   #outer-block {
-    width: 200%;
+    width: 255%;
   }
   .break_ex { 
-    width: 200%;
+    width: 255%;
   }
 }
