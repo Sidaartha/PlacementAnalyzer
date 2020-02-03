@@ -28,7 +28,6 @@ function list_companies(){
 	}
 	coms.sort();
 	dup = coms.filter((v,i,a) => a.indexOf(v) !== i);
-	console.log(dup)
 	jpmc=0;
 	zs=0;
 	for (i=0; i<coms.length; i++) {
@@ -83,7 +82,6 @@ function select_company(value){
 		}
 	}
 	students_html += '</table>';
-	console.log(students_html)
 	companies_html+=students_html;
 	profiles_list = company["profiles"];
 	for (i=0; i<profiles_list.length; i++) {
@@ -113,6 +111,87 @@ function select_company(value){
 		}
 	}
 	document.getElementById("Value_company").innerHTML=companies_html;
+}
+
+function select_day(value) {
+	document.getElementById("selectValue_day").innerHTML="Day "+value+" ";
+	days_html = "";
+	day_dict = days[value];
+	count=0;
+	for (const [key, value] of Object.entries(day_dict)) {
+		if (key!="com_ids"){
+			company = companies[key];
+			if (count!=0) {
+				companies_html ='<div class="break1"></div><div class="com_name">'+company["company"]+'</div><table align="center">'
+			} else {
+				companies_html = '<div class="com_name">'+company["company"]+'</div><table align="center">';
+			}
+			count+=1;
+			if (company["about"]!="") {
+				companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+company["about"]+'</td></tr>';
+			}
+			if (company["address"]!="") {
+				companies_html+='<tr><td style="width: 150px;"><b>Address</b></td><td>'+company["address"]+'</td></tr>';
+			}
+			if (company["city"]!="") {
+				companies_html+='<tr><td style="width: 150px;"><b>City</b></td><td>'+company["city"]+'</td></tr>';
+			}
+			if (company["sector"]!="") {
+				companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
+			}
+			if (company["website"]!="") {
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+			}
+			students = company["students"];
+			students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
+			for (j=0; j<students.length; j++) {
+				if (value.includes(students[j]["jnf_ids"][0])) {
+					name = students[j]["name"];
+					roll_no = students[j]["roll_no"];
+					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+					if (students[j]["jnf_ids"].length==1) {
+						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+					} else {
+						students_html += '</tr>';
+					}
+				}
+			}
+			students_html += '</table>';
+			companies_html+=students_html;
+			profiles_list = value;
+			for (i=0; i<profiles_list.length; i++) {
+				profile = profiles[key][profiles_list[i]];
+				profile_name = profile["profile"]
+				companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+				if (profile["about"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+				}
+				if (profile["name"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+				}
+				if (profile["day"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+				}
+				if (profile["package"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				}
+				if (profile["dep_list"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+				}
+				if (profile["selection"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+				}
+				if (profile["cgpa_cutoff"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+				}
+				if (profile["contract"]!="") {
+					companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+				}
+			}
+			days_html+=companies_html;
+		}
+	}
+	document.getElementById("day_company").innerHTML=days_html;
 }
 
 window.onload = function() {

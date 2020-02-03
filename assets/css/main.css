@@ -90,6 +90,13 @@ a:hover {
     width: 100%;
     /*opacity: 0.2;*/
 }
+.break1 { 
+    background: #235789;
+    height: 1.5px;
+    width: 100%;
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
 .pitem {
   margin-top: 5%;
   text-align: center;
