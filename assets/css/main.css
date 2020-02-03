@@ -200,6 +200,22 @@ a:hover {
     margin-bottom: -10px;
     text-align: left;
 }
+.catdescr2 {
+    border-radius: 15px;
+    background-color: #F9F4E0;
+    font-size: 14px;
+    line-height: 1.612;
+    padding-top:15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.catdescr2_b {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: -1px;
+}
 .browse {
 	font-family: 'Roboto',sans-serif;
     font-weight: 500;
