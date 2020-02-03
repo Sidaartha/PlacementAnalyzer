@@ -521,6 +521,9 @@ a:hover {
 }
 
 @media screen and (min-width: 300px) and (max-width: 799px) {
+  html, body {
+    max-width: 200%;
+  }
   .major {
     font-size: 1.6em !important;
   }
@@ -612,6 +615,9 @@ a:hover {
     font-size: 10px;
   }
   #outer-block {
+    width: 200%;
+  }
+  .break_ex { 
     width: 200%;
   }
 }
