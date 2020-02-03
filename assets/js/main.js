@@ -81,7 +81,12 @@ function select_company(value){
 		companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 	}
 	if (company["website"]!="") {
-		companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+		if (company["website"].substring(0, 3)=="www") {
+			web_link = "https://"+company["website"]
+		} else {
+			web_link = company["website"]
+		}
+		companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 	}
 	students = company["students"];
 	students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
@@ -154,7 +159,12 @@ function select_dep(value) {
 				companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 			}
 			if (company["website"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+				if (company["website"].substring(0, 3)=="www") {
+					web_link = "https://"+company["website"]
+				} else {
+					web_link = company["website"]
+				}
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 			}
 			students = company["students"];
 			students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
@@ -235,7 +245,12 @@ function select_pay(value) {
 				companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 			}
 			if (company["website"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+				if (company["website"].substring(0, 3)=="www") {
+					web_link = "https://"+company["website"]
+				} else {
+					web_link = company["website"]
+				}
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 			}
 			students = company["students"];
 			students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
@@ -316,7 +331,12 @@ function select_day(value) {
 				companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 			}
 			if (company["website"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+				if (company["website"].substring(0, 3)=="www") {
+					web_link = "https://"+company["website"]
+				} else {
+					web_link = company["website"]
+				}
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 			}
 			students = company["students"];
 			students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
@@ -396,7 +416,12 @@ function select_loc(value) {
 			companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 		}
 		if (company["website"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+			if (company["website"].substring(0, 3)=="www") {
+					web_link = "https://"+company["website"]
+				} else {
+					web_link = company["website"]
+				}
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 		}
 		students = company["students"];
 		students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
@@ -473,7 +498,12 @@ function select_sec(value) {
 			companies_html+='<tr><td style="width: 150px;"><b>Sector</b></td><td>'+company["sector"]+'</td></tr>';
 		}
 		if (company["website"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a href="'+company["website"]+'">'+company["website"]+'</td></tr></table>';
+			if (company["website"].substring(0, 3)=="www") {
+					web_link = "https://"+company["website"]
+				} else {
+					web_link = company["website"]
+				}
+				companies_html+='<tr><td style="width: 150px;"><b>Website</b></td><td><a target="_blank" href="'+web_link+'">'+company["website"]+'</td></tr></table>';
 		}
 		students = company["students"];
 		students_html = '<table align="center" class="stu_com" style="width: 88.5%;">';
