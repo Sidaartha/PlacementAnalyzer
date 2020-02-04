@@ -25,7 +25,8 @@ function select_location(value){
 		for (j=0; j<students.length; j++) {
 			name = students[j]["name"];
 			roll_no = students[j]["roll_no"];
-			students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td></tr>';
+			// students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td></tr>';
+			students_html += '<tr><td class="name_center">'+name+'</td></tr>';
 		}
 		students_html += '</table>';
 	}
