@@ -114,7 +114,8 @@ function select_company(value){
 			companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 		}
 		if (profile["package"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+			// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+			companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 		}
 		if (profile["dep_list"]!="") {
 			companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
@@ -197,7 +198,8 @@ function select_dep(value) {
 					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
 					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
@@ -283,7 +285,8 @@ function select_pay(value) {
 					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
 					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
@@ -369,7 +372,8 @@ function select_day(value) {
 					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
 					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
@@ -452,7 +456,8 @@ function select_loc(value) {
 				companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 			}
 			if (profile["package"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 			}
 			if (profile["dep_list"]!="") {
 				companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
@@ -534,7 +539,8 @@ function select_sec(value) {
 				companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 			}
 			if (profile["package"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 			}
 			if (profile["dep_list"]!="") {
 				companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
