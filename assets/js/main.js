@@ -20,6 +20,7 @@ function select_location(value){
 		students = companies[com_ids[i]]["students"];
 		company_name = companies[com_ids[i]]["company"];
 		company_address = companies[com_ids[i]]["address"];
+		company_name = " ";
 		students_html += '<div class="com_name">'+company_name+'</div>'+'<div class="com_address">'+company_address+'</div><table align="center">';
 		for (j=0; j<students.length; j++) {
 			name = students[j]["name"];
@@ -93,7 +94,19 @@ function select_company(value){
 	for (j=0; j<students.length; j++) {
 		name = students[j]["name"];
 		roll_no = students[j]["roll_no"];
-		students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+		name_list = name.split(' ');
+		masked_name = "";
+		for (k=0; k<name_list.length; k++) {
+			for (l=0; l<name_list[k].length; l++) {
+				if (l<2) {
+					masked_name+=name_list[k][l];
+				} else {
+					masked_name+='*';
+				}
+			}
+			masked_name+=" ";
+		}
+		students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 		if (students[j]["jnf_ids"].length==1) {
 			students_html += '<td>'+ profiles[value][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 		} else {
@@ -173,7 +186,19 @@ function select_dep(value) {
 				if (value.includes(students[j]["jnf_ids"][0])) {
 					name = students[j]["name"];
 					roll_no = students[j]["roll_no"];
-					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+					name_list = name.split(' ');
+					masked_name = "";
+					for (k=0; k<name_list.length; k++) {
+						for (l=0; l<name_list[k].length; l++) {
+							if (l<2) {
+								masked_name+=name_list[k][l];
+							} else {
+								masked_name+='*';
+							}
+						}
+						masked_name+=" ";
+					}
+					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 					} else {
@@ -260,7 +285,19 @@ function select_pay(value) {
 				if (value.includes(students[j]["jnf_ids"][0])) {
 					name = students[j]["name"];
 					roll_no = students[j]["roll_no"];
-					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+					name_list = name.split(' ');
+					masked_name = "";
+					for (k=0; k<name_list.length; k++) {
+						for (l=0; l<name_list[k].length; l++) {
+							if (l<2) {
+								masked_name+=name_list[k][l];
+							} else {
+								masked_name+='*';
+							}
+						}
+						masked_name+=" ";
+					}
+					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 					} else {
@@ -347,7 +384,19 @@ function select_day(value) {
 				if (value.includes(students[j]["jnf_ids"][0])) {
 					name = students[j]["name"];
 					roll_no = students[j]["roll_no"];
-					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+					name_list = name.split(' ');
+					masked_name = "";
+					for (k=0; k<name_list.length; k++) {
+						for (l=0; l<name_list[k].length; l++) {
+							if (l<2) {
+								masked_name+=name_list[k][l];
+							} else {
+								masked_name+='*';
+							}
+						}
+						masked_name+=" ";
+					}
+					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 					} else {
@@ -432,7 +481,19 @@ function select_loc(value) {
 		for (j=0; j<students.length; j++) {
 			name = students[j]["name"];
 			roll_no = students[j]["roll_no"];
-			students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+			name_list = name.split(' ');
+			masked_name = "";
+			for (k=0; k<name_list.length; k++) {
+				for (l=0; l<name_list[k].length; l++) {
+					if (l<2) {
+						masked_name+=name_list[k][l];
+					} else {
+						masked_name+='*';
+					}
+				}
+				masked_name+=" ";
+			}
+			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
 				students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 			} else {
@@ -515,7 +576,19 @@ function select_sec(value) {
 		for (j=0; j<students.length; j++) {
 			name = students[j]["name"];
 			roll_no = students[j]["roll_no"];
-			students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
+			name_list = name.split(' ');
+			masked_name = "";
+			for (k=0; k<name_list.length; k++) {
+				for (l=0; l<name_list[k].length; l++) {
+					if (l<2) {
+						masked_name+=name_list[k][l];
+					} else {
+						masked_name+='*';
+					}
+				}
+				masked_name+=" ";
+			}
+			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
 				students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 			} else {
