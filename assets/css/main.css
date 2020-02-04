@@ -468,6 +468,11 @@ a:hover {
   border-color: #235789 !important;
   min-width: 170px !important;
 }
+.dark_link {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: -55px;
+}
 
 /* Heart beat animation */
 @keyframes beat{
