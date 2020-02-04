@@ -109,41 +109,45 @@ function select_company(value){
 		}
 		students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 		if (students[j]["jnf_ids"].length==1) {
-			students_html += '<td>'+ profiles[value][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+			// students_html += '<td>'+ profiles[value][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+			students_html += '</tr>';
 		} else {
 			students_html += '</tr>';
 		}
 	}
 	students_html += '</table>';
 	companies_html+=students_html;
+	profiles_html = "";
 	profiles_list = company["profiles"];
 	for (i=0; i<profiles_list.length; i++) {
 		profile = profiles[value][profiles_list[i]];
 		profile_name = profile["profile"]
-		companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+		profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 		if (profile["about"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 		}
 		if (profile["day"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 		}
 		if (profile["package"]!="") {
-			// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-			companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+			// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 		}
 		if (profile["dep_list"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 		}
 		if (profile["selection"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 		}
 		if (profile["cgpa_cutoff"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+			profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 		}
 		if (profile["contract"]!="") {
-			companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+			profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 		}
 	}
+	profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+	companies_html+=profiles_html;
 	document.getElementById("Value_company").innerHTML=companies_html;
 }
 
@@ -201,7 +205,8 @@ function select_dep(value) {
 					}
 					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
-						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						students_html += '</tr>';
 					} else {
 						students_html += '</tr>';
 					}
@@ -209,37 +214,40 @@ function select_dep(value) {
 			}
 			students_html += '</table>';
 			companies_html+=students_html;
+			profiles_html="";
 			profiles_list = value;
 			for (i=0; i<profiles_list.length; i++) {
 				profile = profiles[key][profiles_list[i]];
 				profile_name = profile["profile"]
-				companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+				profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 				if (profile["about"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 				}
 				if (profile["name"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
 				}
 				if (profile["day"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+					// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 				}
 				if (profile["selection"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 				}
 				if (profile["cgpa_cutoff"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 				}
 				if (profile["contract"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 				}
 			}
+			profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+			companies_html+=profiles_html;
 			dep_html+=companies_html;
 		}
 	}
@@ -300,7 +308,8 @@ function select_pay(value) {
 					}
 					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
-						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						students_html += '</tr>';
 					} else {
 						students_html += '</tr>';
 					}
@@ -308,37 +317,40 @@ function select_pay(value) {
 			}
 			students_html += '</table>';
 			companies_html+=students_html;
+			profiles_html="";
 			profiles_list = value;
 			for (i=0; i<profiles_list.length; i++) {
 				profile = profiles[key][profiles_list[i]];
 				profile_name = profile["profile"]
-				companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+				profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 				if (profile["about"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 				}
 				if (profile["name"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
 				}
 				if (profile["day"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+					// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 				}
 				if (profile["selection"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 				}
 				if (profile["cgpa_cutoff"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 				}
 				if (profile["contract"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 				}
 			}
+			profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+			companies_html+=profiles_html;
 			pay_html+=companies_html;
 		}
 	}
@@ -399,7 +411,8 @@ function select_day(value) {
 					}
 					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
-						students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+						students_html += '</tr>';
 					} else {
 						students_html += '</tr>';
 					}
@@ -407,37 +420,40 @@ function select_day(value) {
 			}
 			students_html += '</table>';
 			companies_html+=students_html;
+			profiles_html="";
 			profiles_list = value;
 			for (i=0; i<profiles_list.length; i++) {
 				profile = profiles[key][profiles_list[i]];
 				profile_name = profile["profile"];
-				companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+				profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 				if (profile["about"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 				}
 				if (profile["name"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
 				}
 				if (profile["day"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 				}
 				if (profile["package"]!="") {
-					// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-					companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+					// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 				}
 				if (profile["dep_list"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 				}
 				if (profile["selection"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 				}
 				if (profile["cgpa_cutoff"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+					profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 				}
 				if (profile["contract"]!="") {
-					companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+					profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 				}
 			}
+			profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+			companies_html+=profiles_html;
 			days_html+=companies_html;
 		}
 	}
@@ -496,44 +512,48 @@ function select_loc(value) {
 			}
 			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
-				students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+				// students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+				students_html += '</tr>';
 			} else {
 				students_html += '</tr>';
 			}
 		}
 		students_html += '</table>';
 		companies_html+=students_html;
+		profiles_html="";
 		profiles_list = company["profiles"];
 		for (j=0; j<profiles_list.length; j++) {
 			profile = profiles[com_ids[i]][profiles_list[j]];
 			profile_name = profile["profile"];
-			companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+			profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 			if (profile["about"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 			}
 			if (profile["name"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
 			}
 			if (profile["day"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 			}
 			if (profile["package"]!="") {
-				// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+				// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 			}
 			if (profile["dep_list"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 			}
 			if (profile["selection"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 			}
 			if (profile["cgpa_cutoff"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 			}
 			if (profile["contract"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 			}
 		}
+		profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+		companies_html+=profiles_html;
 		loc_html+=companies_html;
 	}
 	document.getElementById("loc_company").innerHTML=loc_html;
@@ -591,44 +611,48 @@ function select_sec(value) {
 			}
 			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
-				students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+				// students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
+				students_html += '</tr>';
 			} else {
 				students_html += '</tr>';
 			}
 		}
 		students_html += '</table>';
 		companies_html+=students_html;
+		profiles_html="";
 		profiles_list = company["profiles"];
 		for (j=0; j<profiles_list.length; j++) {
 			profile = profiles[com_ids[i]][profiles_list[j]];
 			profile_name = profile["profile"];
-			companies_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
+			profiles_html+='<div class="com_name">'+profile_name+'</div><table align="center">';
 			if (profile["about"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>About</b></td><td>'+profile["about"]+'</td></tr>';
 			}
 			if (profile["name"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Company</b></td><td>'+profile["name"]+'</td></tr>';
 			}
 			if (profile["day"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Day</b></td><td>'+profile["day"]+'</td></tr>';
 			}
 			if (profile["package"]!="") {
-				// companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
-				companies_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
+				// profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+profile["package"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Package</b></td><td>'+"Due to CDC's NDA with the company this data cannot be public."+'</td></tr>';
 			}
 			if (profile["dep_list"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Departments</b></td><td>'+profile["dep_list"]+'</td></tr>';
 			}
 			if (profile["selection"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Selection</b></td><td>'+profile["selection"]+'</td></tr>';
 			}
 			if (profile["cgpa_cutoff"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
+				profiles_html+='<tr><td style="width: 150px;"><b>CGPA cutoff</b></td><td>'+profile["cgpa_cutoff"]+'</td></tr>';
 			}
 			if (profile["contract"]!="") {
-				companies_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
+				profiles_html+='<tr><td style="width: 150px;"><b>Contract</b></td><td>'+profile["contract"]+'</td></tr></table>';
 			}
 		}
+		profiles_html = '<div style="margin-bottom:15px;"><i class="fa fa-lock" aria-hidden="true"></i><b> Information about profiles is no longer public due to CDC norms.</b></div>';
+		companies_html+=profiles_html;
 		sec_html+=companies_html;
 	}
 	document.getElementById("sec_company").innerHTML=sec_html;
