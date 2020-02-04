@@ -562,11 +562,13 @@ a:hover {
     position: relative;
       top: 0px;
       left: -16px;
+      font-size: 0.75em;
   }
   .bottom_str_a {
     position: relative;
       top: 0px;
       left: -7px;
+      font-size: 0.75em;
   }
   .charts_title {
     font-size: 0.6em;
