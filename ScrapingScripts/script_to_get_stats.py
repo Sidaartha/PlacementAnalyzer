@@ -117,6 +117,8 @@ for key1, val1 in companies.items():
 dep_keys = base_dict.keys()
 dep_keys.sort() 
 
+print("Base list: {0}".format(base_list))
+print("CTC list: {0}".format(ctc_list))
 print("International: {0}".format(international))
 print("Max CTC domestic: {0}".format(max(ctc_list_domestic)))
 print("Max CTC abroad: {0}".format(max(ctc_list_abroad)))

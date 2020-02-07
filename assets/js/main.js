@@ -107,7 +107,7 @@ function select_company(value){
 			}
 			masked_name+=" ";
 		}
-		students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+		students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 		if (students[j]["jnf_ids"].length==1) {
 			// students_html += '<td>'+ profiles[value][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 			students_html += '</tr>';
@@ -203,7 +203,7 @@ function select_dep(value) {
 						}
 						masked_name+=" ";
 					}
-					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 						students_html += '</tr>';
@@ -306,7 +306,7 @@ function select_pay(value) {
 						}
 						masked_name+=" ";
 					}
-					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 						students_html += '</tr>';
@@ -409,7 +409,7 @@ function select_day(value) {
 						}
 						masked_name+=" ";
 					}
-					students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+					students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 					if (students[j]["jnf_ids"].length==1) {
 						// students_html += '<td>'+ profiles[key][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 						students_html += '</tr>';
@@ -510,7 +510,7 @@ function select_loc(value) {
 				}
 				masked_name+=" ";
 			}
-			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+			students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
 				// students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 				students_html += '</tr>';
@@ -609,7 +609,7 @@ function select_sec(value) {
 				}
 				masked_name+=" ";
 			}
-			students_html += '<tr><td>'+roll_no+'</td><td>'+masked_name+'</td>';
+			students_html += '<tr><td>'+roll_no+'</td><td>'+name+'</td>';
 			if (students[j]["jnf_ids"].length==1) {
 				// students_html += '<td>'+ profiles[com_ids[i]][students[j]["jnf_ids"][0]]["profile"]+'</td></tr>';
 				students_html += '</tr>';
