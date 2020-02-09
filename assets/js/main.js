@@ -20,7 +20,7 @@ function select_location(value){
 		students = companies[com_ids[i]]["students"];
 		company_name = companies[com_ids[i]]["company"];
 		company_address = companies[com_ids[i]]["address"];
-		company_name = " ";
+		// company_name = " ";
 		students_html += '<div class="com_name">'+company_name+'</div>'+'<div class="com_address">'+company_address+'</div><table align="center">';
 		for (j=0; j<students.length; j++) {
 			name = students[j]["name"];
