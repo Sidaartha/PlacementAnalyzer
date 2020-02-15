@@ -10,7 +10,7 @@ file_path = ['../DataJSON/companies.json', '../DataJSON/profiles.json', '../Data
 companies = load_json(file_path[0])
 profiles = load_json(file_path[1])
 departments = load_json(file_path[2])
-departments_list = list(departments.keys())
+departments_list = ["AE","AG","AR","BT","CH","CY","CE","CS","EE","EC","GG","HS","IM","MA","ME","MT","MI","NA","PH"]
 
 for dep in departments_list:
 	dep_dict = []
@@ -26,12 +26,14 @@ for dep in departments_list:
 			except:
 				day = ""
 			dep_dict.append({
+				"company": companies[com_id]["company"],
+				"profile": profiles[com_id][jnf_id]["profile"],
+				"day": day,
 				"category": companies[com_id]["category"],
 				"city": companies[com_id]["city"],
 				"about": companies[com_id]["about"],
 				"reference": companies[com_id]["reference"],
 				"country": companies[com_id]["country"],
-				"company": companies[com_id]["company"],
 				"zipcode": companies[com_id]["zipcode"],
 				"website": companies[com_id]["website"],
 				"sector": companies[com_id]["sector"],
@@ -42,9 +44,7 @@ for dep in departments_list:
 				"dep_str": profiles[com_id][jnf_id]["dep_str"],
 				"cgpa_criteria": profiles[com_id][jnf_id]["cgpa_criteria"],
 				"criteria": profiles[com_id][jnf_id]["criteria"],
-				"profile": profiles[com_id][jnf_id]["profile"],
 				"cgpa_cutoff": profiles[com_id][jnf_id]["cgpa_cutoff"],
-				"day": day,
 				"about": profiles[com_id][jnf_id]["about"],
 				"package": profiles[com_id][jnf_id]["package"],
 				"contract": profiles[com_id][jnf_id]["contract"]
